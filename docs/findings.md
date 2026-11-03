@@ -71,6 +71,16 @@ Công cụ → Xuất dữ liệu vẫn chạy được dù front end báo lỗi
 - Trang chủ dùng các widget riêng của theme transpi (slider, carousel dịch vụ, đếm số, đội ngũ, dự án, blog...). Khi dựng lại cần dựa vào cấu trúc JSON và nội dung trong đó, không dùng trực tiếp widget của theme.
 - Vẫn chưa có: đơn hàng thật, dữ liệu khách hàng, nội dung form liên hệ đã gửi, mật khẩu và cấu hình hosting. Phần này cần database từ NhanHoa.
 
+## Tài nguyên media bổ sung từ trang Thư viện đã lưu (2026-11-03)
+
+Trang `wp-admin` "Tất cả tập tin" (thư viện media, dạng lưới) bạn lưu về chứa 80 mục. Trang này chỉ có tên tệp, mã ID và ảnh thu nhỏ 300 px trong thư mục `_files` đi kèm, không có đường dẫn ảnh gốc.
+
+- So với danh sách media từ REST API, có **5 mục REST không liệt kê** (ảnh gắn với bài chưa công khai nên REST trả `rest_forbidden`): ID 1683 (`0db17170-...png`), 1643 (`Logo`), 1523 (`australia.png`), 1521 (`canada-1.png`), 1519 (`saudi-arabia.png`).
+- Đã đoán đường dẫn và tải bản gốc từ `wp-content/uploads/2023/12/` vào `backup/live/media/2023/12/`: `0db17170-2f13-4991-b10e-949c7c283133.png` (1147x1327, ảnh đã xuất hiện trong Wayback), `australia.png`, `canada-1.png`, `saudi-arabia.png` (cờ 64x64) và `Logo-1.svg`.
+- Ảnh logo `Logo (1)`: tên `logo-1(1).svg` trong thư mục `_files` là do trình duyệt tự đổi tên khi trùng tên, nên tệp gốc là `Logo-1.svg`. Cần kiểm tra bằng mắt vì chưa đối chiếu được ID.
+- Các ảnh thu nhỏ còn lại (khoảng 58 tệp) là bản nhỏ của ảnh đã tải đầy đủ trước đó, nên không cần dùng.
+- Danh sách media thật có thể còn nhiều mục hơn 80 mục trong trang đã lưu. Muốn chắc chắn, cần xem hết thư viện (cuộn tải thêm) hoặc lấy từ database của NhanHoa.
+
 ## Các bước tiếp theo
 
 1. Ưu tiên lấy bản sao đầy đủ từ NhanHoa. Đây là cách duy nhất để khôi phục nội dung thật.
