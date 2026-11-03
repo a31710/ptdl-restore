@@ -9,7 +9,10 @@ Run:  python serve.py [port]      (default port 8080, then open http://localhost
   anything else          -> 404.html with a real 404 status
 """
 import mimetypes
+import os
+import socket
 import sys
+import webbrowser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -66,12 +69,38 @@ class Handler(SimpleHTTPRequestHandler):
         self.respond(False)
 
 
+class Server(ThreadingHTTPServer):
+    # On Windows SO_REUSEADDR lets several servers share one port silently, so a stale server could
+    # keep answering while a new window claims to run. Refuse to share a port instead.
+    allow_reuse_address = False
+
+    def server_bind(self):
+        if hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
+
+
+def open_server(first_port: int):
+    """Bind to first_port, or the next free port if it is busy."""
+    for port in range(first_port, first_port + 10):
+        try:
+            return Server(("127.0.0.1", port), Handler), port
+        except OSError:
+            print(f"Port {port} is busy, trying the next one...")
+    raise SystemExit("No free port between %d and %d. Close other local servers and try again." % (first_port, first_port + 9))
+
+
 if __name__ == "__main__":
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 8080
-    server = ThreadingHTTPServer(("127.0.0.1", port), Handler)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    first_port = int(args[0]) if args else 8080
+    server, port = open_server(first_port)
+    url = f"http://localhost:{port}"
     # ASCII only: the Windows console code page (cp1258, cp1252...) cannot print Vietnamese diacritics.
-    print(f"PTDL preview: http://localhost:{port}   (link list: http://localhost:{port}/_links)")
-    print("Press Ctrl+C to stop.")
+    print(f"PTDL preview is running at {url}")
+    print(f"List of all links:       {url}/_links")
+    print("Keep this window open while you browse. Press Ctrl+C or close the window to stop.")
+    if "--no-browser" not in sys.argv and not os.environ.get("PTDL_NO_BROWSER"):
+        webbrowser.open(url)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
