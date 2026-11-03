@@ -56,6 +56,7 @@ Cập nhật: 2026-11-03. `[x]` là đã xong, `[ ]` là chưa làm hoặc đang
 - [x] Nén ảnh, thêm `sitemap.xml`, `robots.txt`, kiểm tra bố cục máy tính và điện thoại.
 - [x] Khôi phục bài "Bảo hiểm hàng hóa là gì?" từ bản sửa đổi cũ.
 - [x] Rà soát lại trang chủ, Giới thiệu, Dịch vụ, Chuyển hàng Bắc – Nam, Liên hệ và khôi phục nội dung gốc (xem `docs/content-inventory.md` mục 7 và 8).
+- [x] Tái tạo giao diện và hiệu ứng của theme bằng mã tự viết (font DM Sans + Outfit, menu, preloader, hiện dần, bộ đếm, carousel, hộp thoại video), kiểm tra trên máy tính và điện thoại.
 - [ ] Chủ site xác nhận các số liệu, bảng giá, đối tác, mức bồi thường đã khôi phục (đều có chú thích `TODO` trong `site/`).
 - [x] Tạo `preview/` với đường dẫn giống WordPress cũ (trang không có dấu `/` cuối, bài viết `.htm`), chạy local bằng `serve.py`, có `.htaccess` cho LiteSpeed. Dựng lại bằng `python scripts/build_preview.py` sau khi sửa `site/`.
 - [ ] Chủ site xác nhận địa chỉ, email, giờ làm việc, "10 năm kinh nghiệm" (xem `docs/content-inventory.md`).

@@ -1,6 +1,6 @@
 # Website PTDL (bản tĩnh dự phòng)
 
-Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không framework, không bước build, không CDN, không font ngoài). Chỉ có hai thành phần dùng Internet: bản đồ Google trên trang Liên hệ và liên kết video YouTube giới thiệu. Dùng khi website WordPress bị tấn công không cứu được. Ngôn ngữ: tiếng Việt. Màu thương hiệu: xanh `#5c8330` (lấy từ biến `--thm-primary` của theme gốc).
+Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không framework, không bước build, không CDN, không font ngoài). Chỉ có các thành phần dùng Internet: phông chữ Google (DM Sans, Outfit, giống site cũ), bản đồ Google trên trang Liên hệ và video YouTube (chỉ tải khi bấm nút play). Muốn chạy hoàn toàn ngoại tuyến thì tải phông chữ về và tự host. Hiệu ứng tắt khi người dùng bật "giảm chuyển động"; không có JavaScript thì nội dung vẫn hiện đầy đủ. Xem docs/theme-behavior.md. Dùng khi website WordPress bị tấn công không cứu được. Ngôn ngữ: tiếng Việt. Màu thương hiệu: xanh `#5c8330` (lấy từ biến `--thm-primary` của theme gốc).
 
 ## Cấu trúc
 
@@ -12,7 +12,7 @@ Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không fram
 - `404.html`, `sitemap.xml`, `robots.txt`
 - `lien-he.html` Liên hệ (biểu mẫu dạng `mailto:`)
 - `tracking.html` Tra cứu vận đơn (trang giữ chỗ, không có dữ liệu giả)
-- `assets/css/styles.css`, `assets/js/main.js` (chỉ bật/tắt menu trên điện thoại), `assets/images/`, `assets/video/` (đang trống)
+- `assets/css/site.css` (CSS tự viết), `assets/js/site.js` (JavaScript tự viết: menu di động, hiện dần khi cuộn, bộ đếm, carousel, hộp thoại video...), `assets/images/` (gồm `icons.svg`, bộ icon tự vẽ), `assets/video/` (đang trống)
 
 ## Mở trên máy
 

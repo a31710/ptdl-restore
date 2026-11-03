@@ -7,144 +7,172 @@
 <meta name="description" content="PTDL là công ty vận tải hàng hóa Bắc – Nam: xe tải, container, vận tải liên tỉnh và nội thành Hà Nội, TP.HCM. Hotline 0285 5555 565, T2 - CN: 8:00 - 20:00.">
 <meta name="theme-color" content="#5c8330">
 <link rel="icon" href="assets/images/ptdl-logo.png" type="image/png">
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.className+=" js"</script>
 </head>
 <body>
 <a class="skip" href="#noi-dung">Bỏ qua, đến nội dung chính</a>
+<div id="preloader" aria-hidden="true"><img src="assets/images/ptdl-logo.png" alt="" width="84" height="97"></div>
 <header class="site-header">
   <div class="topbar">
     <div class="wrap topbar-in">
-      <span>Hotline: <a href="tel:02855555565">0285 5555 565</a></span>
-      <span>T2 - CN: 8:00 - 20:00</span>
-      <a class="topbar-book" href="lien-he.html">Đặt lịch Online</a>
-    </div>
-  </div>
-  <div class="wrap header-in">
-    <a class="brand" href="index.html"><img src="assets/images/ptdl-logo.png" alt="" width="44" height="50"><span>PTDL<small>Vận chuyển Bắc – Nam</small></span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
-    <nav id="menu" class="main-nav" aria-label="Menu chính">
-      <ul>
-        <li><a href="index.html" aria-current="page">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li class="has-sub"><a href="dich-vu.html">Dịch vụ</a>
-          <ul class="sub">
-            <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
-            <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
-            <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
-            <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>
-          </ul></li>
-        <li><a href="tin-tuc.html">Tin tức</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
+      <ul class="top-info">
+        <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-phone"/></svg><a href="tel:02855555565">0285 5555 565</a></li>
+        <li class="sep" aria-hidden="true"></li>
+        <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-clock"/></svg><span>T2 - CN: (Từ <b>8:00 - 20:00</b>)</span></li>
       </ul>
-    </nav>
+      <ul class="top-links">
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="lien-he.html">Đặt lịch Online</a></li>
+      </ul>
+    </div>
+    <!-- Bản cũ có hai biểu tượng mạng xã hội (facebook, youtube) nhưng liên kết đều là "#", nên không đưa vào. -->
+  </div>
+  <div class="mainbar">
+    <div class="wrap header-in">
+      <a class="brand" href="index.html"><img src="assets/images/ptdl-logo.png" alt="" width="44" height="50"><span>PTDL<small>Vận chuyển Bắc – Nam</small></span></a>
+      <nav id="menu" class="main-nav" aria-label="Menu chính">
+        <ul>
+          <li><a href="index.html" aria-current="page">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li class="has-sub"><a href="dich-vu.html">Dịch vụ</a>
+            <ul class="sub">
+              <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
+              <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
+              <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
+              <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>
+            </ul></li>
+          <li><a href="tin-tuc.html">Tin tức</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-light hotline" href="tel:02855555565">Hotline: 0285 5555 565</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Mở menu"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-menu"/></svg></button>
+    </div>
   </div>
 </header>
 <main id="noi-dung">
 <section class="hero">
-  <div class="wrap hero-in">
-    <div class="hero-text">
-      <p class="eyebrow">PTDL Logistics</p>
-      <h1>Vận tải Bắc – Nam<br>Uy tín chuyên nghiệp</h1>
-      <p>Vận chuyển hàng hóa Bắc Nam “Nhanh chóng – An toàn – Tận tâm”.</p>
-      <p class="btns"><a class="btn" href="dich-vu.html">Xem chi tiết dịch vụ</a>
-      <a class="btn btn-ghost" href="tel:02855555565">Gọi 0285 5555 565</a></p>
-      <p class="small">Giờ làm việc: T2 - CN: 8:00 - 20:00</p>
-    </div>
-    <div class="hero-img hero-cut">
-      <img src="assets/images/hero-xe-ptdl.png" alt="Xe tải thùng kín PTDL màu xanh" width="1152" height="768">
+  <div class="wrap">
+    <p class="eyebrow" data-anim="up">PTDL Logistics</p>
+    <h1 class="words">Vận tải Bắc - Nam Uy tín chuyên nghiệp</h1>
+    <p data-anim="up" data-delay="150">Vận chuyển hàng hóa Bắc Nam “Nhanh chóng – An toàn – Tận tâm”.</p>
+    <div class="hero-actions" data-anim="up" data-delay="250">
+      <a class="btn btn-outline" href="dich-vu.html">Xem chi tiết dịch vụ</a>
+      <div class="call-box"><span class="ico"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-phone"/></svg></span><span><small>Liên hệ</small><a href="tel:02855555565">0285 5555 565</a></span></div>
     </div>
   </div>
+  <img class="hero-truck" data-anim="right" data-delay="300" src="assets/images/hero-xe-ptdl.png" alt="Xe tải thùng kín PTDL màu xanh" width="1152" height="768">
 </section>
 
-<section class="section">
+<section class="section" id="dich-vu-chinh">
   <div class="wrap">
-    <div class="center-head">
-      <p class="eyebrow">Dịch vụ</p>
-      <h2>Của chúng tôi</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Dịch vụ</p>
+      <h2 class="sec-title">Của chúng tôi</h2>
     </div>
     <!-- Nội dung các thẻ lấy nguyên văn từ trang chủ cũ (Wayback 2025-03-20 và Elementor 12/2025), chỉ sửa lỗi gõ "247" thành "24/7". TODO: xác nhận với PTDL các cam kết "bảo hiểm 100%", "giá từ 5000k" và các con số tải trọng. -->
     <div class="grid-center">
-      <article class="box"><h3>Vận Tải Bắc Nam</h3><p>Hợp đồng đầy đủ, bảo hiểm 100%, nhận trả miễn phí, hỗ trợ 24/7. Đảm bảo an toàn tuyệt đối ô tô, giá vận chuyển từ 5000k bảo hiểm</p><a href="chuyen-hang-bac-nam.html">Chi tiết</a></article>
-      <article class="box"><h3>Vận Tải Liên Tỉnh</h3><p>Vận Tải 24h Nhanh Nhất Rẻ Nhất — Vận Tải 24/7 chuyên cung cấp dịch vụ chở hàng hóa từ 1,25 – 10 tấn và vận chuyển kho bãi</p><a href="dich-vu.html#lien-tinh">Chi tiết</a></article>
-      <article class="box"><h3>Vận Tải Nội Thành Hà Nội</h3><p>Dịch Vụ Chuyển Nhà Hà Nội Tháo Lắp Đóng Gói Cẩn Thận Nhanh Gọn Theo Vị Trí Yêu Cầu.</p><a href="dich-vu.html#noi-thanh">Chi tiết</a></article>
-      <article class="box"><h3>Vận Tải Nội Thành TP.HCM</h3><p>Dịch vụ vận tải PTDL chuyên nhận ghép hàng nhỏ lẻ, hàng nguyên lô, hàng nguyên xe, hàng nặng trong nội thành Thành Phố Hồ Chí Minh bằng xe tải.</p><a href="dich-vu.html#noi-thanh">Chi tiết</a></article>
-      <article class="box"><h3>Xe Tải 1T9 Đến 15 Tấn. Container</h3><p>Nhận chở hàng thuê giá siêu tốt, có nhiều xe tải từ 1 tấn đến 5 tấn phù hợp với nhiều loại kích thước khác nhau.</p><a href="dich-vu.html#xe-container">Chi tiết</a></article>
+      <article class="svc-card" data-anim="up" data-delay="0">
+        <span class="badge"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-truck"/></svg></span>
+        <h3>Vận Tải Bắc Nam</h3>
+        <p>Hợp đồng đầy đủ, bảo hiểm 100%, nhận trả miễn phí, hỗ trợ 24/7. Đảm bảo an toàn tuyệt đối ô tô, giá vận chuyển từ 5000k bảo hiểm</p>
+        <a href="chuyen-hang-bac-nam.html">Chi tiết</a>
+      </article>
+      <article class="svc-card" data-anim="up" data-delay="200">
+        <span class="badge"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-route"/></svg></span>
+        <h3>Vận Tải Liên Tỉnh</h3>
+        <p>Vận Tải 24h Nhanh Nhất Rẻ Nhất — Vận Tải 24/7 chuyên cung cấp dịch vụ chở hàng hóa từ 1,25 – 10 tấn và vận chuyển kho bãi</p>
+        <a href="dich-vu.html#lien-tinh">Chi tiết</a>
+      </article>
+      <article class="svc-card" data-anim="up" data-delay="400">
+        <span class="badge"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-box"/></svg></span>
+        <h3>Vận Tải Nội Thành Hà Nội</h3>
+        <p>Dịch Vụ Chuyển Nhà Hà Nội Tháo Lắp Đóng Gói Cẩn Thận Nhanh Gọn Theo Vị Trí Yêu Cầu.</p>
+        <a href="dich-vu.html#noi-thanh">Chi tiết</a>
+      </article>
+      <article class="svc-card" data-anim="up" data-delay="0">
+        <span class="badge"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-city"/></svg></span>
+        <h3>Vận Tải Nội Thành TP.HCM</h3>
+        <p>Dịch vụ vận tải PTDL chuyên nhận ghép hàng nhỏ lẻ, hàng nguyên lô, hàng nguyên xe, hàng nặng trong nội thành Thành Phố Hồ Chí Minh bằng xe tải.</p>
+        <a href="dich-vu.html#noi-thanh">Chi tiết</a>
+      </article>
+      <article class="svc-card" data-anim="up" data-delay="200">
+        <span class="badge"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-container"/></svg></span>
+        <h3>Xe Tải 1T9 Đến 15 Tấn. Container</h3>
+        <p>Nhận chở hàng thuê giá siêu tốt, có nhiều xe tải từ 1 tấn đến 5 tấn phù hợp với nhiều loại kích thước khác nhau.</p>
+        <a href="dich-vu.html#xe-container">Chi tiết</a>
+      </article>
     </div>
-    <p class="center" style="margin-top:1.4rem"><a class="btn" href="dich-vu.html">Chi tiết dịch vụ</a></p>
+    <p class="center" style="margin-top:2rem"><a class="btn" href="dich-vu.html">Chi tiết dịch vụ</a></p>
   </div>
 </section>
 
-<section class="section sec-green">
+<section class="section sec-green on-dark">
   <div class="wrap">
-    <div class="center-head">
-      <p class="eyebrow">Giới thiệu</p>
-      <h2>Về chúng tôi</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Giới thiệu</p>
+      <h2 class="sec-title words">Về Chúng Tôi</h2>
       <p>Công ty TNHH Giải pháp Vận chuyển PTDL cung cấp dịch vụ vận tải hàng hóa Bắc – Nam với phương châm “nhanh chóng – an toàn – tiết kiệm”.</p>
     </div>
-    <a class="video-poster" href="https://www.youtube.com/watch?v=dVAvOFELmzU" rel="noopener" aria-label="Xem video giới thiệu PTDL trên YouTube">
+    <a class="video-poster" href="https://www.youtube.com/watch?v=dVAvOFELmzU" data-video="dVAvOFELmzU" rel="noopener" aria-label="Xem video giới thiệu PTDL trên YouTube">
       <img src="assets/images/xe-ptdl-thaco-linker.jpg" alt="Xe tải PTDL Logistics màu xanh tại lễ bàn giao" loading="lazy" width="1200" height="725">
-      <span class="play" aria-hidden="true"></span>
+      <span class="play" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-play"/></svg></span>
     </a>
     <!-- TODO: xác nhận với PTDL: video YouTube giới thiệu (dVAvOFELmzU) có trên trang chủ cũ, ảnh nền của nút phát cũ là ảnh stock người giao hàng nên đã thay bằng ảnh xe PTDL; kiểm tra video còn tồn tại và còn đúng nội dung. -->
     <div class="counters">
-      <div><b>1.289</b><span>Chuyển hàng</span></div>
-      <div><b>745</b><span>Khách hàng</span></div>
-      <div><b>68</b><span>Đối tác</span></div>
-      <div><b>49</b><span>Xe tải &amp; container</span></div>
+      <div data-anim="up"><b data-count="1289">1.289</b><span>Chuyển hàng</span></div>
+      <div data-anim="up" data-delay="200"><b data-count="745">745</b><span>Khách hàng</span></div>
+      <div data-anim="up" data-delay="400"><b data-count="68">68</b><span>Đối tác</span></div>
+      <div data-anim="up" data-delay="600"><b data-count="49">49</b><span>Xe tải &amp; container</span></div>
     </div>
     <!-- TODO: xác nhận với PTDL: bốn con số này (1289, 745, 68, 49) lấy từ bộ đếm trên trang chủ cũ; chưa rõ cách tính và thời điểm. -->
-    <p class="center" style="margin-top:1.6rem"><a class="btn btn-light" href="gioi-thieu.html">Xem giới thiệu đầy đủ</a></p>
+    <p class="center" style="margin-top:2rem"><a class="btn btn-light" href="gioi-thieu.html">Xem giới thiệu đầy đủ</a></p>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap cols-2">
-    <div>
+    <div class="quote-box" data-anim="up">
       <p class="eyebrow">Xe tải &amp; container</p>
       <h2>Yêu cầu báo giá nhanh</h2>
-      <form class="form quote-form" action="mailto:ptdl.support@gmail.com" method="post" enctype="text/plain">
-        <div class="form-row">
-          <div>
-            <label for="q-loai">Loại hình vận chuyển</label>
-            <select id="q-loai" name="Loai hinh van chuyen">
-              <option value="">Chọn</option>
-              <option>Đường bộ</option>
-              <option>Hàng không</option>
-              <option>Đường biển</option>
-            </select>
-          </div>
-          <div>
-            <label for="q-kg">Số Kg</label>
-            <select id="q-kg" name="So Kg">
-              <option value="">Chọn</option>
-              <option>01 Tấn</option>
-              <option>05 Tấn</option>
-              <option>10 Tấn</option>
-              <option>Trên 10 Tấn</option>
-            </select>
-          </div>
-          <div>
-            <label for="q-km">Số KM</label>
-            <input id="q-km" name="So KM" type="number" min="0" inputmode="numeric">
-          </div>
-          <div>
-            <label for="q-ten">Họ và tên</label>
-            <input id="q-ten" name="Ho ten" type="text" autocomplete="name" required>
-          </div>
-          <div>
-            <label for="q-sdt">Số điện thoại</label>
-            <input id="q-sdt" name="So dien thoai" type="tel" autocomplete="tel" required>
-          </div>
+      <form class="form" action="mailto:ptdl.support@gmail.com" method="post" enctype="text/plain">
+        <label for="q-loai">Loại hình vận chuyển</label>
+        <select id="q-loai" name="Loai hinh van chuyen">
+          <option value="">Chọn</option>
+          <option>Đường bộ</option>
+          <option>Hàng không</option>
+          <option>Đường biển</option>
+        </select>
+        <label for="q-kg">Số Kg</label>
+        <select id="q-kg" name="So Kg">
+          <option value="">Chọn</option>
+          <option>01 Tấn</option>
+          <option>05 Tấn</option>
+          <option>10 Tấn</option>
+          <option>Trên 10 Tấn</option>
+        </select>
+        <label for="q-km">Số KM</label>
+        <div class="range-row">
+          <input id="q-km" name="So KM" type="range" min="0" max="2000" step="10" value="500" data-output="q-km-out">
+          <output id="q-km-out" for="q-km">500 km</output>
         </div>
-        <button class="btn" type="submit">Gửi yêu cầu</button>
-        <p class="small">Khi ấn nút Gửi yêu cầu, chúng tôi sẽ liên hệ lại sau 5 phút khi nhận được thông tin. Biểu mẫu mở ứng dụng email của bạn để gửi tới ptdl.support@gmail.com.</p>
-        <!-- TODO: xác nhận với PTDL: cam kết "liên hệ lại sau 5 phút" lấy từ trang chủ cũ. TODO: thay mailto bằng dịch vụ gửi biểu mẫu thật. -->
+        <label for="q-ten">Họ và tên</label>
+        <input id="q-ten" name="Ho ten" type="text" placeholder="Họ và tên" autocomplete="name" required>
+        <label for="q-sdt">Số điện thoại</label>
+        <input id="q-sdt" name="So dien thoai" type="tel" placeholder="Số điện thoại" autocomplete="tel" required>
+        <button class="btn btn-blue" type="submit">Gửi yêu cầu</button>
+        <p class="small" style="margin-top:1rem">Khi ấn nút <strong>Gửi yêu cầu</strong>, chúng tôi sẽ liên hệ lại sau 5 phút khi nhận được thông tin. Biểu mẫu mở ứng dụng email của bạn để gửi tới ptdl.support@gmail.com.</p>
+        <!-- TODO: xác nhận với PTDL: cam kết "liên hệ lại sau 5 phút" lấy từ trang chủ cũ. TODO: thay mailto bằng dịch vụ gửi biểu mẫu thật. Thanh trượt Số KM: bản cũ không rõ khoảng giá trị, ở đây 0 đến 2000 km. -->
       </form>
     </div>
-    <div>
-      <p class="eyebrow">Dịch vụ chuyên nghiệp</p>
-      <h2>Hành trình Bắc Nam, vận chuyển an toàn</h2>
-      <ul class="ticks">
+    <div data-anim="up" data-delay="200">
+      <p class="sub-title">Dịch vụ chuyên nghiệp</p>
+      <h2 class="sec-title" style="font-size:clamp(1.8rem,4vw,2.6rem)">Hành trình Bắc Nam, vận chuyển an toàn</h2>
+      <ul class="ticks" style="font-size:1.15rem">
         <li>Với hơn 10 năm kinh nghiệm <!-- TODO: xác nhận. Công ty được thành lập 05/08/2019 theo đăng ký doanh nghiệp, nên cần làm rõ "10 năm" là kinh nghiệm của ban lãnh đạo hay của công ty --></li>
         <li>Đội ngũ nhân viên trẻ năng động</li>
         <li>Đội ngũ quản lý giàu kinh nghiệm</li>
@@ -158,74 +186,87 @@
 
 <section class="section alt">
   <div class="wrap">
-    <p class="eyebrow">Khách hàng nói gì về PTDL</p>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Nhận xét</p>
+      <h2 class="sec-title">Khách hàng nói gì về PTDL</h2>
+    </div>
     <!-- TODO: xác nhận với PTDL: ba nhận xét dưới đây lấy nguyên văn từ trang chủ cũ; cần xác nhận nguồn và được phép đăng. Ảnh đại diện cũ là ảnh người thật nên thay bằng chữ cái đầu. -->
-    <div class="grid grid-3">
-      <figure class="quote-card">
-        <blockquote style="margin:0;padding:0;border:0;background:none"><p>Gửi xe ok đợt đi xuyên việt về có gửi xe ở hn về sg dịch vụ ok gửi xe uy tín đến tận nơi giao tận nhà nguyên vẹn nhân viên vui vẻ giá 6.3tr xe 5 chổ bao chọn chi phí ko phát sinh.</p></blockquote>
-        <footer class="who"><span class="avatar" aria-hidden="true">HN</span><span>H. Anh Nguyễn</span></footer>
-      </figure>
-      <figure class="quote-card">
-        <blockquote style="margin:0;padding:0;border:0;background:none"><p>Đội ngũ nhân viên, lái xe nhiệt tình. Dịch vụ vận chuyển hàng nhanh gọn, chu đáo, tận tình, uy tín. Tôi rất hài lòng và sẽ tiếp tục gửi hàng tại Bắc Việt lần tới!</p></blockquote>
-        <footer class="who"><span class="avatar" aria-hidden="true">ĐL</span><span>Đăng Lương</span></footer>
-      </figure>
-      <figure class="quote-card">
-        <blockquote style="margin:0;padding:0;border:0;background:none"><p>Ưu điểm: Chất lượng, Giá trị, Khả năng phản hồi nhanh, Tính chuyên nghiệp. Dịch vụ tốt, vận chuyển an toàn, giá cả hợp lý.</p></blockquote>
-        <footer class="who"><span class="avatar" aria-hidden="true">TN</span><span>Trinh Nguyễn</span></footer>
-      </figure>
+    <div class="carousel" data-carousel data-anim="up" aria-roledescription="carousel" aria-label="Nhận xét của khách hàng">
+      <div class="slides"><div class="slide-track">
+        <div class="slide"><div class="t-item">
+          <div class="t-photo"><span class="avatar" aria-hidden="true">HN</span></div>
+          <div class="t-body"><blockquote><p>Gửi xe ok đợt đi xuyên việt về có gửi xe ở hn về sg dịch vụ ok gửi xe uy tín đến tận nơi giao tận nhà nguyên vẹn nhân viên vui vẻ giá 6.3tr xe 5 chổ bao chọn chi phí ko phát sinh.</p></blockquote><strong>H. Anh Nguyễn</strong></div>
+        </div></div>
+        <div class="slide"><div class="t-item">
+          <div class="t-photo"><span class="avatar" aria-hidden="true">ĐL</span></div>
+          <div class="t-body"><blockquote><p>Đội ngũ nhân viên, lái xe nhiệt tình. Dịch vụ vận chuyển hàng nhanh gọn, chu đáo, tận tình, uy tín. Tôi rất hài lòng và sẽ tiếp tục gửi hàng tại Bắc Việt lần tới!</p></blockquote><strong>Đăng Lương</strong></div>
+        </div></div>
+        <div class="slide"><div class="t-item">
+          <div class="t-photo"><span class="avatar" aria-hidden="true">TN</span></div>
+          <div class="t-body"><blockquote><p>Ưu điểm: Chất lượng, Giá trị, Khả năng phản hồi nhanh, Tính chuyên nghiệp. Dịch vụ tốt, vận chuyển an toàn, giá cả hợp lý.</p></blockquote><strong>Trinh Nguyễn</strong></div>
+        </div></div>
+      </div></div>
+      <div class="car-nav">
+        <button class="car-btn" type="button" data-prev aria-label="Nhận xét trước"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-chev-left"/></svg></button>
+        <div class="dots" role="group" aria-label="Chọn nhận xét"></div>
+        <button class="car-btn" type="button" data-next aria-label="Nhận xét sau"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-chev-right"/></svg></button>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section sec-green" id="bang-gia">
+<section class="section sec-price on-dark" id="bang-gia">
   <div class="wrap">
-    <div class="center-head">
-      <p class="eyebrow">Bảng giá cước</p>
-      <h2>Vận chuyển</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Bảng giá cước</p>
+      <h2 class="sec-title">Vận Chuyển</h2>
     </div>
     <!-- TODO: xác nhận với PTDL: bảng giá lấy từ trang chủ cũ (Wayback 2025-03-20 và dữ liệu Elementor 12/2025); cần xác nhận giá hiện hành. Thẻ Nội thành HCM ghi số 0961 565 015 theo dữ liệu Elementor 12/2025 (bản Wayback ghi 0285.5555.565): xác nhận đây là số của PTDL. -->
     <div class="grid grid-3">
-      <article class="box price">
-        <h3>Bắc Nam</h3>
-        <p class="eyebrow">Vận chuyển</p>
-        <p class="from">Từ 12.000 <small>/ km</small></p>
+      <article class="price" data-anim="up" data-delay="0">
+        <div class="head">
+          <h3>Bắc Nam</h3>
+          <p class="from">Từ 12.000 <small>/ km</small></p>
+        </div>
         <ul>
-          <li>Xe tải 5 tạ</li>
-          <li>Xe cắt nóc 2 tấn</li>
-          <li>Xe tải 1 tấn</li>
-          <li>Xe tải 1.4 tấn</li>
-          <li>Xe 5, 7, 10 - 15 tấn</li>
-          <li>Xe 4 chân 18 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 5 tạ</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe cắt nóc 2 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1.4 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 5, 7, 10 - 15 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 4 chân 18 tấn</li>
         </ul>
-        <p>Liên hệ: <a href="tel:02855555565">0285 5555 565</a></p>
+        <a class="btn btn-outline" href="tel:02855555565">Liên hệ: 0285.5555.565</a>
       </article>
-      <article class="box price">
-        <h3>Nội thành HN</h3>
-        <p class="eyebrow">Vận chuyển</p>
-        <p class="from">Từ 16.000 <small>/ km</small></p>
+      <article class="price" data-anim="up" data-delay="200">
+        <div class="head">
+          <h3>Nội thành HN</h3>
+          <p class="from">Từ 16.000 <small>/ km</small></p>
+        </div>
         <ul>
-          <li>Xe tải 5 tạ</li>
-          <li>Xe cắt nóc 2 tấn</li>
-          <li>Xe tải 1 tấn</li>
-          <li>Xe tải 1.4 tấn</li>
-          <li>Xe 5, 7, 10 - 15 tấn</li>
-          <li>Xe 4 chân 18 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 5 tạ</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe cắt nóc 2 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1.4 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 5, 7, 10 - 15 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 4 chân 18 tấn</li>
         </ul>
-        <p>Liên hệ: <a href="tel:02855555565">0285 5555 565</a></p>
+        <a class="btn btn-outline" href="tel:02855555565">Liên hệ: 0285.5555.565</a>
       </article>
-      <article class="box price">
-        <h3>Nội thành HCM</h3>
-        <p class="eyebrow">Vận chuyển</p>
-        <p class="from">Từ 16.000 <small>/ km</small></p>
+      <article class="price" data-anim="up" data-delay="400">
+        <div class="head">
+          <h3>Nội thành HCM</h3>
+          <p class="from">Từ 16.000 <small>/ km</small></p>
+        </div>
         <ul>
-          <li>Xe tải 5 tạ</li>
-          <li>Xe cắt nóc 2 tấn</li>
-          <li>Xe tải 1 tấn</li>
-          <li>Xe tải 1.4 tấn</li>
-          <li>Xe 5, 7, 10 - 15 tấn</li>
-          <li>Xe 4 chân 18 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 5 tạ</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe cắt nóc 2 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe tải 1.4 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 5, 7, 10 - 15 tấn</li>
+          <li><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-check"/></svg>Xe 4 chân 18 tấn</li>
         </ul>
-        <p>Liên hệ: <a href="tel:0961565015">0961 565 015</a></p>
+        <a class="btn btn-outline" href="tel:0961565015">Liên hệ: 0961 565 015</a>
       </article>
     </div>
   </div>
@@ -233,124 +274,154 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="center-head">
-      <p class="eyebrow">Ngành nghề</p>
-      <h2>Kinh doanh</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Ngành nghề</p>
+      <h2 class="sec-title">Kinh doanh</h2>
     </div>
-    <div class="grid grid-4">
-      <article class="box"><span class="num">01</span><span class="tag">HN - TP.HCM</span><h3>Giao Hàng Chuyển Phát Nhanh</h3><p>Giao nhận vận chuyển các loại hàng hóa thương mại điện tử, bán hàng online, hàng chuyển phát nhanh, hàng giao hàng nhanh bưu phẩm bưu kiện.</p></article>
-      <article class="box"><span class="num">02</span><span class="tag">Toàn quốc</span><h3>Vận Chuyển Hàng Bằng Xe Tải</h3><p>Cung cấp dịch vụ vận tải hàng hóa dân dụng, hàng hóa công nghiệp và hàng xuất nhập khẩu bằng xe tải từ 1 tấn đến 22 tấn.</p></article>
-      <article class="box"><span class="num">03</span><span class="tag">Toàn quốc</span><h3>Vận Chuyển Container</h3><p>Đội xe container vận chuyển hàng hóa theo yêu cầu, tuyến vận chuyển không giới hạn, có dịch vụ trucking và giao nhận hàng hóa tất cả các cảng biển.</p></article>
-      <article class="box"><span class="num">04</span><span class="tag">Toàn quốc</span><h3>Vận Chuyển Hàng Siêu Trường Siêu Trọng</h3><p>Vận tải tất cả các loại máy móc, các loại hàng hóa dự án, hàng hóa có trọng lượng lớn, kích thước dài bằng đường bộ và đa phương thức.</p></article>
+    <div class="rows" data-anim="up">
+      <div class="row-item bg1" tabindex="0">
+        <span class="tag">HN - TP.HCM</span>
+        <h3>Giao Hàng Chuyển Phát Nhanh</h3>
+        <p>Giao nhận vận chuyển các loại hàng hóa thương mại điện tử, bán hàng online, hàng chuyển phát nhanh, hàng giao hàng nhanh bưu phẩm bưu kiện.</p>
+        <span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow-up-right"/></svg></span>
+      </div>
+      <div class="row-item bg2 active" tabindex="0">
+        <span class="tag">Toàn quốc</span>
+        <h3>Vận Chuyển Hàng Bằng Xe Tải</h3>
+        <p>Cung cấp dịch vụ vận tải hàng hóa dân dụng, hàng hóa công nghiệp và hàng xuất nhập khẩu bằng xe tải từ 1 tấn đến 22 tấn.</p>
+        <span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow-up-right"/></svg></span>
+      </div>
+      <div class="row-item bg3" tabindex="0">
+        <span class="tag">Toàn quốc</span>
+        <h3>Vận Chuyển Container</h3>
+        <p>Đội xe container vận chuyển hàng hóa theo yêu cầu, tuyến vận chuyển không giới hạn, có dịch vụ trucking và giao nhận hàng hóa tất cả các cảng biển.</p>
+        <span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow-up-right"/></svg></span>
+      </div>
+      <div class="row-item bg4" tabindex="0">
+        <span class="tag">Toàn quốc</span>
+        <h3>Vận Chuyển Hàng Siêu Trường Siêu Trọng</h3>
+        <p>Vận tải tất cả các loại máy móc, các loại hàng hóa dự án, hàng hóa có trọng lượng lớn, kích thước dài bằng đường bộ và đa phương thức.</p>
+        <span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow-up-right"/></svg></span>
+      </div>
     </div>
-    <!-- TODO: xác nhận với PTDL: mục "Vận chuyển hàng bằng xe tải" ở bản cũ ghi "Trọng tấn có hơn 200 đầu xe tải" (tên công ty khác); đã bỏ tên và số lượng. Bản cũ dùng ảnh minh họa của theme cho 4 mục này; cần ảnh thật của PTDL. -->
+    <!-- TODO: xác nhận với PTDL: mục "Vận chuyển hàng bằng xe tải" ở bản cũ ghi "Trọng tấn có hơn 200 đầu xe tải" (tên công ty khác); đã bỏ tên và số lượng. Bản cũ dùng ảnh minh họa của theme làm ảnh nền khi chọn từng hàng; ở đây dùng ảnh xe PTDL, cần ảnh thật cho từng ngành. -->
   </div>
 </section>
 
 <section class="cta-photo" style="background-image:url(assets/images/thaco-ban-giao-hang-xe.jpg)">
-  <div class="wrap">
+  <div class="wrap" data-anim="up">
     <p class="eyebrow" style="color:#cfe3b0">PTDL - LOGISTICS</p>
     <h2>Vận chuyển hàng hóa Bắc Nam “Nhanh Chóng – An Toàn – Tận Tâm”</h2>
     <p><a class="btn btn-light" href="lien-he.html">Liên hệ</a></p>
   </div>
 </section>
 
-<section class="section sec-green">
+<section class="section sec-green on-dark">
   <div class="wrap">
-    <div class="center-head">
-      <p class="eyebrow">Cẩm nang vận chuyển</p>
-      <h2>Tin tức mới nhất</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Cẩm nang vận chuyển</p>
+      <h2 class="sec-title">Tin tức mới nhất</h2>
     </div>
     <div class="grid grid-3">
-      <article class="card">
-        <a href="le-ban-giao-lo-xe-thaco.html"><img src="assets/images/thaco-ban-giao-hang-xe.jpg" alt="Hàng xe tải Thaco Linker màu xanh của PTDL xếp thẳng hàng trước phông lễ bàn giao" loading="lazy"></a>
+      <article class="card" data-anim="up" data-delay="0">
+        <a class="card-media" href="le-ban-giao-lo-xe-thaco.html"><img src="assets/images/thaco-ban-giao-hang-xe.jpg" alt="Hàng xe tải Thaco Linker màu xanh của PTDL xếp thẳng hàng trước phông lễ bàn giao" loading="lazy"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
         <div class="card-body">
+          <span class="cat">Cẩm nang vận chuyển</span>
           <p class="meta"><time datetime="2025-12-06">06/12/2025</time></p>
           <h3><a href="le-ban-giao-lo-xe-thaco.html">Lễ Bàn Giao Lô Xe Thaco Linker Cho Công Ty TNHH CP Vận Chuyển PTDL</a></h3>
           <p>Công ty TNHH CP Vận chuyển PTDL tiếp nhận lô xe tải Thaco Linker do THACO AUTO bàn giao, bước tiến trong việc nâng cấp đội xe vận tải.</p>
         </div>
       </article>
-      <article class="card">
-        <a href="bao-hiem-hang-hoa.html"><img src="assets/images/bao-hiem-hang-hoa-1.jpg" alt="Mô hình xe nâng, hộp carton, máy bay và xe tải minh họa vận chuyển hàng hóa" loading="lazy"></a>
+      <article class="card" data-anim="up" data-delay="200">
+        <a class="card-media" href="bao-hiem-hang-hoa.html"><img src="assets/images/bao-hiem-hang-hoa-1.jpg" alt="Mô hình xe nâng, hộp carton, máy bay và xe tải minh họa vận chuyển hàng hóa" loading="lazy"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
         <div class="card-body">
+          <span class="cat">Cẩm nang vận chuyển</span>
           <p class="meta"><time datetime="2025-03-20">20/03/2025</time></p>
           <h3><a href="bao-hiem-hang-hoa.html">Bảo Hiểm Hàng Hóa Là Gì? Tại Sao Doanh Nghiệp Nên Mua?</a></h3>
           <p>Hai loại bảo hiểm hàng hóa phổ biến, lý do nên mua và những lưu ý khi khai báo giá trị hàng hóa để được đền bù.</p>
         </div>
       </article>
-      <article class="card">
-        <a href="huong-dan-gui-hang-di-uc-tai-binh-duong.html"><img src="assets/images/van-chuyen-quoc-te.png" alt="Minh họa xe tải và kiện hàng quanh quả địa cầu" loading="lazy"></a>
+      <article class="card" data-anim="up" data-delay="400">
+        <a class="card-media" href="huong-dan-gui-hang-di-uc-tai-binh-duong.html"><img src="assets/images/van-chuyen-quoc-te.png" alt="Minh họa xe tải và kiện hàng quanh quả địa cầu" loading="lazy"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
         <div class="card-body">
+          <span class="cat">Cẩm nang vận chuyển</span>
           <p class="meta"><time datetime="2024-05-19">19/05/2024</time></p>
           <h3><a href="huong-dan-gui-hang-di-uc-tai-binh-duong.html">Hướng dẫn gửi hàng đi Úc tại Bình Dương an toàn và nhanh chóng</a></h3>
           <p>6 bước gửi hàng đi Úc tại Bình Dương và những thủ tục, giấy tờ quan trọng cần chuẩn bị khi vận chuyển quốc tế.</p>
         </div>
       </article>
     </div>
-    <p class="center"><a class="btn btn-ghost" href="tin-tuc.html">Xem tất cả tin tức</a></p>
+    <p class="center" style="margin-top:1.8rem"><a class="btn btn-light" href="tin-tuc.html">Xem tất cả tin tức</a></p>
   </div>
 </section>
 
 <section class="section brand-row">
   <div class="wrap">
-    <p class="eyebrow">Đối tác</p>
-    <h2>Đối tác và khách hàng của PTDL</h2>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Đối tác</p>
+      <h2 class="sec-title">Đối tác và khách hàng của PTDL</h2>
+    </div>
     <!-- TODO: xác nhận với PTDL. Sáu logo này có trên trang chủ cũ (carousel đối tác); cần xác nhận được phép hiển thị. -->
-    <ul class="brands">
-      <li><img src="assets/images/doi-tac-pepsico.jpg" alt="Logo Pepsico" loading="lazy" height="56"></li>
-      <li><img src="assets/images/doi-tac-shopee.jpg" alt="Logo Shopee" loading="lazy" height="56"></li>
-      <li><img src="assets/images/doi-tac-jt-express.jpg" alt="Logo J&amp;T Express" loading="lazy" height="56"></li>
-      <li><img src="assets/images/doi-tac-ghtk.jpg" alt="Logo Giaohangtietkiem" loading="lazy" height="56"></li>
-      <li><img src="assets/images/doi-tac-viettel.jpg" alt="Logo Viettel" loading="lazy" height="56"></li>
-      <li><img src="assets/images/doi-tac-gemadept.jpg" alt="Logo Gemadept Central" loading="lazy" height="56"></li>
-    </ul>
+    <div class="marquee">
+      <ul class="brands">
+        <li><img src="assets/images/doi-tac-pepsico.jpg" alt="Logo Pepsico" loading="lazy" height="70"></li>
+        <li><img src="assets/images/doi-tac-shopee.jpg" alt="Logo Shopee" loading="lazy" height="70"></li>
+        <li><img src="assets/images/doi-tac-jt-express.jpg" alt="Logo J&amp;T Express" loading="lazy" height="70"></li>
+        <li><img src="assets/images/doi-tac-ghtk.jpg" alt="Logo Giaohangtietkiem" loading="lazy" height="70"></li>
+        <li><img src="assets/images/doi-tac-viettel.jpg" alt="Logo Viettel" loading="lazy" height="70"></li>
+        <li><img src="assets/images/doi-tac-gemadept.jpg" alt="Logo Gemadept Central" loading="lazy" height="70"></li>
+      </ul>
+    </div>
   </div>
 </section>
-<!-- Biểu mẫu "Subscribe" (MC4WP) của footer cũ bị ẩn trên mọi thiết bị (hidden-desktop, hidden-tablet, hidden-mobile) nên không đưa vào. -->
 </main>
 <section class="foot-cta">
   <div class="wrap foot-cta-in">
-    <div>
+    <div data-anim="up">
       <h2>Bạn đang tìm kiếm dịch vụ vận tải tốt nhất?</h2>
       <p>Liên hệ với chúng tôi để được tư vấn chi tiết.</p>
     </div>
-    <a class="btn btn-outline" href="tel:02855555565">0285.5555.565</a>
+    <a class="btn btn-outline" href="tel:02855555565" data-anim="up" data-delay="150">0285.5555.565</a>
   </div>
 </section>
 <footer class="site-footer">
-  <div class="wrap foot-grid">
-    <div>
-      <p class="foot-title">CÔNG TY TNHH GIẢI PHÁP VẬN CHUYỂN PTDL</p>
-      <p>Dịch vụ vận chuyển hàng hóa uy tín và chuyên nghiệp số 1 thị trường.</p>
-      <!-- TODO: xác nhận với PTDL: câu khẩu hiệu "số 1 thị trường" lấy từ chân trang cũ -->
-      <p>Hotline: <a href="tel:02855555565">0285 5555 565</a><br>T2 - CN: 8:00 - 20:00</p>
-      <p>Email: <a href="mailto:info@ptdl.com.vn">info@ptdl.com.vn</a><br><a href="mailto:ptdl.support@gmail.com">ptdl.support@gmail.com</a></p>
-      <!-- TODO: xác nhận với PTDL. Địa chỉ số 36 (không phải 26) theo các nguồn công khai và dữ liệu đăng ký doanh nghiệp; phường ghi theo dữ liệu thuế đồng bộ 09/2026 (trước đây Phường Tân Phong, Quận 7). Email chính thức: ptdl.support@gmail.com hay info@ptdl.com.vn. -->
-      <p>36 Đường Nội khu Hưng Gia 1, Phường Tân Hưng, Thành phố Hồ Chí Minh</p>
-      <p>Mã số thuế: 0315825861 <!-- Nguồn: dữ liệu đăng ký doanh nghiệp công khai (dulieuphapluat.vn). TODO: xác nhận với PTDL --></p>
-    </div>
-    <div>
-      <p class="foot-title">Dịch vụ</p>
-      <ul>
-        <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
-        <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
-        <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
-        <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>
-        <li><a href="dich-vu.html#noi-thanh">Vận tải nội thành Hà Nội – TP.HCM</a></li>
-      </ul>
-    </div>
-    <div>
-      <p class="foot-title">Liên kết</p>
-      <ul>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="tin-tuc.html">Tin tức</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-        <li><a href="tracking.html">Tra cứu vận đơn</a></li>
-      </ul>
+  <div class="wrap">
+    <div class="foot-logo"><img src="assets/images/ptdl-logo.png" alt="PTDL" width="110" height="127"></div>
+    <!-- Biểu mẫu "Subscribe" (MC4WP) của footer cũ bị ẩn trên mọi thiết bị; khối Fanpage cũ là khung Facebook của đơn vị khác; cả hai không đưa vào. -->
+    <div class="foot-grid">
+      <div>
+        <p class="foot-title">CÔNG TY TNHH GIẢI PHÁP VẬN CHUYỂN PTDL</p>
+        <p>Dịch vụ vận chuyển hàng hóa uy tín và chuyên nghiệp số 1 thị trường.</p>
+        <!-- TODO: xác nhận với PTDL: câu khẩu hiệu "số 1 thị trường" lấy từ chân trang cũ -->
+        <p>Hotline: <a href="tel:02855555565">0285 5555 565</a><br>T2 - CN: 8:00 - 20:00</p>
+        <p>Email: <a href="mailto:info@ptdl.com.vn">info@ptdl.com.vn</a><br><a href="mailto:ptdl.support@gmail.com">ptdl.support@gmail.com</a></p>
+        <!-- TODO: xác nhận với PTDL. Địa chỉ số 36 (không phải 26) theo các nguồn công khai và dữ liệu đăng ký doanh nghiệp; phường ghi theo dữ liệu thuế đồng bộ 09/2026 (trước đây Phường Tân Phong, Quận 7). Email chính thức: ptdl.support@gmail.com hay info@ptdl.com.vn. -->
+        <p>36 Đường Nội khu Hưng Gia 1, Phường Tân Hưng, Thành phố Hồ Chí Minh</p>
+        <p>Mã số thuế: 0315825861 <!-- Nguồn: dữ liệu đăng ký doanh nghiệp công khai (dulieuphapluat.vn). TODO: xác nhận với PTDL --></p>
+      </div>
+      <div>
+        <p class="foot-title">Dịch vụ</p>
+        <ul>
+          <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
+          <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
+          <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
+          <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>
+          <li><a href="dich-vu.html#noi-thanh">Vận tải nội thành Hà Nội – TP.HCM</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-title">Liên kết</p>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="tin-tuc.html">Tin tức</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+          <li><a href="tracking.html">Tra cứu vận đơn</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="wrap copy">ptdl.com.vn &copy; 2024. All Rights Reserved.</div>
+  <div class="copy"><div class="wrap">ptdl.com.vn &copy; 2024. All Rights Reserved.</div></div>
 </footer>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/site.js" defer></script>
 </body>
 </html>

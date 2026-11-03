@@ -75,3 +75,25 @@ Gốc: mã nhúng `[wpcargo_trackform]` (WPCargo). **Không có nguồn** dữ l
 ## 8. Trang 404
 
 Có (trang mới).
+
+## Cập nhật sau khi tái tạo giao diện và hiệu ứng (2026-11-03)
+
+Đã làm lại toàn bộ giao diện theo thông số của site cũ (`docs/visual-reference.md`, `docs/theme-behavior.md`) bằng CSS và JavaScript tự viết (`site/assets/css/site.css`, `site/assets/js/site.js`).
+
+| Khối | Trạng thái | Ghi chú |
+|---|---|---|
+| Thanh trên (hotline, giờ làm việc, Liên hệ, Đặt lịch Online) | Có | Nền trắng, viền dưới, icon tự vẽ |
+| Thanh menu, mục Dịch vụ có menu con xổ xuống, nút Hotline | Có | Nền xanh `#5C8330` (**suy luận**: bản gốc chỉ biết chữ menu màu trắng) |
+| Menu điện thoại | Có | Trượt từ phải, có nút đóng |
+| Preloader | Có | Logo, ẩn khi tải xong |
+| Hero (chữ căn giữa, tiêu đề hiện theo từng từ, nút, xe tải đè xuống khối sau) | Có | Nền: ảnh xe PTDL phủ gradient (bản gốc dùng ảnh nền của theme) |
+| Dịch vụ: 5 thẻ xanh, icon tròn trắng ở mép trên, hiện dần theo độ trễ | Có | Icon tự vẽ |
+| Giới thiệu: nền xanh, nút play có vòng sóng, hộp thoại YouTube, 4 bộ đếm | Có | Ảnh nền nút play là ảnh xe PTDL |
+| Form báo giá (hộp xanh, ô xanh dương, thanh trượt Số KM) | Có | Khoảng giá trị thanh trượt là 0 đến 2000 km (không rõ ở bản gốc) |
+| Nhận xét: carousel tự chạy 5 giây, nút, chấm, vuốt | Có | Ảnh đại diện thay bằng chữ cái đầu |
+| Bảng giá: thẻ tối, icon check | Có | |
+| Ngành nghề: 4 hàng, hàng đang chọn hiện ảnh nền | Có | Ảnh nền là ảnh xe PTDL (bản gốc dùng ảnh của theme) |
+| CTA ảnh nền kèm lớp phủ, tin tức, đối tác (logo mờ, chạy ngang) | Có | |
+| Chân trang: dải CTA xanh dương, logo, 3 cột, nền xanh | Có | Dải CTA màu xanh dương theo cài đặt Elementor |
+
+**Còn khác bản cũ:** icon và họa tiết của theme (thay bằng bản tự vẽ), ảnh nền hero và ảnh ngành nghề, hiệu ứng nghiêng (Tilt) và cuộn mượt GSAP (không làm), popup tìm kiếm (site tĩnh không có tìm kiếm), icon mạng xã hội (bản cũ chỉ có liên kết `#`), màu thanh menu chưa xác nhận, và các hiệu ứng được làm đơn giản hơn bản gốc.
