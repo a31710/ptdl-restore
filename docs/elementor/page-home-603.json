@@ -1,0 +1,2213 @@
+{
+ "type": "page",
+ "slug": "home-two",
+ "wp_id": 603,
+ "title": "Trang chủ thật (hiện mang slug home-two)",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "764fa1e",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/BG-Image.png",
+     "id": 609,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "background_position": "center center",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "150",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "50",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "2eb8bea",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e44c19c",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "PTDL Logistics",
+        "title": "Vận tải Bắc - Nam<br> Uy tín chuyên nghiệp",
+        "btn_label": "Xem chi tiết dịch vụ",
+        "call_title": "Liên hệ",
+        "phone": "0285 5555 565",
+        "hero_img": {
+         "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/4444mage.png",
+         "id": 1980,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "call_icon": {
+         "value": "fas fa-phone",
+         "library": "fa-solid"
+        },
+        "btn_bg_color_background": "gradient",
+        "btn_bg_color_color": "#28A2F7",
+        "btn_bg_color_color_b": "#28A2F7",
+        "btn__color": "#28A2F7",
+        "slide_social_icon_bg_background": "gradient",
+        "slide_social_icon_bg_color_b": "#28A2F7"
+       },
+       "elements": [],
+       "widgetType": "transpi-hero"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5204407",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "160",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "d95c137",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "4804c28",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "DỊCH VỤ",
+        "title": "CỦA CHÚNG TÔI",
+        "title_tag": "h4",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "60",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center",
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "272cedd",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "30"
+       },
+       "elements": [
+        {
+         "id": "4983765",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "edf7680",
+           "elType": "widget",
+           "settings": {
+            "dur": "200ms",
+            "icon": {
+             "value": {
+              "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Vector.svg",
+              "id": 668
+             },
+             "library": "svg"
+            },
+            "title": "Vận Tải Bắc Nam",
+            "description": "Hợp đồng đầy đủ, bảo hiểm 100%, nhận trả miễn phí, hỗ trợ 247. Đảm bảo an toàn tuyệt đối ô tô, giá vận chuyển từ 5000k bảo hiểm",
+            "btn_label": "Chi tiết",
+            "btn_link": {
+             "url": "https://ptdl.com.vn/services/chuyen-hang-bac-nam/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_margin_tablet": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "60",
+             "left": "0",
+             "isLinked": false
+            },
+            "_background_color": "#EC0D0D"
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "3cadc19",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "bb3937c",
+           "elType": "widget",
+           "settings": {
+            "dur": "400ms",
+            "icon": {
+             "value": {
+              "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+              "id": 667
+             },
+             "library": "svg"
+            },
+            "title": "Vận Tải Liên Tỉnh",
+            "description": "Vận Tải 24h Nhanh Nhất Rẻ Nhất — Vận Tải 24/7 chuyên cung cấp dịch vụ chở hàng hóa từ 1,25 – 10 tấn và vận chuyển kho bãi",
+            "btn_label": "Chi tiết",
+            "btn_link": {
+             "url": "https://byteflows.net/wp/transpi/services/single-service/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_margin_mobile": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "60",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "cc95696",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "04fc55f",
+           "elType": "widget",
+           "settings": {
+            "dur": "600ms",
+            "icon": {
+             "value": {
+              "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-1.svg",
+              "id": 666
+             },
+             "library": "svg"
+            },
+            "title": "Vận Tải Nội Thành\n<br>Hà Nội",
+            "description": "Dịch Vụ Chuyển Nhà Hà Nội Tháo Lắp Đóng Gói Cẩn Thận Nhanh Gọn Theo Vị Trí Yêu Cầu.",
+            "btn_label": "Chi tiết",
+            "btn_link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "f_title_typography_typography": "custom",
+            "f_title_typography_font_size": {
+             "unit": "px",
+             "size": 25,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3f913b0",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1372,
+     "sizes": []
+    },
+    "structure": "33",
+    "padding": {
+     "unit": "px",
+     "top": "40",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    },
+    "height": "min-height",
+    "custom_height": {
+     "unit": "px",
+     "size": 108,
+     "sizes": []
+    },
+    "column_position": "stretch"
+   },
+   "elements": [
+    {
+     "id": "22c7c53",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": 15,
+      "_inline_size_tablet": 100
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "f54d922",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": 70,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "df277cc",
+       "elType": "section",
+       "settings": {
+        "layout": "full_width",
+        "structure": "20"
+       },
+       "elements": [
+        {
+         "id": "1861298",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "f56d375",
+           "elType": "widget",
+           "settings": {
+            "dur": "800ms",
+            "icon": {
+             "value": {
+              "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Group.svg",
+              "id": 665
+             },
+             "library": "svg"
+            },
+            "title": "Vận Tải Nội Thành<br>TP.HCM",
+            "description": "Dịch vụ vận tải PTDL chuyên nhận ghép hàng nhỏ lẻ, hàng nguyên lô, hàng nguyên xe, hàng nặng trong nội thành Thành Phố Hồ Chí Minh bằng xe tải.",
+            "btn_label": "Chi tiết",
+            "btn_link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_margin_mobile": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "60",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "f1c4684",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "d67f56c",
+           "elType": "widget",
+           "settings": {
+            "dur": "1000ms",
+            "icon": {
+             "value": {
+              "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Group-1.svg",
+              "id": 664
+             },
+             "library": "svg"
+            },
+            "title": "Xe Tải 1T9 Đến 15 Tấn. Container",
+            "description": "Nhận chở hàng thuê giá siêu tốt , có nhiều xe tải từ 1 tấn đến 5 tấn phù hợp với nhiều loại kích thước khác nhau. <br><br>",
+            "btn_label": "Chi tiết",
+            "btn_link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "657f42c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": 15,
+      "_inline_size_tablet": 100
+     },
+     "elements": [],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "10862bcd",
+   "elType": "container",
+   "settings": {
+    "layout": "full_width",
+    "flex_gap": {
+     "size": 5,
+     "unit": "%",
+     "column": "5",
+     "row": "5",
+     "isLinked": true
+    },
+    "content_position": "middle",
+    "structure": "32",
+    "margin": {
+     "unit": "%",
+     "top": "",
+     "right": 0,
+     "bottom": "",
+     "left": 0,
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "%",
+     "top": "0",
+     "right": "3",
+     "bottom": "0",
+     "left": "3",
+     "isLinked": ""
+    },
+    "padding_tablet": {
+     "unit": "%",
+     "top": "5",
+     "right": "5",
+     "bottom": "5",
+     "left": "5",
+     "isLinked": ""
+    },
+    "reverse_order_tablet": "reverse-tablet",
+    "reverse_order_mobile": "reverse-mobile",
+    "margin_tablet": {
+     "unit": "%",
+     "top": "",
+     "right": "0",
+     "bottom": "",
+     "left": "0",
+     "isLinked": "1"
+    },
+    "margin_mobile": {
+     "unit": "%",
+     "top": "",
+     "right": 0,
+     "bottom": "",
+     "left": 0,
+     "isLinked": true
+    },
+    "_title": "Hero",
+    "min_height": {
+     "unit": "vh",
+     "size": 87,
+     "sizes": []
+    },
+    "padding_mobile": {
+     "unit": "%",
+     "top": "",
+     "right": "",
+     "bottom": "",
+     "left": "",
+     "isLinked": true
+    },
+    "min_height_tablet": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "min_height_mobile": {
+     "unit": "vh",
+     "size": 75,
+     "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1600,
+     "sizes": []
+    },
+    "flex_direction_tablet": "column-reverse",
+    "flex_justify_content_tablet": "space-around",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 63,
+     "sizes": [],
+     "column": "63",
+     "row": "63",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "size": 48,
+     "sizes": [],
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    }
+   },
+   "elements": [
+    {
+     "id": "645f6b28",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "width": {
+       "unit": "%",
+       "size": 86.416
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": "",
+       "sizes": []
+      },
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_justify_content_mobile": "center",
+      "flex_align_items_tablet": "stretch",
+      "flex_align_items_mobile": "center",
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 20,
+       "sizes": [],
+       "column": "20",
+       "row": "20",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": [],
+       "column": "12",
+       "row": "12",
+       "isLinked": true
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "_flex_size": "none",
+      "_element_width": "initial"
+     },
+     "elements": [
+      {
+       "id": "4d6be2dd",
+       "elType": "container",
+       "settings": {
+        "_column_size": "25",
+        "width": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_tablet": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_mobile": {
+         "size": 45,
+         "unit": "%"
+        },
+        "flex_gap": {
+         "size": 25,
+         "unit": "px",
+         "column": "25",
+         "row": "25",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "%",
+         "top": "3",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "padding_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "size": 30,
+         "unit": "px",
+         "column": "30",
+         "row": "30",
+         "isLinked": true
+        },
+        "margin": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_tablet": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "size": 15,
+         "unit": "px",
+         "column": "15",
+         "row": "15",
+         "isLinked": true
+        },
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_tablet": "column"
+       },
+       "elements": [
+        {
+         "id": "6bd08b72",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2006,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/f6a2b029ca72452c1c63.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "right",
+          "align_tablet": "right",
+          "width": {
+           "unit": "%",
+           "size": 55,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 60,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": "50",
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        },
+        {
+         "id": "97c4147",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2007,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/Screenshot-2025-12-04-143813.png",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "right",
+          "align_tablet": "right",
+          "width": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "4b521b21",
+       "elType": "container",
+       "settings": {
+        "_column_size": "25",
+        "width": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_tablet": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_mobile": {
+         "size": 45,
+         "unit": "%"
+        },
+        "flex_gap": {
+         "size": 25,
+         "unit": "px",
+         "column": "25",
+         "row": "25",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "padding_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "size": 30,
+         "unit": "px",
+         "column": "30",
+         "row": "30",
+         "isLinked": true
+        },
+        "margin": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_tablet": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "size": 15,
+         "unit": "px",
+         "column": "15",
+         "row": "15",
+         "isLinked": true
+        },
+        "content_width": "full",
+        "flex_direction_tablet": "column"
+       },
+       "elements": [
+        {
+         "id": "31cb532d",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2016,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/af6e3f194542ca1c9353.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "left",
+          "align_tablet": "left",
+          "width": {
+           "unit": "%",
+           "size": 95,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": "100",
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        },
+        {
+         "id": "1316884",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 1986,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/Undsadsa.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "left",
+          "align_tablet": "left",
+          "width": {
+           "unit": "%",
+           "size": 55,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 60,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 50,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "7c8fcb92",
+     "elType": "container",
+     "settings": {
+      "_column_size": "50",
+      "padding": {
+       "unit": "%",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "width_tablet": {
+       "size": "100",
+       "unit": "%"
+      },
+      "margin_tablet": {
+       "unit": "%",
+       "top": "",
+       "right": "",
+       "bottom": "",
+       "left": "",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": ""
+      },
+      "width": {
+       "unit": "%",
+       "size": 35.231
+      },
+      "flex_gap": {
+       "size": 15,
+       "unit": "px",
+       "column": "15",
+       "row": "15",
+       "isLinked": true
+      },
+      "padding_tablet": {
+       "unit": "%",
+       "top": "0",
+       "right": "15",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "content_width": "full",
+      "width_mobile": {
+       "unit": "%",
+       "size": "",
+       "sizes": []
+      },
+      "_flex_size": "none",
+      "_element_width": "initial"
+     },
+     "elements": [
+      {
+       "id": "a65f9b0",
+       "elType": "widget",
+       "settings": {
+        "title": "",
+        "align_mobile": "center",
+        "header_size": "h3",
+        "title_color": "#1C244B",
+        "typography_typography": "custom",
+        "typography_font_family": "Poppins",
+        "typography_font_size": {
+         "unit": "px",
+         "size": "65",
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": "45",
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": "28",
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "none",
+        "typography_font_style": "normal",
+        "typography_text_decoration": "none",
+        "typography_line_height": {
+         "unit": "em",
+         "size": "1.2",
+         "sizes": []
+        },
+        "typography_line_height_mobile": {
+         "unit": "em",
+         "size": "1.1",
+         "sizes": []
+        },
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": "0",
+         "sizes": []
+        },
+        "typography_word_spacing": {
+         "unit": "em",
+         "size": "0",
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a562439",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#5C8330",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "f95781a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d09dda2",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Giới thiệu",
+        "title": "Về Chúng Tôi",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center",
+        "style": "2",
+        "f_title_color": "#000000",
+        "sub_color": "#FFFFFF"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "5f8c07c",
+       "elType": "widget",
+       "settings": {
+        "video_banner": {
+         "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/close-up-portrait-smiling-delivery-man-showing-ok-sign-scaled.jpg",
+         "id": 1688,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "video_link": {
+         "url": "https://www.youtube.com/watch?v=dVAvOFELmzU",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-video-popup"
+      },
+      {
+       "id": "6cf23ac",
+       "elType": "section",
+       "settings": {
+        "layout": "full_width",
+        "structure": "40"
+       },
+       "elements": [
+        {
+         "id": "165138d",
+         "elType": "column",
+         "settings": {
+          "_column_size": 25,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "e318e84",
+           "elType": "widget",
+           "settings": {
+            "style": "2",
+            "dur": "200ms",
+            "counter": "1289",
+            "title": "Chuyển hàng"
+           },
+           "elements": [],
+           "widgetType": "transpi-counter"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "3b3cbff",
+         "elType": "column",
+         "settings": {
+          "_column_size": 25,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "34521d6",
+           "elType": "widget",
+           "settings": {
+            "style": "2",
+            "dur": "400ms",
+            "counter": "745",
+            "title": "Khách hàng"
+           },
+           "elements": [],
+           "widgetType": "transpi-counter"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "b261bab",
+         "elType": "column",
+         "settings": {
+          "_column_size": 25,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "968162b",
+           "elType": "widget",
+           "settings": {
+            "style": "2",
+            "dur": "600ms",
+            "counter": "68",
+            "title": "Đối tác"
+           },
+           "elements": [],
+           "widgetType": "transpi-counter"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "b31c662",
+         "elType": "column",
+         "settings": {
+          "_column_size": 25,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "484b5b0",
+           "elType": "widget",
+           "settings": {
+            "style": "2",
+            "dur": "800ms",
+            "counter": "49",
+            "title": "Xe tải & container",
+            "class": "no-border"
+           },
+           "elements": [],
+           "widgetType": "transpi-counter"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4427044",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "content_position": "middle",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "100",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "1f70208",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "30",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100,
+      "margin_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "20",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "d6f9816",
+       "elType": "widget",
+       "settings": {
+        "shortcode": "[contact-form-7 id=\"ffad802\" title=\"Contact Form\"]",
+        "_css_classes": "style-two",
+        "_background_background": "classic",
+        "_background_color": "#F9F9F9"
+       },
+       "elements": [],
+       "widgetType": "shortcode"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "62ce2cb",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "23be3a0",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Dịch vụ chuyên nghiệp",
+        "title": "Hành trình Bắc Nam, vận chuyển an toàn",
+        "title_tag": "h4",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "7982f67",
+       "elType": "widget",
+       "settings": {
+        "lists": [
+         {
+          "_id": "79176e1",
+          "title": "Vơi hơn 10 năm kinh nghiệm"
+         },
+         {
+          "title": "Đội ngũ nhân viên trẻ năng động",
+          "_id": "793763f"
+         },
+         {
+          "title": "Đội ngũ quản lý giàu kinh nghiệm",
+          "_id": "fc35a5f"
+         },
+         {
+          "title": "Nhanh chóng - an toàn - tiết kiệm",
+          "_id": "5b5919b"
+         },
+         {
+          "title": "Hợp đồng minh bạch, trách nhiệm",
+          "_id": "22487bf"
+         },
+         {
+          "title": "Giao hàng nhanh chóng",
+          "_id": "cbbcf21"
+         }
+        ],
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-list"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e5643f2",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1245,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "86701a1",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "da9aab3",
+       "elType": "widget",
+       "settings": {
+        "testimonial": [
+         {
+          "_id": "bfe9714",
+          "feedback": "Gửi xe ok đợt đi xuyên việt về có gửi xe ở hn về sg dịch vụ ok gửi xe uy tín đến tận nơi giao tận nhà nguyên vẹn nhân viên vui vẻ giá 6.3tr xe 5 chổ bao chọn chi phí ko phát sinh.",
+          "name": "H. Anh Nguyễn",
+          "authore_img": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/1-scaled.jpg",
+           "id": 1709,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          }
+         },
+         {
+          "feedback": "Đội ngũ nhân viên, lái xe nhiệt tình. Dịch vụ vận chuyển hàng nhanh gọn, chu đáo, tận tình, uy tín. Tôi rất hài lòng và sẽ tiếp tục gửi hàng tại Bắc Việt lần tới!",
+          "name": "Đăng Lương",
+          "authore_img": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/3-scaled.jpg",
+           "id": 1710,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "e5c0041"
+         },
+         {
+          "feedback": "Ưu điểm: Chất lượng, Giá trị, Khả năng phản hồi nhanh, Tính chuyên nghiệp\ndịch vụ tốt, vận chuyển an toàn, giá cả hợp lý",
+          "name": "Trinh Nguyễn",
+          "authore_img": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/2.jpg",
+           "id": 1712,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "d48bb5e"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-testimonial-carousel-tw"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "2763a60",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_color": "#5C8330",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "a469967",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e4be317",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        }
+       },
+       "elements": [
+        {
+         "id": "3584006",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "08fbbf0",
+           "elType": "widget",
+           "settings": {
+            "subtitle": "Bảng giá cước",
+            "title": "Vận Chuyển",
+            "title_tag": "h1",
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "30",
+             "left": "0",
+             "isLinked": false
+            },
+            "align": "center",
+            "style": "2",
+            "f_title_color": "#000000",
+            "sub_color": "#FFFFFF"
+           },
+           "elements": [],
+           "widgetType": "transpi-heading"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "1bb7ae9",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "30"
+       },
+       "elements": [
+        {
+         "id": "df03620",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "4899d31",
+           "elType": "widget",
+           "settings": {
+            "title": "Bắc Nam",
+            "price": "Từ 12.000",
+            "period": "/ km",
+            "lists": [
+             {
+              "title": "Xe tải 5 tạ",
+              "_id": "73182e8"
+             },
+             {
+              "title": "Xe cắt nóc 2 tấn",
+              "_id": "2835742"
+             },
+             {
+              "title": "Xe tải 1 tấn",
+              "_id": "04e534b"
+             },
+             {
+              "title": "Xe tải 1.4 tấn",
+              "_id": "d3c61bf"
+             },
+             {
+              "title": "Xe 5, 7, 10 - 15 tẤN",
+              "_id": "c438f02"
+             },
+             {
+              "title": "Xe 4 chân 18 tấn",
+              "_id": "3498024"
+             }
+            ],
+            "btn_label": "Liên hệ: 0285.5555.565",
+            "btn_link": {
+             "url": "tel:02855555565",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "shape": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/shape-1.png",
+             "id": 793,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "dur": "200ms"
+           },
+           "elements": [],
+           "widgetType": "transpi-pc-table"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "f6f8f46",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "e4d4028",
+           "elType": "widget",
+           "settings": {
+            "title": "Nội thành HN",
+            "price": "Từ 16.000",
+            "period": "/ km",
+            "lists": [
+             {
+              "title": "Xe tải 5 tạ",
+              "_id": "73182e8"
+             },
+             {
+              "title": "Xe cắt nóc 2 tấn",
+              "_id": "2835742"
+             },
+             {
+              "title": "Xe tải 1 tấn",
+              "_id": "04e534b"
+             },
+             {
+              "title": "Xe tải 1.4 tấn",
+              "_id": "d3c61bf"
+             },
+             {
+              "title": "Xe 5, 7, 10 - 15 tẤN",
+              "_id": "c438f02"
+             },
+             {
+              "title": "Xe 4 chân 18 tấn",
+              "_id": "3498024"
+             }
+            ],
+            "btn_label": "Liên hệ: 0285.5555.565",
+            "btn_link": {
+             "url": "tel:02855555565",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "shape": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/shape-1.png",
+             "id": 793,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "dur": "200ms"
+           },
+           "elements": [],
+           "widgetType": "transpi-pc-table"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "0d55f28",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "f2563ea",
+           "elType": "widget",
+           "settings": {
+            "title": "Nội thành HCM",
+            "price": "Từ 16.000",
+            "period": "/ km",
+            "lists": [
+             {
+              "title": "Xe tải 5 tạ",
+              "_id": "73182e8"
+             },
+             {
+              "title": "Xe cắt nóc 2 tấn",
+              "_id": "2835742"
+             },
+             {
+              "title": "Xe tải 1 tấn",
+              "_id": "04e534b"
+             },
+             {
+              "title": "Xe tải 1.4 tấn",
+              "_id": "d3c61bf"
+             },
+             {
+              "title": "Xe 5, 7, 10 - 15 tẤN",
+              "_id": "c438f02"
+             },
+             {
+              "title": "Xe 4 chân 18 tấn",
+              "_id": "3498024"
+             }
+            ],
+            "btn_label": "Liên hệ: 0961 565 015",
+            "btn_link": {
+             "url": "tel:0961565015",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "shape": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/shape-1.png",
+             "id": 793,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "dur": "200ms",
+            "_background_background": "classic"
+           },
+           "elements": [],
+           "widgetType": "transpi-pc-table"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "8f12117",
+   "elType": "section",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "80",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "9acae8f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "6f8e820",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Ngành nghề",
+        "title": "Kinh doanh",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center",
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "2ed9dd2",
+       "elType": "widget",
+       "settings": {
+        "projects": [
+         {
+          "_id": "fe61c1b",
+          "category": "HN - TP.HCM",
+          "title": "Giao Hàng Chuyển Phát Nhanh",
+          "description": "Giao nhận vận chuyển các loại hàng hóa thương mại điện tử, bán hàng online, hàng chuyến phát nhanh, hàng giao hàng nhanh bưu phẩm bưu kiện",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/transpo-4.jpg",
+           "id": 832,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          }
+         },
+         {
+          "category": "Toàn quốc",
+          "title": "Vận Chuyển Hàng Bằng Xe Tải",
+          "description": "Trọng tấn có hơn 200 đầu xe tải từ 1 tấn đến 22 tấn, cung cấp dịch vụ vận tải hàng hóa dân dụng, hàng hóa công nghiệp và hàng xuất nhập khẩu.",
+          "_id": "e44950d",
+          "active": "yes",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/transpo-5.jpg",
+           "id": 833,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          }
+         },
+         {
+          "category": "Toàn quốc",
+          "title": "Vận Chuyển Container",
+          "description": "Đội xe container vận chuyển hàng hóa theo yêu cầu, tuyến vận chuyển không giới hạn, có dịch vụ trucking và giao nhận hàng hóa tất cả các cảng biển",
+          "_id": "538c8c7",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/transport-1.jpg",
+           "id": 834,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          }
+         },
+         {
+          "category": "Toàn quốc",
+          "title": "Vận chuyển Hàng Siêu Trường Siêu Trọng",
+          "description": "Vận chuyển tất cả cách loại máy móc, các loại hàng hóa dự án, hàng hóa có trọng lượng lớn, kích thước dài bằng đường bộ và đa phương thức",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/transport-2.jpg",
+           "id": 835,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "4421e6d"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-projects-two"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c1585d8",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/cta-bg.jpg",
+     "id": 770,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "background_position": "center center",
+    "background_attachment": "fixed",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "#020E28",
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 0.7,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "7eae793",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "968d60e",
+       "elType": "widget",
+       "settings": {
+        "title": "PTDL - LOGISTICS",
+        "align": "center",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Outfit",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 60,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 50,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 40,
+         "sizes": []
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 50,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "ad4d766",
+       "elType": "widget",
+       "settings": {
+        "title": "Vận chuyển hàng hóa Bắc Nam “Nhanh Chóng – An Toàn – Tận Tâm”",
+        "align": "center",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "DM Sans",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 25,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "258957e",
+       "elType": "widget",
+       "settings": {
+        "btn_label": "Liên hệ",
+        "align": "center",
+        "btn_link": {
+         "url": "#",
+         "is_external": true,
+         "nofollow": true,
+         "custom_attributes": ""
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-btn"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "59d7b39",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_color": "#5C8330",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "7dcc065",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "b6c700d",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Cẩm nang vận chuyển",
+        "title": "Tin tức mới nhất",
+        "title_tag": "h4",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center",
+        "style": "2",
+        "f_title_color": "#000000",
+        "sub_color": "#FFFFFF"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "8779929",
+       "elType": "widget",
+       "settings": {
+        "post_per_page": 3
+       },
+       "elements": [],
+       "widgetType": "transpi-blog"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3603519",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "20",
+     "right": "0",
+     "bottom": "20",
+     "left": "0",
+     "isLinked": false
+    },
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "8fe0f91",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c4f730f",
+       "elType": "widget",
+       "settings": {
+        "brands": [
+         {
+          "_id": "f4ee43f",
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/pepsico.jpg",
+           "id": 1722,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "dur": "200ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/shoope.jpg",
+           "id": 1724,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "7ea9a89",
+          "dur": "300ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/JT.jpg",
+           "id": 1721,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d0c6f6e",
+          "dur": "400ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/GHTK.jpg",
+           "id": 1720,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d703a84",
+          "dur": "500ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/cafe-trung-nguyen.jpg",
+           "id": 1717,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "776f296",
+          "dur": "600ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/gamendes.jpg",
+           "id": 1719,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e09d88a",
+          "dur": "700ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-brand"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}
