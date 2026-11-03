@@ -1,5 +1,4 @@
-# Bản sao site và database — không đưa lên git
-backup/
+# Dump database và file nén vẫn không đưa lên git
 *.sql
 *.sql.gz
 *.zip

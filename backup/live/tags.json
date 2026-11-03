@@ -1,0 +1,442 @@
+[
+ {
+  "id": 33,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/200-000",
+  "name": "200.000",
+  "slug": "200-000",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/33",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=33"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 22,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/air",
+  "name": "Air",
+  "slug": "air",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/22",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=22"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 23,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/cargo",
+  "name": "Cargo",
+  "slug": "cargo",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/23",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=23"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 24,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/idea",
+  "name": "Idea",
+  "slug": "idea",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/24",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=24"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 25,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/logistic-idea",
+  "name": "Logistic &amp; idea",
+  "slug": "logistic-idea",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/25",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=25"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 26,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/service",
+  "name": "Service",
+  "slug": "service",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/26",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=26"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 27,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/shipment",
+  "name": "Shipment",
+  "slug": "shipment",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/27",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=27"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 28,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/solutions",
+  "name": "Solutions",
+  "slug": "solutions",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/28",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=28"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 29,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/transport",
+  "name": "Transport",
+  "slug": "transport",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/29",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=29"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 32,
+  "count": 0,
+  "description": "",
+  "link": "https://ptdl.com.vn/tag/xe-2-tan",
+  "name": "xe 2 tấn",
+  "slug": "xe-2-tan",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags/32",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://ptdl.com.vn/wp-json/wp/v2/posts?tags=32"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

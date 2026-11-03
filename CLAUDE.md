@@ -19,7 +19,7 @@
 - Trước mọi thay đổi trên file, hãy commit git để có thể quay lại.
 - Không xóa file trên server hoặc trong `backup/` khi chưa liệt kê và được xác nhận. Ưu tiên ghi lại đường dẫn và danh sách trước.
 - Không tin link trong email hay tin nhắn. Liên hệ NhanHoa và nhà đăng ký qua kênh chính thức do tự tìm.
-- Thư mục `backup/` không đưa lên git (xem .gitignore).
+- `backup/live` và `backup/archive` (dữ liệu công khai đã xuất) được đưa lên git theo yêu cầu của chủ site. Dump database (.sql) và file nén (.zip) vẫn bị loại trừ (xem .gitignore).
 
 ## Cấu trúc
 - `docs/timeline.md` — mốc thời gian sự cố và việc đã làm.
@@ -27,4 +27,5 @@
 - `docs/archive-homepage-text.txt` — văn bản trang chủ lấy từ Wayback (snapshot 2025-03-20).
 - `checklist.md` — việc cần làm theo thứ tự.
 - `scripts/archive_crawl.py` — tải các trang từ Wayback Machine.
-- `backup/` — bản sao site và database (không đưa lên git).
+- `backup/live` — nội dung và ảnh xuất qua REST API (có spam do kẻ tấn công chèn, xem docs/findings.md).
+- `backup/archive` — dữ liệu lấy từ Wayback Machine.
