@@ -1,11 +1,12 @@
 # Website PTDL (bản tĩnh dự phòng)
 
-Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không framework, không bước build, không CDN, không font ngoài). Dùng khi website WordPress bị tấn công không cứu được. Ngôn ngữ: tiếng Việt. Màu thương hiệu: xanh `#5c8330` (lấy từ biến `--thm-primary` của theme gốc).
+Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không framework, không bước build, không CDN, không font ngoài). Chỉ có hai thành phần dùng Internet: bản đồ Google trên trang Liên hệ và liên kết video YouTube giới thiệu. Dùng khi website WordPress bị tấn công không cứu được. Ngôn ngữ: tiếng Việt. Màu thương hiệu: xanh `#5c8330` (lấy từ biến `--thm-primary` của theme gốc).
 
 ## Cấu trúc
 
 - `index.html` Trang chủ
 - `gioi-thieu.html` Giới thiệu
+- `chuyen-hang-bac-nam.html` Chuyển hàng Bắc – Nam (trang riêng, địa chỉ cũ `/services/chuyen-hang-bac-nam`)
 - `dich-vu.html` Dịch vụ (Chuyển hàng Bắc – Nam, miền Bắc, miền Nam, miền Trung, liên tỉnh, nội thành, xe tải và container, chuyển phát nhanh)
 - `tin-tuc.html` Danh sách tin tức, cùng 4 bài: `le-ban-giao-lo-xe-thaco.html`, `bao-hiem-hang-hoa.html` (khôi phục từ bản sửa đổi cũ), `huong-dan-gui-hang-di-uc-tai-binh-duong.html`, `cach-chuyen-nha-duong-dai-o-ha-noi.html`
 - `404.html`, `sitemap.xml`, `robots.txt`

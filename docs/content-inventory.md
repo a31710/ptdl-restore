@@ -79,3 +79,19 @@ Chủ site nhận thấy trang chủ và trang Giới thiệu của bản mới 
 | Trang Giới thiệu: mục Năng lực vận chuyển (6 mục), "Tại sao chọn chúng tôi", "Vận tải 64 tỉnh thành", logo đối tác | Bỏ | Khôi phục |
 
 **Cần chủ site xác nhận trước khi đăng.** Các mục khôi phục là nội dung nguyên văn của website cũ nhưng chưa có nguồn độc lập và có mâu thuẫn: 63 hay 64 tỉnh, "hơn 10 năm" so với thành lập 2019, "400 tấn mỗi ngày", "hơn 10.000 khách hàng", "hơn 1.000 đại lý", tên Samsung và Honda là đối tác, bảng giá, "liên hệ lại sau 5 phút", nhận xét khách hàng, quyền hiển thị logo đối tác. Một số câu có dấu hiệu sao chép từ công ty khác (nhầm tên "TPTDL Transport", "Trọng tấn"). Mọi chỗ này đều có chú thích `TODO` trong mã nguồn.
+
+## 8. Rà soát trang Dịch vụ, Chuyển hàng Bắc – Nam và Liên hệ
+
+**Nguồn.** Dữ liệu Elementor của trang `services` cũng đã bị thay bằng bản demo tiếng Anh của theme, nên trang Dịch vụ tiếng Việt gốc không còn bản đầy đủ. Nội dung được dựng lại từ các thẻ dịch vụ và ngành nghề trên trang chủ Wayback và từ trang "Chuyển hàng Bắc Nam". Trang Liên hệ vẫn còn dữ liệu tiếng Việt đầy đủ.
+
+| Trang | Đã bổ sung |
+|---|---|
+| Dịch vụ | Mô tả gốc (liên tỉnh "1,25 – 10 tấn", "24/7"; xe tải 1T9 đến 15 tấn; container; chuyển phát nhanh), mục **Hàng siêu trường siêu trọng** (trước đó bị mất), liên kết tới bảng giá |
+| Chuyển hàng Bắc – Nam (`/services/chuyen-hang-bac-nam`, trang riêng như WordPress cũ) | Các dịch vụ vận tải, vận chuyển container, 3 phương thức giao nhận, cách tính cước và số khối, thời gian giao hàng, đóng gói hàng hóa, chính sách đền bù PTDL |
+| Liên hệ | "Nhận báo giá", "Liên hệ 24/7", "Đăng ký tư vấn" kèm cam kết 5 phút, ô Chủ đề, bản đồ Google |
+
+**Đã cố ý không đưa vào trang Bắc – Nam** (nằm trong bản 12/2025 của website cũ nhưng là nội dung của công ty khác hoặc không phải dịch vụ của PTDL): mọi đoạn nêu tên "Trust Friend", giá "từ 1.500 nghìn", danh sách bãi xe Hà Nội, TP.HCM, Bình Dương, thời gian chạy, "hơn 100 đầu xe", giảm giá 10% và 30%, hotline 0961.565.015, mục "Thanh toán tiền thu hộ" (rút tiền về ngân hàng) và dòng nhắc mã vận đơn của đơn vị khác.
+
+**Cần chủ site xác nhận:** phí giao nhận theo yêu cầu "300.000đ đến 1.200.000đ", mức bồi thường "4 lần cước" và "100% giá trị hàng hóa", "Liên hệ 24/7" so với giờ văn phòng 8:00 - 20:00, địa chỉ trên bản đồ (phường Tân Phong hay Tân Hưng).
+
+Trang Tra cứu vận đơn vẫn là trang giữ chỗ: bản gốc chỉ có mã nhúng `[wpcargo_trackform]`, cần khôi phục hệ thống WPCargo.

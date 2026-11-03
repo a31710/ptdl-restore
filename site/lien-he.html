@@ -28,7 +28,7 @@
         <li><a href="gioi-thieu.html">Giới thiệu</a></li>
         <li class="has-sub"><a href="dich-vu.html">Dịch vụ</a>
           <ul class="sub">
-            <li><a href="dich-vu.html#bac-nam">Chuyển hàng Bắc – Nam</a></li>
+            <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
             <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
             <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
             <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>
@@ -50,19 +50,22 @@
 <section class="section">
   <div class="wrap split">
     <div>
-      <h2>Thông tin liên hệ</h2>
+      <p class="eyebrow">Nhận báo giá</p>
+      <h2>Hãy liên hệ với chúng tôi ngay hôm nay</h2>
       <dl class="info">
-        <dt>Hotline</dt><dd><a href="tel:02855555565">0285 5555 565</a></dd>
-        <dt>Giờ làm việc</dt><dd>T2 - CN: 8:00 - 20:00</dd>
+        <dt>Liên hệ 24/7</dt><dd><a href="tel:02855555565">0285 5555 565</a></dd>
+        <dt>Giờ làm việc văn phòng</dt><dd>T2 - CN: 8:00 - 20:00</dd>
+        <!-- TODO: xác nhận với PTDL: trang Liên hệ cũ ghi "Liên hệ 24/7", đầu trang ghi T2 - CN 8:00 - 20:00. -->
         <dt>Email</dt><dd><a href="mailto:ptdl.support@gmail.com">ptdl.support@gmail.com</a><br><a href="mailto:info@ptdl.com.vn">info@ptdl.com.vn</a></dd>
         <dt>Địa chỉ</dt><dd>36 Đường Nội khu Hưng Gia 1, Phường Tân Hưng, Thành phố Hồ Chí Minh</dd>
       </dl>
       <!-- TODO: xác nhận với PTDL. Địa chỉ số 36 (không phải 26) theo các nguồn công khai và dữ liệu đăng ký doanh nghiệp; phường ghi theo dữ liệu thuế đồng bộ 09/2026 (trước đây Phường Tân Phong, Quận 7). Email chính thức: ptdl.support@gmail.com hay info@ptdl.com.vn. -->
       <!-- TODO: xác nhận với PTDL: cam kết "liên hệ lại sau 5 phút" lấy từ website cũ -->
-      <p class="small">Chúng tôi sẽ liên hệ lại ngay khi nhận được thông tin của bạn.</p>
+      <p class="small">Chúng tôi thường sẽ liên hệ lại sau 5 phút nhận được thông tin.</p>
     </div>
     <div>
-      <h2>Đăng ký tư vấn</h2>
+      <p class="eyebrow">Đăng ký tư vấn</p>
+      <h2>Gửi yêu cầu cho PTDL</h2>
       <!-- TODO: need real content from PTDL: backend thật cho biểu mẫu. Hiện biểu mẫu mở ứng dụng email của khách (mailto:), không gửi dữ liệu lên máy chủ nào. Khi có dịch vụ (Formspree, PHP mail, ...) thì đổi action. -->
       <form class="form" action="mailto:ptdl.support@gmail.com" method="post" enctype="text/plain">
         <p class="small">Biểu mẫu này mở ứng dụng email trên thiết bị của bạn để gửi yêu cầu tới ptdl.support@gmail.com. Bạn cũng có thể gọi hotline trực tiếp.</p>
@@ -72,6 +75,8 @@
         <input id="f-sdt" name="So dien thoai" type="tel" autocomplete="tel" required>
         <label for="f-mail">Email</label>
         <input id="f-mail" name="Email" type="email" autocomplete="email">
+        <label for="f-cd">Chủ đề</label>
+        <input id="f-cd" name="Chu de" type="text" required>
         <label for="f-loai">Loại hình vận chuyển</label>
         <select id="f-loai" name="Loai hinh van chuyen">
           <option value="">Chọn</option>
@@ -94,6 +99,14 @@
     </div>
   </div>
 </section>
+<section class="section alt">
+  <div class="wrap">
+    <h2>Bản đồ</h2>
+    <iframe class="map" title="Bản đồ văn phòng PTDL" src="https://www.google.com/maps?q=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <p><a href="https://www.google.com/maps/search/?api=1&amp;query=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM" rel="noopener">Mở bản đồ trong Google Maps</a></p>
+    <!-- TODO: xác nhận với PTDL: trang Liên hệ cũ có bản đồ Google với địa chỉ "36 Hưng Gia 1, Phường Tân Phong, Quận 7, TP.HCM". Bản đồ tải từ Google (cần Internet); nếu đã đổi tên phường hoặc địa chỉ thì sửa chuỗi tìm kiếm. -->
+  </div>
+</section>
 </main>
 <footer class="site-footer">
   <div class="wrap foot-grid">
@@ -110,7 +123,7 @@
     <div>
       <p class="foot-title">Dịch vụ</p>
       <ul>
-        <li><a href="dich-vu.html#bac-nam">Chuyển hàng Bắc – Nam</a></li>
+        <li><a href="chuyen-hang-bac-nam.html">Chuyển hàng Bắc – Nam</a></li>
         <li><a href="dich-vu.html#mien-bac">Chuyển hàng miền Bắc</a></li>
         <li><a href="dich-vu.html#mien-nam">Chuyển hàng miền Nam</a></li>
         <li><a href="dich-vu.html#mien-trung">Chuyển hàng miền Trung</a></li>

@@ -20,6 +20,7 @@ PAGES = {
     "index.html": ("/", "index.html"),
     "gioi-thieu.html": ("/gioi-thieu", "gioi-thieu.html"),
     "dich-vu.html": ("/services", "services.html"),
+    "chuyen-hang-bac-nam.html": ("/services/chuyen-hang-bac-nam", "services/chuyen-hang-bac-nam.html"),
     "tin-tuc.html": ("/blog", "blog.html"),
     "lien-he.html": ("/lien-he", "lien-he.html"),
     "tracking.html": ("/tracking", "tracking.html"),
@@ -44,10 +45,7 @@ def rewrite_links(html: str) -> str:
             return m.group(0)
         path, _, frag = value.partition("#")
         if path in PAGES:
-            if path == "dich-vu.html" and frag == "bac-nam":
-                new = URL_BAC_NAM
-            else:
-                new = PAGES[path][0] + ("#" + frag if frag else "")
+            new = PAGES[path][0] + ("#" + frag if frag else "")
         elif path.startswith("assets/"):
             new = "/" + value
         else:
@@ -67,20 +65,6 @@ def write(out_rel: str, html: str) -> None:
     target.write_text(html, encoding="utf-8")
 
 
-def make_bac_nam_page(dich_vu_html: str) -> str:
-    """The old site had a separate Chuyển hàng Bắc – Nam page: cut it out of the services page."""
-    article = re.search(r'<article class="svc" id="bac-nam">.*?</article>', dich_vu_html, flags=re.S).group(0)
-    article = article.replace('<article class="svc" id="bac-nam">', '<article class="svc">', 1)
-    page = re.sub(r"<title>.*?</title>", "<title>Chuyển hàng Bắc – Nam | PTDL</title>", dich_vu_html, flags=re.S)
-    page = re.sub(r'<meta name="description" content="[^"]*">',
-                  '<meta name="description" content="Vận chuyển hàng ghép và hàng nguyên chuyến Bắc – Nam của PTDL: lấy hàng, giao hàng tận nơi, xe tải thùng kín, xe đầu kéo.">', page)
-    page = re.sub(r"<h1>Dịch vụ</h1>\s*<p>[^<]*</p>", "<h1>Chuyển hàng Bắc – Nam</h1>\n    <p>Dịch vụ vận tải hàng hóa đường bộ Bắc Nam</p>", page)
-    body = re.search(r'<section class="section">.*?</section>', page, flags=re.S).group(0)
-    new_body = ('<section class="section">\n  <div class="wrap">\n    <p class="crumbs"><a href="dich-vu.html">Dịch vụ</a> / Chuyển hàng Bắc – Nam</p>\n    '
-                + article + '\n  </div>\n</section>')
-    return page.replace(body, new_body, 1)
-
-
 def make_category_page(blog_html: str) -> str:
     page = re.sub(r"<title>.*?</title>", "<title>Chuyên mục: Cẩm nang vận chuyển | PTDL</title>", blog_html, flags=re.S)
     page = page.replace("<h1>Tin tức</h1>", "<h1>Cẩm nang vận chuyển</h1>", 1)
@@ -98,11 +82,9 @@ def main() -> None:
         shutil.copy(extra, OUT / extra.name)
 
     sources = {name: (SRC / name).read_text(encoding="utf-8") for name in PAGES}
-    sources["__bac_nam__"] = make_bac_nam_page(sources["dich-vu.html"])
     sources["__category__"] = make_category_page(sources["tin-tuc.html"])
 
     targets = dict(PAGES)
-    targets["__bac_nam__"] = (URL_BAC_NAM, "services/chuyen-hang-bac-nam.html")
     targets["__category__"] = (URL_CATEGORY, "category/cam-nang-van-chuyen.html")
     for name, html in sources.items():
         url, out_rel = targets[name]
