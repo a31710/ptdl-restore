@@ -1,0 +1,59 @@
+.single__post-top{
+	display: none;
+}
+.home .transpi__counter-item-two h4{
+	color: #fff
+}
+.home .contact__form-submit{
+	background: #5C8330;
+}
+.home .contact__form-submit input, .home .contact__form-submit select {    
+    background: #28A2F7;    
+}
+.home div#slider-range .ui-slider-range.ui-corner-all.ui-widget-header,
+.home .contact__form-submit .thm__btn{
+	background: #28A2F7;
+}
+.home .contact__form-submit .simple_text strong{
+	color: #28A2F7;
+}
+
+circle,
+rect {
+  fill: #28A2F7 !important;
+}
+.transpi_menu ul li a {
+	color: #fff;
+}
+.transpi_menu ul li a:hover {
+    color: #1768B7;
+}
+.transpi__service-grid{
+    background: var(--thm-primary);
+}
+.transpi__service-grid .icon {
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+    background: transparent;
+    background: #fff;
+}
+.transpi__service-grid .service__content .readmore,
+.transpi__service-grid .service__content h2,
+.transpi__service-grid .service__content{
+    color: #fff;
+}
+.transpi__service-grid .icon svg path {
+    fill: var(--thm-primary);
+}
+.home .blog__content a:hover,
+.home .blog__content .post__meta span,
+.home .blog__content .post__meta span i,
+.home .blog__content .cate__btn{
+	color:#fff;
+	padding-left: 0;
+}
+.home .testimonial__item-two{
+	background: var(--thm-primary);
+}
+.home .testimonial__item-two p, .home .testimonial__item-two h4{
+ color: #fff;
+}

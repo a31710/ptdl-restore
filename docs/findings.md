@@ -60,6 +60,17 @@ Những dữ liệu này chỉ có thể lấy từ **NhanHoa** (file và databa
 
 Đã tìm trong Desktop, Documents, Downloads, OneDrive: không có file backup của site (`.wpress`, `.sql`, thư mục WordPress). Chỉ có file làm việc khác, không liên quan tới website.
 
+## Xuất WordPress (WXR) từ wp-admin (2026-11-03)
+
+Công cụ → Xuất dữ liệu vẫn chạy được dù front end báo lỗi 500. File gốc nằm ở `backup/live/wp-export/` (chỉ lưu trên máy, không đưa lên git vì có thể chứa thông tin người dùng).
+
+- Nội dung file: 389 mục, gồm 22 bài viết, 168 trang, 174 tệp đính kèm, 4 mẫu Elementor, 4 mẫu của theme transpi, 9 mục menu, 3 form Contact Form 7, 1 form MC4WP, 1 đoạn CSS tùy chỉnh và 1 vận đơn WPCargo mẫu.
+- `scripts/parse_wxr.py` tách phần thật ra khỏi spam và trang demo của theme:
+  - `docs/elementor/`: dữ liệu bố cục Elementor (JSON) của 7 trang thật (home, gioi-thieu, services, chuyen-hang-bac-nam, lien-he, projects, tracking), 4 mẫu header/footer của theme và 3 mẫu Elementor (`hme`, `anh-xe`, `default-kit`).
+  - `docs/config/`: menu, form liên hệ, form newsletter, CSS tùy chỉnh.
+- Trang chủ dùng các widget riêng của theme transpi (slider, carousel dịch vụ, đếm số, đội ngũ, dự án, blog...). Khi dựng lại cần dựa vào cấu trúc JSON và nội dung trong đó, không dùng trực tiếp widget của theme.
+- Vẫn chưa có: đơn hàng thật, dữ liệu khách hàng, nội dung form liên hệ đã gửi, mật khẩu và cấu hình hosting. Phần này cần database từ NhanHoa.
+
 ## Các bước tiếp theo
 
 1. Ưu tiên lấy bản sao đầy đủ từ NhanHoa. Đây là cách duy nhất để khôi phục nội dung thật.

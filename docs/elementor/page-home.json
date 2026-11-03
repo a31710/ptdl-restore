@@ -1,0 +1,2115 @@
+{
+ "type": "page",
+ "slug": "home",
+ "title": "Home",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "64d9b4d",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no"
+   },
+   "elements": [
+    {
+     "id": "d5e4239",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "bec60b7",
+       "elType": "widget",
+       "settings": {
+        "sliders": [
+         {
+          "_id": "d4013bf",
+          "subtitle": "International Logistics",
+          "title": "Fastest & Secured Logistics Solution & services",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices pretium nisi amet facilisis egestas cursus any is vivamus.",
+          "btn_label": "All Services",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "call_icon": {
+           "value": "fas fa-phone",
+           "library": "fa-solid"
+          },
+          "call_title": "Call Us Now",
+          "phone": "+025 757 576 560",
+          "call_link": "#",
+          "slider_bg": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/slider-bg-scaled.jpg",
+           "id": 81,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "shape": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Vector-1.svg",
+           "id": 96,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          }
+         },
+         {
+          "subtitle": "International Logistics",
+          "title": "Fastest & Secured Logistics Solution & services",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices pretium nisi amet facilisis egestas cursus any is vivamus.",
+          "btn_label": "All Services",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "call_icon": {
+           "value": "fas fa-phone",
+           "library": "fa-solid"
+          },
+          "call_title": "Call Us Now",
+          "phone": "+025 757 576 560",
+          "call_link": "#",
+          "slider_bg": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/sider-02.jpg",
+           "id": 478,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "shape": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Vector-1.svg",
+           "id": 96,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "271eab2"
+         },
+         {
+          "subtitle": "International Logistics",
+          "title": "Fastest & Secured Logistics Solution & services",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices pretium nisi amet facilisis egestas cursus any is vivamus.",
+          "btn_label": "All Services",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "call_icon": {
+           "value": "fas fa-phone",
+           "library": "fa-solid"
+          },
+          "call_title": "Call Us Now",
+          "phone": "+025 757 576 560",
+          "call_link": "#",
+          "slider_bg": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/slider-2.jpg",
+           "id": 479,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "shape": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Vector-1.svg",
+           "id": 96,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "0ce5479"
+         }
+        ],
+        "socials": []
+       },
+       "elements": [],
+       "widgetType": "transpi-slider"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7233aa9",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "c434cf7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "e708ad4",
+       "elType": "widget",
+       "settings": {
+        "img": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/about-2.png",
+         "id": 569,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "img2": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/ab1.png",
+         "id": 559,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "_margin_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "120",
+         "left": "0",
+         "isLinked": false
+        },
+        "_margin_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-ab-img"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7c5506b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "8420c34",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "WE SPECIALISE IN THE TRANSPORTATION",
+        "title": "Manage your Complex Logistics as can Focus",
+        "title_tag": "h1",
+        "description": "Transmax is the world’s driving worldwide coordinations supplier <br> we uphold industry and exchange the worldwide trade of about <br>\n dummy merchandise through land transport.",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "f753798",
+       "elType": "section",
+       "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "structure": "20"
+       },
+       "elements": [
+        {
+         "id": "efef93d",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "fca4a15",
+           "elType": "widget",
+           "settings": {
+            "lists": [
+             {
+              "_id": "79176e1",
+              "title": "Aerospace & Defense"
+             },
+             {
+              "title": "Automotive",
+              "_id": "793763f"
+             },
+             {
+              "title": "Cloud Computing",
+              "_id": "fc35a5f"
+             },
+             {
+              "title": "Fashion & Retail",
+              "_id": "5b5919b"
+             }
+            ]
+           },
+           "elements": [],
+           "widgetType": "transpi-list"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "4801970",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "3b3bb51",
+           "elType": "widget",
+           "settings": {
+            "lists": [
+             {
+              "_id": "79176e1",
+              "title": "Aerospace & Defense"
+             },
+             {
+              "title": "Automotive",
+              "_id": "793763f"
+             },
+             {
+              "title": "Cloud Computing",
+              "_id": "fc35a5f"
+             },
+             {
+              "title": "Fashion & Retail",
+              "_id": "5b5919b"
+             }
+            ]
+           },
+           "elements": [],
+           "widgetType": "transpi-list"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "c4a78ca",
+       "elType": "widget",
+       "settings": {
+        "btn_label": "Discover More",
+        "btn_link": {
+         "url": "https://byteflows.net/wp/transpi/about/",
+         "is_external": true,
+         "nofollow": true,
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "50",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-btn"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6ffad89",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/bg.png",
+     "id": 149,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "140",
+     "left": "0",
+     "isLinked": false
+    },
+    "background_position": "center center",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_color": "#F8F8F8"
+   },
+   "elements": [
+    {
+     "id": "53ba427",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "8994808",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "SHIPPING SERVICES",
+        "title": "Specialist Logistics <br> Services",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "5f10dde",
+       "elType": "widget",
+       "settings": {
+        "services": [
+         {
+          "_id": "dc3652f",
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-1.jpg",
+           "id": 148,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Air Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/single-service/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-2.svg",
+            "id": 158
+           },
+           "library": "svg"
+          },
+          "dur": "200ms"
+         },
+         {
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-2.jpg",
+           "id": 146,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Road Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/single-service/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-3.svg",
+            "id": 157
+           },
+           "library": "svg"
+          },
+          "_id": "236892a",
+          "dur": "400ms"
+         },
+         {
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-3.jpg",
+           "id": 147,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Rail  Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "https://byteflows.net/wp/transpi/services/single-service/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-4.svg",
+            "id": 156
+           },
+           "library": "svg"
+          },
+          "_id": "9217e0f",
+          "dur": "600ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-service-carousel"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c9101fb",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "80",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "18eeb0b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "7377cca",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "HOW IT WORKS",
+        "title": "How We Deliver <br> Your Parcel",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "ae333c4",
+       "elType": "widget",
+       "settings": {
+        "steps": [
+         {
+          "_id": "3d08cf3",
+          "title": "Parcel Register",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-5.svg",
+            "id": 314
+           },
+           "library": "svg"
+          },
+          "count": "01",
+          "dur": "200ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel Loading",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "_id": "cc53c8b",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-6.svg",
+            "id": 313
+           },
+           "library": "svg"
+          },
+          "count": "02",
+          "margin": {
+           "unit": "px",
+           "top": "80",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "dur": "400ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel In-transit",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-7.svg",
+            "id": 312
+           },
+           "library": "svg"
+          },
+          "_id": "18328c8",
+          "count": "03",
+          "dur": "600ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel Delivery",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-8.svg",
+            "id": 311
+           },
+           "library": "svg"
+          },
+          "_id": "27e87dc",
+          "count": "04",
+          "margin": {
+           "unit": "px",
+           "top": "80",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "dur": "800ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         }
+        ],
+        "shape": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Line.svg",
+         "id": 318,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-del-process"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "59c99c1",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "100",
+     "left": "0",
+     "isLinked": false
+    },
+    "overflow": "hidden"
+   },
+   "elements": [
+    {
+     "id": "dd0b0f5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "a92302a",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/02/Image-1.png",
+         "id": 1560,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "title": "Our Industry-Explicit Competence",
+        "description": "Lorem ipsum dolor sit amet consectetur. tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices pretium nisi amet facilisis. Augue eu vulputate tortor egestas cursus any is vivamus. Commodo dictum iaculis eget massa phasellus ultrices nunc dignissim.",
+        "lists": [
+         {
+          "_id": "2c224ab",
+          "title": "Aerospace & Defense"
+         },
+         {
+          "title": "Automotive",
+          "_id": "5f5eb5d"
+         },
+         {
+          "title": "Cloud Computing",
+          "_id": "37f2c88"
+         },
+         {
+          "title": "Fashion & Retail",
+          "_id": "963857f"
+         },
+         {
+          "title": "Healthcare & Pharma",
+          "_id": "c19278c"
+         },
+         {
+          "title": "Marine Parts",
+          "_id": "d185438"
+         },
+         {
+          "title": "Aerospace & Defense",
+          "_id": "2e89204"
+         },
+         {
+          "title": "Automotive",
+          "_id": "8d9d815"
+         },
+         {
+          "title": "Cloud Computing",
+          "_id": "d2e398e"
+         },
+         {
+          "title": "Fashion & Retail",
+          "_id": "a99a13e"
+         },
+         {
+          "title": "Healthcare & Pharma",
+          "_id": "df3d5f4"
+         },
+         {
+          "title": "Marine Parts",
+          "_id": "4231606"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-about-content"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c525970",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_color": "#F5F5F5",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "130",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "fd09ac6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "f159f32",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        }
+       },
+       "elements": [
+        {
+         "id": "3a715a5",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "ee9811a",
+           "elType": "widget",
+           "settings": {
+            "subtitle": "OUR TEAM",
+            "title": "Meet Expert Team",
+            "title_tag": "h1",
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "30",
+             "left": "0",
+             "isLinked": false
+            },
+            "align": "center"
+           },
+           "elements": [],
+           "widgetType": "transpi-heading"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "2876549",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "30"
+       },
+       "elements": [
+        {
+         "id": "c685c7a",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "b3c377f",
+           "elType": "widget",
+           "settings": {
+            "team_img": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/team-2.jpg",
+             "id": 368,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "title": "Kristin Watson",
+            "designation": "WordPress Developer",
+            "socials": [
+             {
+              "_id": "768e605",
+              "icon": {
+               "value": "fab fa-facebook-f",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "title": "facebook"
+             },
+             {
+              "icon": {
+               "value": {
+                "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/x-twitter.svg",
+                "id": 18
+               },
+               "library": "svg"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "7e5c198",
+              "title": "twitter"
+             },
+             {
+              "icon": {
+               "value": "fab fa-instagram",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "b4aa379",
+              "title": "instagram"
+             },
+             {
+              "icon": {
+               "value": "fab fa-linkedin-in",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "5dbdddf",
+              "title": "linkedin"
+             }
+            ],
+            "dur": "200ms",
+            "_margin_tablet": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "40",
+             "left": "0",
+             "isLinked": false
+            },
+            "link": {
+             "url": "https://byteflows.net/wp/transpi/team/team-single/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-team"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "0b8ccfc",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "24f485d",
+           "elType": "widget",
+           "settings": {
+            "team_img": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/team-1.jpg",
+             "id": 367,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "title": "Micle Clark",
+            "designation": "UI&UX Designer",
+            "socials": [
+             {
+              "_id": "768e605",
+              "icon": {
+               "value": "fab fa-facebook-f",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "title": "facebook"
+             },
+             {
+              "icon": {
+               "value": {
+                "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/x-twitter.svg",
+                "id": 18
+               },
+               "library": "svg"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "7e5c198",
+              "title": "twitter"
+             },
+             {
+              "icon": {
+               "value": "fab fa-instagram",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "b4aa379",
+              "title": "instagram"
+             },
+             {
+              "icon": {
+               "value": "fab fa-linkedin-in",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "5dbdddf",
+              "title": "linkedin"
+             }
+            ],
+            "dur": "400ms",
+            "link": {
+             "url": "https://byteflows.net/wp/transpi/team/team-single/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-team"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "7ed9096",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "3a08093",
+           "elType": "widget",
+           "settings": {
+            "team_img": {
+             "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/team-3.jpg",
+             "id": 369,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "title": "Shen Watson",
+            "designation": "Front-End Developer",
+            "socials": [
+             {
+              "_id": "768e605",
+              "icon": {
+               "value": "fab fa-facebook-f",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "title": "facebook"
+             },
+             {
+              "icon": {
+               "value": {
+                "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/x-twitter.svg",
+                "id": 18
+               },
+               "library": "svg"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "7e5c198",
+              "title": "twitter"
+             },
+             {
+              "icon": {
+               "value": "fab fa-instagram",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "b4aa379",
+              "title": "instagram"
+             },
+             {
+              "icon": {
+               "value": "fab fa-linkedin-in",
+               "library": "fa-brands"
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "5dbdddf",
+              "title": "linkedin"
+             }
+            ],
+            "dur": "600ms",
+            "link": {
+             "url": "https://byteflows.net/wp/transpi/team/team-single/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-team"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "c7450b4",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "padding": {
+         "unit": "px",
+         "top": "10",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "261470a",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "6932b07",
+           "elType": "widget",
+           "settings": {
+            "btn_label": "View All Members",
+            "btn_link": {
+             "url": "https://byteflows.net/wp/transpi/team/",
+             "is_external": true,
+             "nofollow": true,
+             "custom_attributes": ""
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "50",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            },
+            "align": "center"
+           },
+           "elements": [],
+           "widgetType": "transpi-btn"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e9bd5c1",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "content_position": "middle",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "100",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "overflow": "hidden"
+   },
+   "elements": [
+    {
+     "id": "3dff49f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "5bfd1ea",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "WHY CHOOSE US?",
+        "title": "We Create Opportunity to Reach Potential.",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "affcc20",
+       "elType": "widget",
+       "settings": {
+        "lists": [
+         {
+          "_id": "79176e1",
+          "title": "Career progression"
+         },
+         {
+          "title": "Transparent career journey and provides the support.",
+          "_id": "793763f"
+         },
+         {
+          "title": "Make long term business decisions",
+          "_id": "fc35a5f"
+         },
+         {
+          "title": "Provide a service we are proud of",
+          "_id": "5b5919b"
+         },
+         {
+          "title": "Be a responsible member of the community",
+          "_id": "22487bf"
+         },
+         {
+          "title": "Always seek to improve",
+          "_id": "cbbcf21"
+         }
+        ],
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-list"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "026768a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "30",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100,
+      "margin_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "margin_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "49f8f18",
+       "elType": "widget",
+       "settings": {
+        "shortcode": "[contact-form-7 id=\"ffad802\" title=\"Contact Form\"]",
+        "_margin_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "shortcode"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b4a3283",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "overflow": "hidden"
+   },
+   "elements": [
+    {
+     "id": "f8aec8a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "9fd59a2",
+       "elType": "widget",
+       "settings": {
+        "projects": [
+         {
+          "_id": "cfbaa24",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Air.jpg",
+           "id": 398,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "01",
+          "category": "Cargo",
+          "title": "CT Scanner from Italy to the UK",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "https://byteflows.net/wp/transpi/projects/project-single/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          }
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Cargo.jpg",
+           "id": 399,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "02",
+          "category": "Air Freight",
+          "title": "International Freight Japan to the USA",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "https://byteflows.net/wp/transpi/projects/project-single/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "34d5d33"
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Road.jpg",
+           "id": 401,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "03",
+          "category": "Road Freight",
+          "title": "Road Logistics Works Companies.",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "https://byteflows.net/wp/transpi/projects/project-single/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "bb1d6af"
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Ocean.jpg",
+           "id": 400,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "04",
+          "category": "Ocean",
+          "title": "Oce n Door To Fast Parcel done.",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "https://byteflows.net/wp/transpi/projects/project-single/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e43b8c6"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-projects"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "51c82df",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "overflow": "hidden"
+   },
+   "elements": [
+    {
+     "id": "d9b8f70",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c7c0cdb",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Testimonials",
+        "title": "What Clients Say <br> About Us",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "43d360d",
+       "elType": "widget",
+       "settings": {
+        "testimonial": [
+         {
+          "_id": "737899d",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/quote.svg",
+            "id": 255
+           },
+           "library": "svg"
+          },
+          "title": "“Great Work!”​",
+          "feedback": "Lorem ipsum dolor amet consectetur. Ut tellus as suspen disse nulla aliquam. The any ultrices  Lorem an ipsum dolor amet consectetur. Ut tellus suspen disse nulla any the aliquam. ",
+          "name": "Dani Aardema",
+          "designation": "CEO Clef Inc",
+          "authore_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/authore.png",
+           "id": 256,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "dur": "200ms"
+         },
+         {
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/quote.svg",
+            "id": 255
+           },
+           "library": "svg"
+          },
+          "title": "“Great Work!”​",
+          "feedback": "Lorem ipsum dolor amet consectetur. Ut tellus as suspen disse nulla aliquam. The any ultrices  Lorem an ipsum dolor amet consectetur. Ut tellus suspen disse nulla any the aliquam. ",
+          "name": "Dani Aardema",
+          "designation": "CEO Clef Inc",
+          "authore_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Image.png",
+           "id": 579,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "74b12b7",
+          "dur": "400ms"
+         },
+         {
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/quote.svg",
+            "id": 255
+           },
+           "library": "svg"
+          },
+          "title": "“Great Work!”​",
+          "feedback": "Lorem ipsum dolor amet consectetur. Ut tellus as suspen disse nulla aliquam. The any ultrices  Lorem an ipsum dolor amet consectetur. Ut tellus suspen disse nulla any the aliquam. ",
+          "name": "Dani Aardema",
+          "designation": "CEO Clef Inc",
+          "authore_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Image-2.png",
+           "id": 580,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "2007de7",
+          "dur": "600ms"
+         },
+         {
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/quote.svg",
+            "id": 255
+           },
+           "library": "svg"
+          },
+          "title": "“Great Work!”​",
+          "feedback": "Lorem ipsum dolor amet consectetur. Ut tellus as suspen disse nulla aliquam. The any ultrices  Lorem an ipsum dolor amet consectetur. Ut tellus suspen disse nulla any the aliquam. ",
+          "name": "Dani Aardema",
+          "designation": "CEO Clef Inc",
+          "authore_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Image.png",
+           "id": 579,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "cdc2879",
+          "dur": "800ms"
+         },
+         {
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/quote.svg",
+            "id": 255
+           },
+           "library": "svg"
+          },
+          "title": "“Great Work!”​",
+          "feedback": "Lorem ipsum dolor amet consectetur. Ut tellus as suspen disse nulla aliquam. The any ultrices  Lorem an ipsum dolor amet consectetur. Ut tellus suspen disse nulla any the aliquam. ",
+          "name": "Dani Aardema",
+          "designation": "CEO Clef Inc",
+          "authore_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Image-2.png",
+           "id": 580,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "9a9106b",
+          "dur": "200ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-testimonial-carousel"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4f195f1",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "90",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "c44d5b9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e8ba87d",
+       "elType": "widget",
+       "settings": {
+        "brands": [
+         {
+          "_id": "f4ee43f",
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/1.svg",
+           "id": 248,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "dur": "200ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/2.svg",
+           "id": 247,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "7ea9a89",
+          "dur": "300ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/3.svg",
+           "id": 246,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d0c6f6e",
+          "dur": "400ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/4.svg",
+           "id": 245,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d703a84",
+          "dur": "500ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/5.svg",
+           "id": 244,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "776f296",
+          "dur": "600ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/6.svg",
+           "id": 243,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e09d88a",
+          "dur": "700ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-brand"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c3e2b92",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "40",
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/counter-bg.jpg",
+     "id": 205,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "75",
+     "right": "0",
+     "bottom": "75",
+     "left": "0",
+     "isLinked": false
+    },
+    "background_attachment": "fixed",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "#091126",
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 0.75,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "22ec337",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "_inline_size_tablet": 50,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "7",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "003be82",
+       "elType": "widget",
+       "settings": {
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/icon-ct-4.svg",
+          "id": 218
+         },
+         "library": "svg"
+        },
+        "counter": "1289",
+        "title": "Completed Delivery",
+        "dur": "200ms",
+        "_margin_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "1508d17",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "_inline_size_tablet": 50,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "15",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "ac09867",
+       "elType": "widget",
+       "settings": {
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/icon-ct-3.svg",
+          "id": 217
+         },
+         "library": "svg"
+        },
+        "counter": "745",
+        "title": "Satisfied Clients",
+        "dur": "400ms",
+        "_margin_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "9049176",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "_inline_size_tablet": 50,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "15",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "0b6e1cd",
+       "elType": "widget",
+       "settings": {
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/icon-ct-2.svg",
+          "id": 216
+         },
+         "library": "svg"
+        },
+        "counter": "68",
+        "title": "Awards Winner",
+        "dur": "600ms",
+        "_margin_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "_css_classes": "texmobile"
+       },
+       "elements": [],
+       "widgetType": "transpi-counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "2d2eed3",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "_inline_size_tablet": 50,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "15",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "d5197a4",
+       "elType": "widget",
+       "settings": {
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/icon-ct.svg",
+          "id": 215
+         },
+         "library": "svg"
+        },
+        "counter": "46",
+        "title": "Team Members",
+        "dur": "800ms"
+       },
+       "elements": [],
+       "widgetType": "transpi-counter"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "40d9f95",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "e77fcb5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "699951d",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Testimonials",
+        "title": "Get the Latest Our <br> News",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "2cffba4",
+       "elType": "widget",
+       "settings": {
+        "post_per_page": 3
+       },
+       "elements": [],
+       "widgetType": "transpi-blog"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

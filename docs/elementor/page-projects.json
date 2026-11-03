@@ -1,0 +1,367 @@
+{
+ "type": "page",
+ "slug": "projects",
+ "title": "Projects",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "e6dd281",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "30",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "92bb2d0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "7c6a473",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/close-up-delivery-person-giving-parcel-client-1.png",
+         "id": 1187,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "71d6d73",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "40adbc5",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/low-angle-view-happy-warehouse-workers-communicating-while-working-with-shipment-industrial-storage-compartment-1.png",
+         "id": 1188,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "97833bd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "38a021b",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/low-angle-view-happy-warehouse-workers-communicating-while-working-with-shipment-industrial-storage-compartment-1.png",
+         "id": 1188,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "940b535",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "30"
+   },
+   "elements": [
+    {
+     "id": "ad3d814",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "fa7c2d8",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/medium-shot-man-carrying-box-1.png",
+         "id": 1190,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "55a2ec0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "47d99dd",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/pexels-pixabay-327430-2.png",
+         "id": 1191,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fbcad5d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "387ca70",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/pexels-rdne-stock-project-7363196-2.png",
+         "id": 1192,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "2e83c1a",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "30"
+   },
+   "elements": [
+    {
+     "id": "8e4401c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "27abb70",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/portrait-happy-black-courier-delivering-packages-looking-camera-1.png",
+         "id": 1193,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f5ce68b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "f657f84",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/warehouse-manager-checking-orders-list-coordinating-parcels-packing-process-african-american-woman-supervisor-with-laptop-controlli-1.png",
+         "id": 1195,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "12b7ea2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "741c2f2",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2024/01/woman-safety-equipment-working-1.png",
+         "id": 1196,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "category": "Freight",
+        "title": "International Freight Japan to the USA"
+       },
+       "elements": [],
+       "widgetType": "transpi-portfolio"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9f4c35a",
+   "elType": "section",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "20",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "401faa4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "8cc1180",
+       "elType": "widget",
+       "settings": {
+        "btn_label": "View More",
+        "btn_link": {
+         "url": "#",
+         "is_external": true,
+         "nofollow": true,
+         "custom_attributes": ""
+        },
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "transpi-btn"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

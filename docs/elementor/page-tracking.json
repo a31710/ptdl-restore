@@ -1,0 +1,50 @@
+{
+ "type": "page",
+ "slug": "tracking",
+ "title": "Tracking",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "2a35b0da",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "110",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "219107d9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100
+     },
+     "elements": [
+      {
+       "id": "55932f4e",
+       "elType": "widget",
+       "settings": {
+        "shortcode": "[wpcargo_trackform]"
+       },
+       "elements": [],
+       "widgetType": "shortcode"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

@@ -17,3 +17,6 @@ desktop.ini
 
 # Video lon (>50 MB) chi luu tren may, khong dua len git
 *.mp4
+
+# File xuat WordPress (WXR) co the chua thong tin nguoi dung, chi giu tren may
+backup/live/wp-export/

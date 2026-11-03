@@ -1,0 +1,771 @@
+{
+ "type": "transpi_template",
+ "slug": "footer",
+ "title": "Footer",
+ "template": "elementor_canvas",
+ "elementor_data": [
+  {
+   "id": "619fdca",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "background_background": "gradient",
+    "background_image": {
+     "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/cta-shape.png",
+     "id": 538,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "background_position": "center center",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "content_position": "middle",
+    "padding": {
+     "unit": "px",
+     "top": "50",
+     "right": "0",
+     "bottom": "50",
+     "left": "0",
+     "isLinked": false
+    },
+    "background_color": "#28A2F7",
+    "background_color_b": "#1768B6"
+   },
+   "elements": [
+    {
+     "id": "d1bbd66",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": 70,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "41605e4",
+       "elType": "widget",
+       "settings": {
+        "title": "Bạn đang tìm kiếm Dịch vụ vận tải tốt nhất?",
+        "description": "Liên hệ với chúng tôi để được tư vấn chi tiết.",
+        "f_title_color": "#FFFFFF",
+        "f_title_typography_typography": "custom",
+        "f_title_typography_font_family": "Outfit",
+        "f_title_typography_font_size": {
+         "unit": "px",
+         "size": 40,
+         "sizes": []
+        },
+        "f_title_typography_font_weight": "500",
+        "fdesc_color": "#FFFFFF",
+        "desc_typography_typography": "custom",
+        "desc_typography_font_size": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "desc_ma": {
+         "unit": "px",
+         "top": "5",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "f_title_typography_font_size_mobile": {
+         "unit": "px",
+         "size": 36,
+         "sizes": []
+        },
+        "desc_typography_font_size_mobile": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7f63435",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": 30,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "c6ea494",
+       "elType": "widget",
+       "settings": {
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"35\" viewBox=\"0 0 35 35\" fill=\"none\"><circle cx=\"17.5\" cy=\"17.5\" r=\"17.5\" fill=\"#FF131D\"></circle><path d=\"M24.9727 21.332L24.3438 24.0938C24.2161 24.513 23.9336 24.7318 23.4961 24.75C21.181 24.7318 19.0846 24.1576 17.207 23.0273C15.3294 21.9154 13.8346 20.4206 12.7227 18.543C11.5924 16.6654 11.0182 14.569 11 12.2539C11.0182 11.8164 11.237 11.5339 11.6562 11.4062L14.418 10.7773C14.8555 10.7044 15.1836 10.8685 15.4023 11.2695L16.6602 14.2227C16.806 14.6237 16.724 14.9609 16.4141 15.2344L14.9648 16.4102C15.4206 17.3581 16.0221 18.2057 16.7695 18.9531C17.5169 19.7005 18.3646 20.3112 19.3125 20.7852L20.5156 19.3086C20.7891 18.9987 21.1263 18.9167 21.5273 19.0625L24.4805 20.3203C24.8633 20.5573 25.0273 20.8945 24.9727 21.332Z\" fill=\"white\"></path></svg> 0285.5555.565",
+        "align": "right",
+        "typography_typography": "custom",
+        "typography_font_family": "Outfit",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "background_color": "#00000000",
+        "button_background_hover_color": "#FFFFFF",
+        "button_hover_border_color": "#FFFFFF",
+        "hover_animation": "float",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#3A4049",
+        "border_radius": {
+         "unit": "px",
+         "top": "10",
+         "right": "10",
+         "bottom": "10",
+         "left": "10",
+         "isLinked": true
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "25",
+         "bottom": "15",
+         "left": "25",
+         "isLinked": false
+        },
+        "align_tablet": "left",
+        "hover_color": "#020E28",
+        "link": {
+         "url": "tel:02855555565",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "icon_indent": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "158d170",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_color": "#5C8330",
+    "padding": {
+     "unit": "px",
+     "top": "100",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "70",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "3e784c2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "61332bb",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "20",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "30",
+         "left": "0",
+         "isLinked": false
+        },
+        "content_position": "middle"
+       },
+       "elements": [
+        {
+         "id": "0302754",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": 30,
+          "_inline_size_tablet": 100
+         },
+         "elements": [
+          {
+           "id": "bd39ce2",
+           "elType": "widget",
+           "settings": {
+            "image": {
+             "url": "https://ptdl.com.vn/wp-content/uploads/2023/12/0db17170-2f13-4991-b10e-949c7c283133.png",
+             "id": 1683,
+             "size": "",
+             "alt": "",
+             "source": "library"
+            },
+            "align": "left",
+            "image_size": "custom",
+            "image_custom_dimension": {
+             "width": "100",
+             "height": ""
+            }
+           },
+           "elements": [],
+           "widgetType": "image"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "db2fd04",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": 70,
+          "_inline_size_tablet": 100
+         },
+         "elements": [
+          {
+           "id": "215314c",
+           "elType": "widget",
+           "settings": {
+            "shortcode": "[mc4wp_form id=501]",
+            "hide_desktop": "hidden-desktop",
+            "hide_tablet": "hidden-tablet",
+            "hide_mobile": "hidden-mobile"
+           },
+           "elements": [],
+           "widgetType": "shortcode"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "cd5a571",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "30",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "60",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "30",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "32c0a53",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          },
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "11e969e",
+           "elType": "widget",
+           "settings": {
+            "title": "C.TY TNHH GIẢI PHÁP VẬN CHUYỂN PTDL",
+            "title_color": "#000000",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "heading"
+          },
+          {
+           "id": "5478e69",
+           "elType": "widget",
+           "settings": {
+            "title": "Dịch vụ vận chuyển hàng hóa uy tín và chuyên nghiệp số 1️⃣ thị trường.",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28,
+             "sizes": []
+            },
+            "_padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "heading"
+          },
+          {
+           "id": "ecabf8a",
+           "elType": "widget",
+           "settings": {
+            "title": "info@ptdl.com.vn",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_weight": "500"
+           },
+           "elements": [],
+           "widgetType": "heading"
+          },
+          {
+           "id": "ba61106",
+           "elType": "widget",
+           "settings": {
+            "title": "𖠿: 26 Đường Nội khu Hưng Gia 1, Phường Tân Phong, Quận 7, Thành phố Hồ Chí Minh\n<br><br>☏: 0285.5555.565",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "widgetType": "heading"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "b458ca6",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "30",
+           "isLinked": false
+          },
+          "_inline_size_tablet": 50,
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "f3aa62e",
+           "elType": "widget",
+           "settings": {
+            "title": "Dịch vụ",
+            "title_color": "#000000",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "heading"
+          },
+          {
+           "id": "a1d6459",
+           "elType": "widget",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Chuyển hàng Bắc - Nam",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "_id": "4793482",
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              }
+             },
+             {
+              "text": "Chuyển hàng miền Bắc",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "745f98e"
+             },
+             {
+              "text": "Chuyển hàng miền Nam",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "70895e1"
+             },
+             {
+              "text": "Chuyển hàng miền Trung",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "b90aa86"
+             },
+             {
+              "text": "Chuyển hàng nội thành HN - TP.HCM",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_id": "cd72c09"
+             }
+            ],
+            "icon_align": "left",
+            "icon_typography_typography": "custom",
+            "icon_typography_font_family": "DM Sans",
+            "icon_typography_font_size": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "icon_typography_font_weight": "400",
+            "icon_typography_line_height": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            },
+            "text_color": "#FFFFFF",
+            "text_color_hover": "#FFFFFF",
+            "text_color_hover_transition": {
+             "unit": "s",
+             "size": 0.4,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "-12",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            },
+            "_padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "icon-list"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "f5f32b5",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          },
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "c375ce2",
+           "elType": "widget",
+           "settings": {
+            "title": "Fanpage",
+            "title_color": "#000000",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "heading"
+          },
+          {
+           "id": "9444f54",
+           "elType": "widget",
+           "settings": {
+            "editor": "<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIkay.vn&tabs=timeline&width=340&height=120&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=342382272601649\" width=\"340\" height=\"135\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "f8eb3b2",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "20",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#3E4045",
+        "padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "0",
+         "bottom": "15",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "a36e412",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "_inline_size_tablet": 100
+         },
+         "elements": [
+          {
+           "id": "c9126fe",
+           "elType": "widget",
+           "settings": {
+            "editor": "<p><span style=\"color: #0000ff;\">ptdl.com.vn</span> @2024. All Rights Reserved.</p>",
+            "text_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 18,
+             "sizes": []
+            },
+            "typography_font_weight": "400",
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "3407d39",
+         "elType": "column",
+         "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "_inline_size_tablet": 100,
+          "hide_desktop": "hidden-desktop",
+          "hide_tablet": "hidden-tablet",
+          "hide_mobile": "hidden-mobile"
+         },
+         "elements": [],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

@@ -1,0 +1,1572 @@
+{
+ "type": "page",
+ "slug": "gioi-thieu",
+ "title": "About",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "355d936",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "100",
+     "left": "0",
+     "isLinked": false
+    },
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "57485a4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "7b57f4a",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/aaaa.jpg",
+         "id": 2027,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        }
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "995bec6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "610f880",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "CÔNG TY TNHH GIẢI PHÁP VẬN CHUYỂN PTDL",
+        "title": "Giới thiệu",
+        "title_tag": "h4",
+        "description": "Chúng tôi tự hào là đơn vị hàng đầu trong lĩnh vực vận tải bắc – trung – nam và dịch vụ kho bãi tại Việt Nam. Với các ngành nghề chính như: vận tải đường bộ, đường biển, đường không, vận tải hàng thương mại điện tử, hàng khu công nghiệp, dịch vụ kho bãi và các nhu cầu khác của các tập đoàn, tổng công ty, doanh nghiệp trong và ngoài nước.\n\n<br>Với phương châm “nhanh – an toàn – tiết kiệm” và phong cách phục vụ chuyên nghiệp, chúng tôi cam kết đem đến cho khách hàng những trải nghiệm dịch vụ tốt nhất.\n",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        },
+        "f_title_typography_typography": "custom",
+        "f_title_typography_font_size": {
+         "unit": "px",
+         "size": 35,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "2395cbb",
+       "elType": "section",
+       "settings": {
+        "layout": "full_width",
+        "gap": "no"
+       },
+       "elements": [
+        {
+         "id": "c2527f0",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "8605dcc",
+           "elType": "widget",
+           "settings": {
+            "lists": [
+             {
+              "_id": "79176e1",
+              "title": "10+ Năm kinh nghiệm"
+             },
+             {
+              "title": "Vận tải 64 tỉnh thành",
+              "_id": "793763f"
+             },
+             {
+              "title": "Nhanh - an toàn - tiết kiệm",
+              "_id": "fc35a5f"
+             },
+             {
+              "title": "Đa dạng các loại xe đáp ứng mọi nhu cầu",
+              "_id": "5b5919b"
+             }
+            ]
+           },
+           "elements": [],
+           "widgetType": "transpi-list"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "46c2a20",
+       "elType": "widget",
+       "settings": {
+        "btn_label": "Liên hệ: 0285.5555.565",
+        "btn_link": {
+         "url": "tel:02855555565",
+         "is_external": true,
+         "nofollow": true,
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "50",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-btn"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "16e5136c",
+   "elType": "container",
+   "settings": {
+    "layout": "full_width",
+    "flex_gap": {
+     "size": 5,
+     "unit": "%",
+     "column": "5",
+     "row": "5",
+     "isLinked": true
+    },
+    "content_position": "middle",
+    "structure": "32",
+    "margin": {
+     "unit": "%",
+     "top": "",
+     "right": 0,
+     "bottom": "",
+     "left": 0,
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "%",
+     "top": "0",
+     "right": "3",
+     "bottom": "0",
+     "left": "3",
+     "isLinked": ""
+    },
+    "padding_tablet": {
+     "unit": "%",
+     "top": "5",
+     "right": "5",
+     "bottom": "5",
+     "left": "5",
+     "isLinked": ""
+    },
+    "reverse_order_tablet": "reverse-tablet",
+    "reverse_order_mobile": "reverse-mobile",
+    "margin_tablet": {
+     "unit": "%",
+     "top": "",
+     "right": "0",
+     "bottom": "",
+     "left": "0",
+     "isLinked": "1"
+    },
+    "margin_mobile": {
+     "unit": "%",
+     "top": "",
+     "right": 0,
+     "bottom": "",
+     "left": 0,
+     "isLinked": true
+    },
+    "_title": "Hero",
+    "min_height": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "padding_mobile": {
+     "unit": "%",
+     "top": "",
+     "right": "",
+     "bottom": "",
+     "left": "",
+     "isLinked": true
+    },
+    "min_height_tablet": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "min_height_mobile": {
+     "unit": "vh",
+     "size": 75,
+     "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1600,
+     "sizes": []
+    },
+    "flex_direction_tablet": "column-reverse",
+    "flex_justify_content_tablet": "space-around",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 63,
+     "sizes": [],
+     "column": "63",
+     "row": "63",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "size": 48,
+     "sizes": [],
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    }
+   },
+   "elements": [
+    {
+     "id": "2f31c624",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "width": {
+       "unit": "%",
+       "size": 88.604
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": "",
+       "sizes": []
+      },
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_justify_content_mobile": "center",
+      "flex_align_items_tablet": "stretch",
+      "flex_align_items_mobile": "center",
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 20,
+       "sizes": [],
+       "column": "20",
+       "row": "20",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": [],
+       "column": "12",
+       "row": "12",
+       "isLinked": true
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "_flex_size": "none",
+      "_element_width": "initial"
+     },
+     "elements": [
+      {
+       "id": "79644ad8",
+       "elType": "container",
+       "settings": {
+        "_column_size": "25",
+        "width": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_tablet": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_mobile": {
+         "size": 45,
+         "unit": "%"
+        },
+        "flex_gap": {
+         "size": 25,
+         "unit": "px",
+         "column": "25",
+         "row": "25",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "%",
+         "top": "3",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "padding_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "size": 30,
+         "unit": "px",
+         "column": "30",
+         "row": "30",
+         "isLinked": true
+        },
+        "margin": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_tablet": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "size": 15,
+         "unit": "px",
+         "column": "15",
+         "row": "15",
+         "isLinked": true
+        },
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_tablet": "column"
+       },
+       "elements": [
+        {
+         "id": "22a14946",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2006,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/f6a2b029ca72452c1c63.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "right",
+          "align_tablet": "right",
+          "width": {
+           "unit": "%",
+           "size": 55,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 60,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": "50",
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        },
+        {
+         "id": "7989454c",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2007,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2025/12/Screenshot-2025-12-04-143813.png",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "right",
+          "align_tablet": "right",
+          "width": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "687c2110",
+       "elType": "container",
+       "settings": {
+        "_column_size": "25",
+        "width": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_tablet": {
+         "size": 100,
+         "unit": "%"
+        },
+        "width_mobile": {
+         "size": 45,
+         "unit": "%"
+        },
+        "flex_gap": {
+         "size": 25,
+         "unit": "px",
+         "column": "25",
+         "row": "25",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "padding_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "size": 30,
+         "unit": "px",
+         "column": "30",
+         "row": "30",
+         "isLinked": true
+        },
+        "margin": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_tablet": {
+         "unit": "%",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "margin_mobile": {
+         "unit": "%",
+         "top": "",
+         "right": "",
+         "bottom": "",
+         "left": "",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "size": 15,
+         "unit": "px",
+         "column": "15",
+         "row": "15",
+         "isLinked": true
+        },
+        "content_width": "full",
+        "flex_direction_tablet": "column"
+       },
+       "elements": [
+        {
+         "id": "4e6ef828",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 2016,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/af6e3f194542ca1c9353.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "left",
+          "align_tablet": "left",
+          "width": {
+           "unit": "%",
+           "size": 95,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": "100",
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 85,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        },
+        {
+         "id": "cc4c2c9",
+         "elType": "widget",
+         "settings": {
+          "image": {
+           "id": 1986,
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/Undsadsa.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "align": "left",
+          "align_tablet": "left",
+          "width": {
+           "unit": "%",
+           "size": 55,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 60,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 50,
+           "sizes": []
+          }
+         },
+         "elements": [],
+         "widgetType": "image"
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "fe72562",
+     "elType": "container",
+     "settings": {
+      "_column_size": "50",
+      "padding": {
+       "unit": "%",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "width_tablet": {
+       "size": "100",
+       "unit": "%"
+      },
+      "margin_tablet": {
+       "unit": "%",
+       "top": "",
+       "right": "",
+       "bottom": "",
+       "left": "",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": ""
+      },
+      "width": {
+       "unit": "%",
+       "size": 35.231
+      },
+      "flex_gap": {
+       "size": 15,
+       "unit": "px",
+       "column": "15",
+       "row": "15",
+       "isLinked": true
+      },
+      "padding_tablet": {
+       "unit": "%",
+       "top": "0",
+       "right": "15",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "content_width": "full",
+      "width_mobile": {
+       "unit": "%",
+       "size": "",
+       "sizes": []
+      },
+      "_flex_size": "none",
+      "_element_width": "initial"
+     },
+     "elements": [
+      {
+       "id": "3202c05c",
+       "elType": "widget",
+       "settings": {
+        "title": "",
+        "align_mobile": "center",
+        "header_size": "h3",
+        "title_color": "#1C244B",
+        "typography_typography": "custom",
+        "typography_font_family": "Poppins",
+        "typography_font_size": {
+         "unit": "px",
+         "size": "65",
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": "45",
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": "28",
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "none",
+        "typography_font_style": "normal",
+        "typography_text_decoration": "none",
+        "typography_line_height": {
+         "unit": "em",
+         "size": "1.2",
+         "sizes": []
+        },
+        "typography_line_height_mobile": {
+         "unit": "em",
+         "size": "1.1",
+         "sizes": []
+        },
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": "0",
+         "sizes": []
+        },
+        "typography_word_spacing": {
+         "unit": "em",
+         "size": "0",
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4d1dd03",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "background_background": "classic",
+    "background_color": "#F5F5F5",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "130",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "d694d44",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "16fcb91",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        }
+       },
+       "elements": [
+        {
+         "id": "5f7ccf3",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "c44f79d",
+           "elType": "widget",
+           "settings": {
+            "style": "2",
+            "subtitle": "SỨ MỆNH - TẦM NHÌN",
+            "align": "center",
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "40",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "widgetType": "transpi-heading"
+          },
+          {
+           "id": "9076449",
+           "elType": "widget",
+           "settings": {
+            "editor": "<p>Với mục tiêu trở thành công ty Logistics hàng đầu tại Việt Nam, sứ mệnh của PTDL Transport không chỉ đơn thuần là xây dựng một thương hiệu nổi tiếng mà thông qua đó chúng tôi mong muốn chia sẻ với cộng đồng những giá trị đích thực của mình cũng như góp phần vào sự phát triển của một đất nước Việt Nam đang ngày càng lớn mạnh.</p>",
+            "align": "center",
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "60",
+             "left": "0",
+             "isLinked": false
+            },
+            "_flex_align_self": "center"
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "2357437",
+       "elType": "section",
+       "settings": {
+        "content_width": {
+         "unit": "px",
+         "size": 1320,
+         "sizes": []
+        },
+        "structure": "30"
+       },
+       "elements": [
+        {
+         "id": "3268ffa",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "8c4117a",
+           "elType": "widget",
+           "settings": {
+            "dur": "200ms",
+            "icon": {
+             "value": {
+              "url": "https://ptdl.com.vn/wp-content/uploads/2023/12/Vector.svg",
+              "id": 668
+             },
+             "library": "svg"
+            },
+            "title": "Tầm nhìn",
+            "description": "Trở thành công ty cung ứng dịch vụ Logistics sáng tạo, am hiểu thị trường hàng đầu tại Việt Nam"
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "7ac1f9e",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "7b387cc",
+           "elType": "widget",
+           "settings": {
+            "dur": "200ms",
+            "icon": {
+             "value": {
+              "url": "https://ptdl.com.vn/wp-content/uploads/2023/12/Group.svg",
+              "id": 665
+             },
+             "library": "svg"
+            },
+            "title": "Nhiệm vụ",
+            "description": "Rút ngắn khoảng cách – Nối dài giá trị - Đa dạng hóa dịch vụ\n<br><br>"
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "8cbbc9d",
+         "elType": "column",
+         "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "_inline_size_tablet": 50
+         },
+         "elements": [
+          {
+           "id": "619b172",
+           "elType": "widget",
+           "settings": {
+            "dur": "200ms",
+            "icon": {
+             "value": {
+              "url": "https://ptdl.com.vn/wp-content/uploads/2023/12/icon-ct-2.svg",
+              "id": 216
+             },
+             "library": "svg"
+            },
+            "title": "Chiến lược",
+            "description": "Nâng cao chất lượng, kết nối, đa dạng hóa và phát triển.\n<br><br>",
+            "btn__color": "#FFFFFF",
+            "btn_border_color": "#FFFFFF",
+            "slide_social_icon_bg_background": "gradient",
+            "slide_social_icon_bg_color": "#FFFFFF"
+           },
+           "elements": [],
+           "widgetType": "transpi-service-grid"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "cc93d27",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "column",
+    "margin": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "e11a409",
+     "elType": "widget",
+     "settings": {
+      "style": "2",
+      "subtitle": "NĂNG LỰC VẬN CHUYỂN",
+      "title_tag": "h4",
+      "align": "center",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "40",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [],
+     "widgetType": "transpi-heading"
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e25cb02",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "30",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "e942e5a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "a535241",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Tải Trên 400 Tấn Mỗi Ngày",
+        "description": "Được sở hữu hàng trăm đầu xe tải từ nhỏ đến lớn, cà các loại xe Container nên việc vận chuyển hàng số lượng hàng trăm tấn mỗi ngày là việc hết sức đơn giản",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "dfc95c1",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "4933d00",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Phục Vụ Hơn 10.000 Khách Hàng",
+        "description": "Bất kỳ nơi đâu trên toàn quốc Việt Nam cũng có thể sử dụng dịch vụ vận tải của PTDL Transport, đó là lý do hàng chục ngàn khách hàng đang ủng hộ dịch vụ vận tải chúng tôi.",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fbc5b15",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "4248e6c",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Giao Hàng Đến 63 Tỉnh Thành",
+        "description": "Giao hàng đi xa là nhiệm vụ được đặt ra khi công ty thi mới thành lập, và qua nhiều năm phát triển, điểm đến của đoàn xe tải TPTDL Transport ở 63 tỉnh đã được xác nhận.",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c32dbc4",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "30",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "d704099",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "fe9dd76",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Phục vụ Công Trình Quốc Gia",
+        "description": "Các dự án thủy điện, công trình điện gió và các dự án trọng điểm khác cấp quốc gia được chúng tôi vận chuyển 1 cách chuyên nghiệp, và quan trọng hơn chúng tôi luôn là nhà thầu đáng tin cậy.",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f011233",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "ea9b366",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Đối Tác Nhiều Tập Đoàn Quốc Tế",
+        "description": "Các tập đoàn lớn nổi tiếng như tập đoàn điện tử Samsung, tập toàn Honda Nhật Bản và không ít các tập đoàn đếp từ các nước Châu Á là đối tác chiến lược của chúng tôi\n<br><br>",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "cbb7ca7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33,
+      "_inline_size": null,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "462590c",
+       "elType": "widget",
+       "settings": {
+        "dur": "200ms",
+        "icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon.svg",
+          "id": 667
+         },
+         "library": "svg"
+        },
+        "title": "Hơn 1.000 Đại Lý",
+        "description": "Chính sách ưu đãi đặc biệt cho hệ thống đại lý là các công ty Forwarder, công ty logictics, công ty giao hàng chuyển phát nhanh. Nhờ đó mà hệ thống đại lý ngày càng lớn hơn rất nhiều\n<br><br>",
+        "btn_label": "Read more",
+        "btn_link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "style": "3"
+       },
+       "elements": [],
+       "widgetType": "transpi-service-grid"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7fa62cf",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "structure": "20",
+    "content_position": "middle",
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "120",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "78383db",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "46f6c3e",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "Dịch vụ chuyên nghiệp",
+        "title": "Tại sao lại chọn chúng tôi",
+        "title_tag": "h4",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "ebd549a",
+       "elType": "widget",
+       "settings": {
+        "lists": [
+         {
+          "_id": "79176e1",
+          "title": "Vơi hơn 10 năm kinh nghiệm"
+         },
+         {
+          "title": "Đội ngũ nhân viên trẻ năng động",
+          "_id": "793763f"
+         },
+         {
+          "title": "Đội ngũ quản lý giàu kinh nghiệm",
+          "_id": "fc35a5f"
+         },
+         {
+          "title": "Nhanh chóng - an toàn - tiết kiệm",
+          "_id": "5b5919b"
+         },
+         {
+          "title": "Hợp đồng minh bạch, trách nhiệm",
+          "_id": "22487bf"
+         },
+         {
+          "title": "Giao hàng nhanh chóng",
+          "_id": "cbbcf21"
+         }
+        ],
+        "style": "2"
+       },
+       "elements": [],
+       "widgetType": "transpi-list"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "403be81",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "30",
+       "isLinked": false
+      },
+      "_inline_size_tablet": 100,
+      "margin_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "6834bf5",
+       "elType": "widget",
+       "settings": {
+        "shortcode": "[contact-form-7 id=\"ffad802\" title=\"Contact Form\"]"
+       },
+       "elements": [],
+       "widgetType": "shortcode"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ee2ce8a",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "90",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "20b5274",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d8484a2",
+       "elType": "widget",
+       "settings": {
+        "brands": [
+         {
+          "_id": "f4ee43f",
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/pepsico.jpg",
+           "id": 1722,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "dur": "200ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/shoope.jpg",
+           "id": 1724,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "7ea9a89",
+          "dur": "300ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/JT.jpg",
+           "id": 1721,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d0c6f6e",
+          "dur": "400ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/GHTK.jpg",
+           "id": 1720,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d703a84",
+          "dur": "500ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/cafe-trung-nguyen.jpg",
+           "id": 1717,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "776f296",
+          "dur": "600ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://ptdl.com.vn/wp-content/uploads/2024/05/gamendes.jpg",
+           "id": 1719,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e09d88a",
+          "dur": "700ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-brand"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

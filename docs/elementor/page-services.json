@@ -1,0 +1,594 @@
+{
+ "type": "page",
+ "slug": "services",
+ "title": "Services",
+ "template": "elementor_header_footer",
+ "elementor_data": [
+  {
+   "id": "8ce94df",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "",
+     "id": "",
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "140",
+     "left": "0",
+     "isLinked": false
+    },
+    "background_position": "center center",
+    "background_repeat": "no-repeat",
+    "background_size": "cover"
+   },
+   "elements": [
+    {
+     "id": "cc82369",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "35661ae",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "SHIPPING SERVICES",
+        "title": "Specialist Logistics <br> Services",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "900a96d",
+       "elType": "widget",
+       "settings": {
+        "services": [
+         {
+          "_id": "dc3652f",
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-1.jpg",
+           "id": 148,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Air Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-2.svg",
+            "id": 158
+           },
+           "library": "svg"
+          },
+          "dur": "200ms"
+         },
+         {
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-2.jpg",
+           "id": 146,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Road Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-3.svg",
+            "id": 157
+           },
+           "library": "svg"
+          },
+          "_id": "236892a",
+          "dur": "400ms"
+         },
+         {
+          "service_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/service-3.jpg",
+           "id": 147,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "title": "Rail  Transportation",
+          "description": "Air freight is the fastest way to any transport can any deliver works.",
+          "btn_label": "Read more",
+          "btn_link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-4.svg",
+            "id": 156
+           },
+           "library": "svg"
+          },
+          "_id": "9217e0f",
+          "dur": "600ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-service-carousel"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "446a454",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no"
+   },
+   "elements": [
+    {
+     "id": "42d71f5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "5e9422b",
+       "elType": "widget",
+       "settings": {
+        "projects": [
+         {
+          "_id": "cfbaa24",
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Air.jpg",
+           "id": 398,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "01",
+          "category": "Cargo",
+          "title": "CT Scanner from Italy to the UK",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          }
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Cargo.jpg",
+           "id": 399,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "02",
+          "category": "Air Freight",
+          "title": "International Freight Japan to the USA",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "34d5d33"
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Road.jpg",
+           "id": 401,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "03",
+          "category": "Road Freight",
+          "title": "Road Logistics Works Companies.",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "bb1d6af"
+         },
+         {
+          "project_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Ocean.jpg",
+           "id": 400,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "count": "04",
+          "category": "Ocean",
+          "title": "Oce n Door To Fast Parcel done.",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum as tellus eget ultrices nisi amet facilisis.",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e43b8c6"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-projects"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a5f22a9",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "0",
+     "bottom": "80",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "bc8ad15",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "63d776f",
+       "elType": "widget",
+       "settings": {
+        "subtitle": "HOW IT WORKS",
+        "title": "How We Deliver <br> Your Parcel",
+        "title_tag": "h1",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        },
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "transpi-heading"
+      },
+      {
+       "id": "7847354",
+       "elType": "widget",
+       "settings": {
+        "steps": [
+         {
+          "_id": "3d08cf3",
+          "title": "Parcel Register",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-5.svg",
+            "id": 314
+           },
+           "library": "svg"
+          },
+          "count": "01",
+          "dur": "200ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel Loading",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "_id": "cc53c8b",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-6.svg",
+            "id": 313
+           },
+           "library": "svg"
+          },
+          "count": "02",
+          "margin": {
+           "unit": "px",
+           "top": "80",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "dur": "400ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "30",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel In-transit",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-7.svg",
+            "id": 312
+           },
+           "library": "svg"
+          },
+          "_id": "18328c8",
+          "count": "03",
+          "dur": "600ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         {
+          "title": "Parcel Delivery",
+          "description": "Lorem ipsum amet consectetur any more tellus suspendisse.",
+          "icon": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Icon-8.svg",
+            "id": 311
+           },
+           "library": "svg"
+          },
+          "_id": "27e87dc",
+          "count": "04",
+          "margin": {
+           "unit": "px",
+           "top": "80",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "dur": "800ms",
+          "margin_mobile": {
+           "unit": "px",
+           "top": "30",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         }
+        ],
+        "shape": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Line.svg",
+         "id": 318,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        }
+       },
+       "elements": [],
+       "widgetType": "transpi-del-process"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6184976",
+   "elType": "section",
+   "settings": {
+    "content_width": {
+     "unit": "px",
+     "size": 1320,
+     "sizes": []
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "90",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "7f79956",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "657848f",
+       "elType": "widget",
+       "settings": {
+        "brands": [
+         {
+          "_id": "f4ee43f",
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/1.svg",
+           "id": 248,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "dur": "200ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/2.svg",
+           "id": 247,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "7ea9a89",
+          "dur": "300ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/3.svg",
+           "id": 246,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d0c6f6e",
+          "dur": "400ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/4.svg",
+           "id": 245,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "d703a84",
+          "dur": "500ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/5.svg",
+           "id": 244,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "776f296",
+          "dur": "600ms"
+         },
+         {
+          "brand_logo": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/6.svg",
+           "id": 243,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "e09d88a",
+          "dur": "700ms"
+         }
+        ]
+       },
+       "elements": [],
+       "widgetType": "transpi-brand"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}

@@ -1,0 +1,258 @@
+{
+ "type": "transpi_template",
+ "slug": "header-3",
+ "title": "Header 3",
+ "template": "elementor_canvas",
+ "elementor_data": [
+  {
+   "id": "9e68b1b",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "margin": {
+     "unit": "px",
+     "top": "-1",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "ef0225e",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "28e90cb",
+       "elType": "widget",
+       "settings": {
+        "hsocials": [
+         {
+          "icons": {
+           "value": "fab fa-facebook-f",
+           "library": "solid"
+          },
+          "_id": "05cfca0",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "title": "facebook"
+         },
+         {
+          "icons": {
+           "value": "fab fa-instagram",
+           "library": "solid"
+          },
+          "_id": "3455f95",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "title": "instagram"
+         },
+         {
+          "icons": {
+           "value": "fab fa-youtube",
+           "library": "solid"
+          },
+          "_id": "2b4ade3",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "title": "youtube"
+         },
+         {
+          "icons": {
+           "value": {
+            "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/x-twitter.svg",
+            "id": 18
+           },
+           "library": "svg"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "21e83a1",
+          "title": "twitter"
+         },
+         {
+          "icons": {
+           "value": "fab fa-pinterest-p",
+           "library": "fa-brands"
+          },
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "a7aee89",
+          "title": "pinterest"
+         }
+        ],
+        "career": "Career",
+        "condition": "Terms &amp; Conditions",
+        "socials": [
+         {
+          "icons": {
+           "value": "fab fa-facebook-f",
+           "library": "solid"
+          },
+          "name": "Facebook",
+          "_id": "bb6d234"
+         },
+         {
+          "icons": {
+           "value": "fab fa-instagram",
+           "library": "solid"
+          },
+          "name": "Instagram",
+          "_id": "0b8e3f3"
+         },
+         {
+          "icons": {
+           "value": "fab fa-youtube",
+           "library": "solid"
+          },
+          "name": "Youtube",
+          "_id": "367d810"
+         },
+         {
+          "icons": {
+           "value": "fab fa-linkedin",
+           "library": "solid"
+          },
+          "name": "Linkedin",
+          "_id": "356dac1"
+         },
+         {
+          "icons": {
+           "value": "fab fa-pinterest-p",
+           "library": "fa-brands"
+          },
+          "name": "Linkedin",
+          "link": {
+           "url": "#",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_id": "68614dd"
+         }
+        ],
+        "countdown_title": "Extra Sale 50% Off",
+        "ct_btn": "Shop",
+        "h_phone_icon": {
+         "value": "fas fa-phone",
+         "library": "fa-solid"
+        },
+        "h_phone": "<p><a href=\"tel:+025 757 576 560\">+025 757 576 560</a></p>",
+        "h_open_icon": {
+         "value": "far fa-clock",
+         "library": "fa-regular"
+        },
+        "h_open": "<p>Monday to Friday:<strong> 9:00am - 6:00pm</strong></p>",
+        "career_icon": {
+         "value": {
+          "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/case.svg",
+          "id": 22
+         },
+         "library": "svg"
+        },
+        "__rzlogo": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/logo-white.svg",
+         "id": 494,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "choose-menu": "main-menu",
+        "btn_label": "Track Your Order",
+        "languages": [
+         {
+          "_id": "350280e",
+          "flag_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/canada-1.png",
+           "id": 1521,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "lang": "Canada"
+         },
+         {
+          "flag_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/australia.png",
+           "id": 1523,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "cfa1da5",
+          "lang": "Austrilia"
+         },
+         {
+          "flag_img": {
+           "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/saudi-arabia.png",
+           "id": 1519,
+           "size": "",
+           "alt": "",
+           "source": "library"
+          },
+          "_id": "7462716",
+          "lang": "Arabic"
+         }
+        ],
+        "act_flag_img": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/Map.svg",
+         "id": 471,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "__rzlogo_mobile": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/logo.svg",
+         "id": 24,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "style": "2",
+        "__search_mobile": {
+         "url": "https://byteflows.net/wp/transpi/wp-content/uploads/2023/12/logo-white.svg",
+         "id": 494,
+         "size": "",
+         "alt": "",
+         "source": "library"
+        },
+        "enable_header_top": ""
+       },
+       "elements": [],
+       "widgetType": "transpi-header-temp"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": null
+}
