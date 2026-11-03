@@ -1,0 +1,17 @@
+# Bản sao site và database — không đưa lên git
+backup/
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Thông tin nhạy cảm
+.env
+*.env
+*password*
+*credentials*
+
+# Hệ thống
+Thumbs.db
+desktop.ini
