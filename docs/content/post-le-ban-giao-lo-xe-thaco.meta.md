@@ -24,7 +24,7 @@ Thông tin lấy từ màn hình sửa bài viết trong `wp-admin` (ngày 2026-
 ## Tệp đính kèm
 | Loại | Tệp | ID ảnh | Kích thước hiển thị | Có trong dự án |
 |---|---|---|---|---|
-| Video (mp4) | `wp-content/uploads/2024/05/Ban-giao-lo-10-xe-Thaco-Linker-Binh-Trieu.mp4` | — | 1920x1080, tự phát | **Chưa tải** (bỏ qua khi xuất media) |
+| Video (mp4) | `wp-content/uploads/2024/05/Ban-giao-lo-10-xe-Thaco-Linker-Binh-Trieu.mp4` | — | 1920x1080, tự phát | Có, 67 MB, tại `backup/live/media/2024/05/` (không đưa lên git, xem `.gitignore`) |
 | Ảnh | `wp-content/uploads/2025/12/Untitled-2.jpg` | 1992 | 1200x725 | Có, trong `images/` |
 | Ảnh | `wp-content/uploads/2025/12/Screenshot-2025-12-04-143813.png` | 2007 | 1919x1079 | Có, trong `images/` |
 | Ảnh | `wp-content/uploads/2025/12/98b989cef3957ccb2584.jpg` | 2008 | 1936x1290 | Có, trong `images/` |
@@ -34,4 +34,4 @@ Thông tin lấy từ màn hình sửa bài viết trong `wp-admin` (ngày 2026-
 ## Lưu ý khi dựng lại
 - Dòng `<!-- wp:paragraph -->` và `<!-- /wp:paragraph -->` trong HTML gốc là chú thích của trình soạn thảo khối. Có thể bỏ khi dùng ở nơi khác.
 - Các thuộc tính `data-start` và `data-end` là dấu vết do dán nội dung từ công cụ khác. Có thể bỏ.
-- Nếu muốn dựng lại, tải video về từ server khi có quyền truy cập, hoặc tải qua URL trên sau khi chứng chỉ TLS được gia hạn.
+- Video đã tải về ngày 2026-11-03 (70.643.178 byte, định dạng mp4). Vì file lớn (vượt ngưỡng cảnh báo 50 MB của GitHub), nó chỉ nằm trên máy, không có trong repo. Hãy sao lưu thêm ở nơi khác (Google Drive, ổ cứng ngoài).
