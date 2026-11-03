@@ -56,3 +56,26 @@ Cập nhật: 2026-11-03. Tổng hợp sau khi lấy dữ liệu từ REST API, 
 - Dùng địa chỉ số 36, phường Tân Hưng, TP. Hồ Chí Minh, thêm mã số thuế vào chân trang (có chú thích TODO xác nhận).
 - Thêm bài "Bảo hiểm hàng hóa là gì? Tại sao doanh nghiệp nên mua?" vào mục Tin tức.
 - Ghi chú TODO ở khẳng định "Hơn 10 năm kinh nghiệm".
+
+## 7. Rà soát lại trang chủ và trang Giới thiệu (cập nhật sau phản hồi của chủ site)
+
+Chủ site nhận thấy trang chủ và trang Giới thiệu của bản mới thiếu nhiều nội dung so với bản gốc. Rà soát cho thấy bản dựng đầu đã lược bỏ cả những phần PTDL tự viết vì nghi là chữ mẫu của theme. Đã khôi phục:
+
+**Nguồn trang chủ thật.** Dữ liệu Elementor của trang `home` và mẫu `hme` trong file xuất WordPress hiện chỉ là **bản demo tiếng Anh của theme** (Transmax, Lorem ipsum). Có khả năng demo của theme đã được nhập lại đè lên ngày 06/12/2025 (plugin One Click Demo Import đang cài; các bản sửa đổi của trang Giới thiệu ngày hôm đó cho thấy nội dung bị cắt rồi dựng lại). Vì vậy trang chủ tiếng Việt thật chỉ còn trong **bản Wayback 20/03/2025** (`backup/archive/ptdl.com.vn/index.html`, dàn ý đầy đủ ở `docs/archive-homepage-outline.txt`). Trang Giới thiệu thì dữ liệu Elementor vẫn còn bản tiếng Việt đầy đủ.
+
+| Khối | Trạng thái trước | Hiện tại |
+|---|---|---|
+| Dịch vụ của chúng tôi (5 thẻ, mô tả gốc) | Viết lại ngắn | Khôi phục nguyên văn, sửa lỗi gõ "247" |
+| Số liệu 1.289 chuyển hàng, 745 khách hàng, 68 đối tác, 49 xe tải & container | Bỏ | Khôi phục (lấy từ bộ đếm trên trang chủ cũ) |
+| Video giới thiệu YouTube | Bỏ | Có liên kết |
+| Form báo giá nhanh (loại hình, số kg, số km, họ tên, SĐT) | Bỏ | Khôi phục, gửi qua email |
+| Đội ngũ trẻ năng động, quản lý giàu kinh nghiệm | Thiếu | Khôi phục |
+| 3 nhận xét khách hàng (tên thật trên trang cũ) | Bỏ vì nghi mẫu | Khôi phục nguyên văn |
+| Bảng giá cước (Bắc Nam từ 12.000/km, nội thành từ 16.000/km, 6 loại xe) | Bỏ | Khôi phục |
+| Ngành nghề (chuyển phát nhanh, xe tải, container, siêu trường siêu trọng) | Thiếu 3/4 | Khôi phục (đã bỏ tên công ty khác và số "hơn 200 đầu xe") |
+| Logo 6 đối tác (Pepsico, Shopee, J&T, Giaohangtietkiem, Viettel, Gemadept) | Bỏ | Khôi phục |
+| Biểu mẫu đăng ký nhận tin | Bỏ | Khôi phục (gửi qua email) |
+| Nút "Đặt lịch Online", menu Dịch vụ có mục con, khẩu hiệu "số 1 thị trường", email info@ | Thiếu | Khôi phục |
+| Trang Giới thiệu: mục Năng lực vận chuyển (6 mục), "Tại sao chọn chúng tôi", "Vận tải 64 tỉnh thành", logo đối tác | Bỏ | Khôi phục |
+
+**Cần chủ site xác nhận trước khi đăng.** Các mục khôi phục là nội dung nguyên văn của website cũ nhưng chưa có nguồn độc lập và có mâu thuẫn: 63 hay 64 tỉnh, "hơn 10 năm" so với thành lập 2019, "400 tấn mỗi ngày", "hơn 10.000 khách hàng", "hơn 1.000 đại lý", tên Samsung và Honda là đối tác, bảng giá, "liên hệ lại sau 5 phút", nhận xét khách hàng, quyền hiển thị logo đối tác. Một số câu có dấu hiệu sao chép từ công ty khác (nhầm tên "TPTDL Transport", "Trọng tấn"). Mọi chỗ này đều có chú thích `TODO` trong mã nguồn.
