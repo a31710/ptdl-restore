@@ -9,3 +9,7 @@
 - 2026-11-02: Thông tin đăng nhập WordPress admin bị gửi qua chat cho bên thứ ba. Cần đổi mật khẩu.
 - 2026-11-02: Xác định hosting là NhanHoa Software.
 - 2026-11-02: Tạo dự án khôi phục, tải trang chủ từ Wayback, kiểm tra khả năng lấy dữ liệu.
+- 2026-11-03: Cài Claude in Chrome, vào được wp-admin qua phiên đăng nhập của chủ site. Đọc đủ 174 tệp media và tải 12 tệp REST không liệt kê.
+- 2026-11-03: Kiểm tra wp-admin chỉ đọc (docs/audit-wp-admin.md). Phát hiện admin lạ `acadtapi` (ID 11, đăng ký 2026-07-27), 139 trang và 19 bài spam "Hacked by trenggalek6etar" tạo từ 2026-08-12 đến 2026-10-26, 209 bình luận chờ duyệt (đa số spam), 12 plugin đều hợp lệ, PHP 7.4.33. Nghi vấn lỗi 500: hết quota đĩa hoặc file PHP do kẻ tấn công cài, cần log máy chủ.
+- 2026-11-03: Dựng site tĩnh dự phòng trong `site/`. Soạn tin nhắn gửi NhanHoa (`docs/nhanhoa-request.md`).
+- 2026-11-03: Chạy thử lọc spam (139 trang, 19 bài, khớp 100% tiêu đề "Hacked by trenggalek6etar"). Thao tác chuyển hàng loạt vào thùng rác bị hệ thống chặn, chưa thực hiện, chờ chủ site đồng ý.
