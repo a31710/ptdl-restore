@@ -20,6 +20,7 @@
 }
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-padding-top:120px}
+main{overflow-x:clip}
 body{margin:0;overflow-x:clip;font-family:var(--font);font-size:1rem;line-height:1.75;color:var(--body);background:var(--bg)}
 img,video,iframe{max-width:100%;display:block}
 img,video{height:auto}
@@ -358,3 +359,29 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 .row-item.bg2{--bg-img:url(../images/xe-ptdl-ben-hong.jpg)}
 .row-item.bg3{--bg-img:url(../images/xe-ptdl-thaco-linker.jpg)}
 .row-item.bg4{--bg-img:url(../images/xe-ptdl-chinh-dien.jpg)}
+
+/* inner pages */
+.prose h2{font-size:clamp(1.45rem,3vw,2rem);margin:1.7em 0 .6em;padding-left:16px;border-left:5px solid var(--blue)}
+.prose h3{color:var(--green-dark);margin-top:1.4em}
+.prose ul{padding-left:1.3rem}
+.prose li{margin-bottom:.35em}
+.prose li::marker{color:var(--green)}
+.post h2{padding-left:16px;border-left:5px solid var(--blue)}
+.post ul,.post ol{padding-left:1.3rem}
+.post li::marker{color:var(--green)}
+.svc{display:grid;grid-template-columns:72px 1fr;gap:6px 22px;align-items:start}
+.svc>.svc-ico{grid-row:1 / span 8;width:72px;height:72px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:2rem;box-shadow:0 0 0 8px var(--green-soft)}
+.svc>:not(.svc-ico){grid-column:2}
+.svc h2{margin-top:0;font-size:clamp(1.4rem,2.6vw,1.9rem)}
+@media (max-width:640px){.svc{grid-template-columns:1fr}.svc>.svc-ico{grid-row:auto;width:60px;height:60px;font-size:1.7rem}.svc>:not(.svc-ico){grid-column:1}}
+.contact-list{list-style:none;padding:0;margin:1.2rem 0 0}
+.contact-item{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid var(--line)}
+.contact-item:last-child{border-bottom:0}
+.contact-item .ico{flex:none;width:56px;height:56px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem}
+.contact-item b{display:block;font-family:var(--font-head);color:var(--ink);font-size:1.15rem}
+.contact-item a{font-weight:500}
+.map-wrap{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.notice-card{max-width:760px;margin:0 auto;text-align:center;background:#fff;border-radius:20px;box-shadow:var(--shadow);padding:clamp(28px,5vw,56px)}
+.notice-card .big-ico{width:96px;height:96px;margin:0 auto 18px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:2.8rem}
+.about-photo{border-radius:30px;overflow:hidden;box-shadow:var(--shadow);min-width:0;max-width:100%}
+.about-photo img{width:100%;max-width:100%;height:100%;min-height:320px;object-fit:cover;border-radius:0}

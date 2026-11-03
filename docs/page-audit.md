@@ -97,3 +97,7 @@ Có (trang mới).
 | Chân trang: dải CTA xanh dương, logo, 3 cột, nền xanh | Có | Dải CTA màu xanh dương theo cài đặt Elementor |
 
 **Còn khác bản cũ:** icon và họa tiết của theme (thay bằng bản tự vẽ), ảnh nền hero và ảnh ngành nghề, hiệu ứng nghiêng (Tilt) và cuộn mượt GSAP (không làm), popup tìm kiếm (site tĩnh không có tìm kiếm), icon mạng xã hội (bản cũ chỉ có liên kết `#`), màu thanh menu chưa xác nhận, và các hiệu ứng được làm đơn giản hơn bản gốc.
+
+## Cập nhật: làm lại phần thân các trang trong (2026-11-03)
+
+Giới thiệu, Dịch vụ, Liên hệ, Tra cứu vận đơn, Tin tức và Chuyển hàng Bắc – Nam đã dùng cùng bộ thành phần với trang chủ (banner trang, thẻ dịch vụ có icon, hộp xanh, danh sách dấu tích, hiệu ứng hiện dần). Đã kiểm tra trên trình duyệt ở 1568 px và 375 px: không tràn ngang. Nội dung chữ không đổi so với bản đã khôi phục; vẫn còn các mục "cần xác nhận" ghi trong chú thích TODO của từng trang.

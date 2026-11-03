@@ -63,62 +63,53 @@
   </div>
 </section>
 <section class="section">
-  <div class="wrap split">
-    <div>
-      <p class="eyebrow">Nhận báo giá</p>
-      <h2>Hãy liên hệ với chúng tôi ngay hôm nay</h2>
-      <dl class="info">
-        <dt>Liên hệ 24/7</dt><dd><a href="tel:02855555565">0285 5555 565</a></dd>
-        <dt>Giờ làm việc văn phòng</dt><dd>T2 - CN: 8:00 - 20:00</dd>
+  <div class="wrap cols-2">
+    <div data-anim="up">
+      <p class="sub-title">Nhận báo giá</p>
+      <h2 class="sec-title" style="font-size:clamp(1.9rem,4vw,2.8rem)">Hãy liên hệ với chúng tôi ngay hôm nay</h2>
+      <ul class="contact-list">
+        <li class="contact-item"><span class="ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-phone"/></svg></span><div><b>Liên hệ 24/7</b><a href="tel:02855555565">0285 5555 565</a></div></li>
+        <li class="contact-item"><span class="ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-clock"/></svg></span><div><b>Giờ làm việc văn phòng</b>T2 - CN: 8:00 - 20:00</div></li>
         <!-- TODO: xác nhận với PTDL: trang Liên hệ cũ ghi "Liên hệ 24/7", đầu trang ghi T2 - CN 8:00 - 20:00. -->
-        <dt>Email</dt><dd><a href="mailto:ptdl.support@gmail.com">ptdl.support@gmail.com</a><br><a href="mailto:info@ptdl.com.vn">info@ptdl.com.vn</a></dd>
-        <dt>Địa chỉ</dt><dd>36 Đường Nội khu Hưng Gia 1, Phường Tân Hưng, Thành phố Hồ Chí Minh</dd>
-      </dl>
+        <li class="contact-item"><span class="ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-mail"/></svg></span><div><b>Email</b><a href="mailto:ptdl.support@gmail.com">ptdl.support@gmail.com</a><br><a href="mailto:info@ptdl.com.vn">info@ptdl.com.vn</a></div></li>
+        <li class="contact-item"><span class="ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-pin"/></svg></span><div><b>Địa chỉ</b>36 Đường Nội khu Hưng Gia 1, Phường Tân Hưng, Thành phố Hồ Chí Minh</div></li>
+      </ul>
       <!-- TODO: xác nhận với PTDL. Địa chỉ số 36 (không phải 26) theo các nguồn công khai và dữ liệu đăng ký doanh nghiệp; phường ghi theo dữ liệu thuế đồng bộ 09/2026 (trước đây Phường Tân Phong, Quận 7). Email chính thức: ptdl.support@gmail.com hay info@ptdl.com.vn. -->
-      <!-- TODO: xác nhận với PTDL: cam kết "liên hệ lại sau 5 phút" lấy từ website cũ -->
-      <p class="small">Chúng tôi thường sẽ liên hệ lại sau 5 phút nhận được thông tin.</p>
     </div>
-    <div>
+    <div class="quote-box" data-anim="up" data-delay="150">
       <p class="eyebrow">Đăng ký tư vấn</p>
-      <h2>Gửi yêu cầu cho PTDL</h2>
+      <h2>Chúng tôi thường sẽ liên hệ lại sau 5 phút nhận được thông tin.</h2>
+      <!-- TODO: xác nhận với PTDL: cam kết "liên hệ lại sau 5 phút" lấy từ website cũ -->
       <!-- TODO: need real content from PTDL: backend thật cho biểu mẫu. Hiện biểu mẫu mở ứng dụng email của khách (mailto:), không gửi dữ liệu lên máy chủ nào. Khi có dịch vụ (Formspree, PHP mail, ...) thì đổi action. -->
       <form class="form" action="mailto:ptdl.support@gmail.com" method="post" enctype="text/plain">
-        <p class="small">Biểu mẫu này mở ứng dụng email trên thiết bị của bạn để gửi yêu cầu tới ptdl.support@gmail.com. Bạn cũng có thể gọi hotline trực tiếp.</p>
-        <label for="f-ten">Họ và tên</label>
-        <input id="f-ten" name="Ho ten" type="text" autocomplete="name" required>
-        <label for="f-sdt">Số điện thoại</label>
-        <input id="f-sdt" name="So dien thoai" type="tel" autocomplete="tel" required>
-        <label for="f-mail">Email</label>
-        <input id="f-mail" name="Email" type="email" autocomplete="email">
-        <label for="f-cd">Chủ đề</label>
-        <input id="f-cd" name="Chu de" type="text" required>
-        <label for="f-loai">Loại hình vận chuyển</label>
-        <select id="f-loai" name="Loai hinh van chuyen">
-          <option value="">Chọn</option>
-          <option>Đường bộ</option>
-          <option>Hàng không</option>
-          <option>Đường biển</option>
-        </select>
-        <label for="f-kg">Khối lượng</label>
-        <select id="f-kg" name="Khoi luong">
-          <option value="">Chọn</option>
-          <option>01 Tấn</option>
-          <option>05 Tấn</option>
-          <option>10 Tấn</option>
-          <option>Trên 10 Tấn</option>
-        </select>
+        <p class="small" style="margin-top:0">Biểu mẫu này mở ứng dụng email trên thiết bị của bạn để gửi yêu cầu tới ptdl.support@gmail.com. Bạn cũng có thể gọi hotline trực tiếp.</p>
+        <div class="form-row">
+          <div><label for="f-ten">Họ và tên</label><input id="f-ten" name="Ho ten" type="text" placeholder="Họ và tên" autocomplete="name" required></div>
+          <div><label for="f-sdt">Số điện thoại</label><input id="f-sdt" name="So dien thoai" type="tel" placeholder="Số điện thoại" autocomplete="tel" required></div>
+          <div><label for="f-mail">Email</label><input id="f-mail" name="Email" type="email" placeholder="Địa chỉ email" autocomplete="email"></div>
+          <div><label for="f-cd">Chủ đề</label><input id="f-cd" name="Chu de" type="text" placeholder="Chủ đề" required></div>
+          <div><label for="f-loai">Loại hình vận chuyển</label>
+            <select id="f-loai" name="Loai hinh van chuyen"><option value="">Chọn</option><option>Đường bộ</option><option>Hàng không</option><option>Đường biển</option></select></div>
+          <div><label for="f-kg">Khối lượng</label>
+            <select id="f-kg" name="Khoi luong"><option value="">Chọn</option><option>01 Tấn</option><option>05 Tấn</option><option>10 Tấn</option><option>Trên 10 Tấn</option></select></div>
+        </div>
         <label for="f-nd">Nội dung (không bắt buộc)</label>
-        <textarea id="f-nd" name="Noi dung" rows="4"></textarea>
-        <button class="btn" type="submit">Gửi yêu cầu</button>
+        <textarea id="f-nd" name="Noi dung" rows="4" placeholder="Viết nội dung"></textarea>
+        <button class="btn btn-blue" type="submit">Gửi yêu cầu</button>
       </form>
     </div>
   </div>
 </section>
 <section class="section alt">
   <div class="wrap">
-    <h2>Bản đồ</h2>
-    <iframe class="map" title="Bản đồ văn phòng PTDL" src="https://www.google.com/maps?q=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-    <p><a href="https://www.google.com/maps/search/?api=1&amp;query=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM" rel="noopener">Mở bản đồ trong Google Maps</a></p>
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Bản đồ</p>
+      <h2 class="sec-title" style="font-size:clamp(1.8rem,4vw,2.6rem)">Văn phòng PTDL</h2>
+    </div>
+    <div class="map-wrap" data-anim="up">
+      <iframe class="map" title="Bản đồ văn phòng PTDL" src="https://www.google.com/maps?q=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+    <p class="center" style="margin-top:1rem"><a href="https://www.google.com/maps/search/?api=1&amp;query=36+H%C6%B0ng+Gia+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Phong%2C+Qu%E1%BA%ADn+7%2C+TP.HCM" rel="noopener">Mở bản đồ trong Google Maps</a></p>
     <!-- TODO: xác nhận với PTDL: trang Liên hệ cũ có bản đồ Google với địa chỉ "36 Hưng Gia 1, Phường Tân Phong, Quận 7, TP.HCM". Bản đồ tải từ Google (cần Internet); nếu đã đổi tên phường hoặc địa chỉ thì sửa chuỗi tìm kiếm. -->
   </div>
 </section>
