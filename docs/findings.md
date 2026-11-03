@@ -79,7 +79,8 @@ Trang `wp-admin` "Tất cả tập tin" (thư viện media, dạng lưới) bạ
 - Đã đoán đường dẫn và tải bản gốc từ `wp-content/uploads/2023/12/` vào `backup/live/media/2023/12/`: `0db17170-2f13-4991-b10e-949c7c283133.png` (1147x1327, ảnh đã xuất hiện trong Wayback), `australia.png`, `canada-1.png`, `saudi-arabia.png` (cờ 64x64) và `Logo-1.svg`.
 - Ảnh logo `Logo (1)`: tên `logo-1(1).svg` trong thư mục `_files` là do trình duyệt tự đổi tên khi trùng tên, nên tệp gốc là `Logo-1.svg`. Cần kiểm tra bằng mắt vì chưa đối chiếu được ID.
 - Các ảnh thu nhỏ còn lại (khoảng 58 tệp) là bản nhỏ của ảnh đã tải đầy đủ trước đó, nên không cần dùng.
-- Danh sách media thật có thể còn nhiều mục hơn 80 mục trong trang đã lưu. Muốn chắc chắn, cần xem hết thư viện (cuộn tải thêm) hoặc lấy từ database của NhanHoa.
+- **Cập nhật sau khi kết nối Chrome (qua phiên đăng nhập `wp-admin` của chủ site):** thư viện media thật có **174 tệp**, REST API chỉ liệt kê 162. Đã đối chiếu toàn bộ và tải đủ **12 tệp còn thiếu** về `backup/live/media/2023/12/`: 5 tệp nói trên cùng `Icon-9.svg`, `cta-shape.png`, `logo-white.svg`, `Map.svg`, `logo.svg`, `case.svg`, `x-twitter.svg`. Đa số là biểu tượng, logo và hình nền của theme; `logo.svg` và `Logo-1.svg` có dung lượng gần giống nhau (khoảng 18 KB) và `logo-white.svg` là bản logo trắng.
+- Việc đọc danh sách chỉ dùng chức năng "Thư viện media" của WordPress với quyền người dùng đang đăng nhập, không thay đổi dữ liệu nào trên site.
 
 ## Các bước tiếp theo
 
