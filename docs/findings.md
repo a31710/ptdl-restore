@@ -33,6 +33,33 @@ Những dữ liệu này chỉ có thể lấy từ **NhanHoa** (file và databa
 - Dung lượng WordPress: khoảng 394 MB (uploads 162 MB, plugin 100 MB, theme 29 MB, core 78 MB, database 25 MB). Lỗi `Disk quota exceeded` nằm ở hạn mức của **cả tài khoản**, nên thủ phạm nằm ngoài thư mục WordPress.
 - Nameserver: ns1, ns2, ns3.dotvndns.vn và nsbak.dotvndns.com.
 
+## Site đang chạy: nội dung có thể lấy được (kiểm tra ngày 2026-11-03)
+
+- Trang chủ trả về lỗi HTTP 500 ("WordPress › Lỗi"), nhưng WordPress vẫn chạy và **REST API công khai vẫn trả dữ liệu**: `/wp-json/wp/v2/posts` (khoảng 81 KB), `/pages` (khoảng 252 KB), `/media` (khoảng 363 KB).
+- Sitemap `wp-sitemap.xml` vẫn hoạt động. Nó liệt kê bài viết, trang, template của theme, danh mục và user.
+- Chứng chỉ TLS đã hết hạn, nên trình duyệt và công cụ kiểm tra đều từ chối. Bản xuất bằng `scripts/rest_export.py` bị chặn khi tắt kiểm tra chứng chỉ, nên **chưa tải được dữ liệu**. Cần gia hạn chứng chỉ (nhờ NhanHoa) hoặc bạn cho phép chạy với `--insecure`.
+
+### Kết quả xuất qua REST API (2026-11-03, chạy với `--insecure` theo sự đồng ý của chủ site)
+
+- Đã lưu vào `backup/live/` (không đưa lên git): `posts.json` (22), `pages.json` (159), `media.json` (162), `categories.json`, `tags.json`. `comments.json` rỗng.
+- **160 ảnh (27 MB)** đã tải về `backup/live/media/`. Bỏ qua 1 file video `.mp4` và 1 file log `.txt` trong thư viện media.
+- Nội dung chữ của 10 mục thật (trang chủ, giới thiệu, dịch vụ, chuyển hàng Bắc Nam, liên hệ, tracking, track-form, 3 bài viết) nằm trong `docs/content/*.md`.
+- Phân loại: 3 bài viết thật, 19 bài spam; trong 159 trang có khoảng 139 trang spam và nhiều trang mẫu của theme.
+- Một số ảnh trong thư viện là ảnh mẫu của theme (ví dụ `boxking_about_img_*`, `Image_Placeholder_*`). Cần xem lại bằng mắt trước khi dùng.
+- **Chưa có:** database đầy đủ, dữ liệu đơn hàng, form liên hệ, bản nháp và nội dung riêng tư, cấu hình plugin. Những phần này chỉ có từ backup NhanHoa.
+
+### Nội dung thật và nội dung do kẻ tấn công chèn vào (theo sitemap)
+
+- **Bài viết thật (3):** `cach-chuyen-nha-duong-dai-o-ha-noi`, `huong-dan-gui-hang-di-uc-tai-binh-duong-an-toan-va-nhanh-chong`, `le-ban-giao-lo-xe-thaco` (đuôi `.htm`).
+- **Trang thật:** `home`, `gioi-thieu`, `services`, `services/chuyen-hang-bac-nam`, `lien-he`, `blog`, `tracking`, `track-form`, `my-account`.
+- **Trang mẫu của theme (không phải nội dung PTDL):** `home-two`, `home-three`, `blog-grid`, `team`, `projects`, `faq-page`, `project-masonry`, `sample-page`.
+- **Nhiều khả năng là spam do kẻ tấn công chèn:** hàng trăm trang/bài có tên `cox-htm-*`, `cox-*`, và các chuỗi hex dạng `0ada00df5929-htm`. Đây là kiểu chèn SEO spam. Không dùng lại.
+- Sitemap còn công khai danh sách **user** (`wp-sitemap-users-1.xml`). Nên tắt hoặc chặn sau khi khôi phục, vì lộ tên đăng nhập.
+
+## Máy tính này
+
+Đã tìm trong Desktop, Documents, Downloads, OneDrive: không có file backup của site (`.wpress`, `.sql`, thư mục WordPress). Chỉ có file làm việc khác, không liên quan tới website.
+
 ## Các bước tiếp theo
 
 1. Ưu tiên lấy bản sao đầy đủ từ NhanHoa. Đây là cách duy nhất để khôi phục nội dung thật.
