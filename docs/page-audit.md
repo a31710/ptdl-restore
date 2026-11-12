@@ -121,4 +121,4 @@ So từng đoạn chữ trên `site/*.html` với bản cũ (`backup/live`, `bac
 - Dòng "Vận chuyển hàng hóa Bắc – Nam • Bảo hiểm 100%" ở thanh trên cùng (tự ghép từ mock-up).
 - Ba mục "Chuyển hàng miền Bắc / Nam / Trung" trên trang Dịch vụ (đoạn mô tả tự viết; bản cũ chỉ có liên kết menu, không có nội dung). Các mục menu giữ lại nhưng trỏ về trang Chuyển hàng Bắc – Nam; mô tả nhỏ dưới mục menu đã bỏ.
 - Trang chủ: câu "Giải pháp vận chuyển Bắc – Nam, liên tỉnh và nội thành đa tải trọng.", câu "Đa dạng tải trọng xe, từ 5 tạ đến 18 tấn." và nhãn "Liên tỉnh toàn quốc" ở bảng giá.
-Còn lại cần chủ site xác nhận: phường Tân Hưng (bản cũ ghi Tân Phong, Quận 7), ba lời nhận xét do chủ site cung cấp.
+Chủ site đã chốt (2026-11-13): giữ địa chỉ cũ "36 Đường Nội khu Hưng Gia 1, Phường Tân Phong, Quận 7"; giữ ba lời nhận xét do chủ site cung cấp (Chị Mai, Anh Hùng, Anh Quý).
