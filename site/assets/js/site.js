@@ -38,6 +38,21 @@
     $$("a", nav).forEach(function (a) { a.addEventListener("click", function () { if (document.body.classList.contains("nav-open")) { setOpen(false); } }); });
   }
 
+  /* services dropdown: on touch screens the first tap opens the card, a second tap follows the link; Esc or an outside tap closes it */
+  var sub = $(".has-sub");
+  if (sub) {
+    var parentLink = $(":scope > a", sub);
+    var closeSub = function () { sub.classList.remove("dropdown-open"); };
+    if (parentLink) {
+      parentLink.addEventListener("click", function (e) {
+        var wide = window.matchMedia("(min-width: 1024px)").matches, touch = window.matchMedia("(hover: none)").matches;
+        if (wide && touch && !sub.classList.contains("dropdown-open")) { e.preventDefault(); sub.classList.add("dropdown-open"); }
+      });
+    }
+    document.addEventListener("click", function (e) { if (!sub.contains(e.target)) { closeSub(); } });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeSub(); } });
+  }
+
   /* split headings into words so they can slide in one by one */
   $$(".words").forEach(function (el) {
     var words = el.textContent.trim().split(/\s+/);

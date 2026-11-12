@@ -107,3 +107,10 @@ Giới thiệu, Dịch vụ, Liên hệ, Tra cứu vận đơn, Tin tức và Ch
 - Chân trang: nền xanh lá `#5C8330` như bản cũ, bốn cột (liên hệ, dịch vụ, liên kết, giới thiệu có logo). Liên kết không gạch chân; chỉ gạch khi rê chuột hoặc dùng bàn phím.
 - Phông chữ: dùng một họ duy nhất, Be Vietnam Pro (thiết kế cho tiếng Việt, đủ dấu), thay cho DM Sans + Outfit.
 - Cỡ chữ: nội dung 16px; h1 2–3.4rem, h2 1.6–2.4rem, h3 1.2–1.5rem (co giãn theo màn hình).
+
+## Cập nhật: header mới, bỏ "Tra cứu vận đơn", thêm tìm kiếm (2026-11-13)
+
+- **Header:** thanh trên nền xanh rêu đậm (giờ làm việc, dòng "Vận chuyển hàng hóa Bắc – Nam • Bảo hiểm 100%", nút Tìm kiếm, Bảng giá cước, Đặt lịch Online màu xanh dương), thanh chính nền trắng kính mờ, logo và chữ PTDL giữ nguyên nhưng chữ màu xanh lá, rê chuột đổi xanh dương. Menu "Dịch vụ" là thẻ thả xuống có icon và mô tả ngắn (mô tả lấy từ nội dung có sẵn, không thêm thông tin mới). Nút Hotline màu xanh lá, rê chuột đổi xanh dương, icon điện thoại rung nhẹ.
+- **Trang `/tracking` đã xóa** (trang giữ chỗ, bản cũ cần WPCargo): bỏ khỏi menu chân trang, sitemap, `build_preview.py`, README.
+- **Tìm kiếm trong website** (`site/assets/js/search.js` + `search-index.js`): mở bằng nút Tìm kiếm, phím `/` hoặc Ctrl/Cmd+K; không phân biệt hoa thường và dấu tiếng Việt ("bao hiem" tìm được "Bảo hiểm"); nhiều từ khóa (phải khớp tất cả), xếp hạng theo tiêu đề / đề mục / nội dung, đánh dấu từ khớp, đoạn trích quanh từ khớp, nhóm Trang và Tin tức, điều hướng bằng ↑ ↓ Enter, Esc để đóng, lịch sử tìm kiếm gần đây (localStorage), gợi ý phổ biến, màn hình không có kết quả kèm hotline, hỗ trợ trình đọc màn hình. Chỉ mục tạo tự động từ các trang trong `site/` bằng `scripts/search_index.py` (chạy trong `build_preview.py`), nên sau khi sửa nội dung chỉ cần build lại.
+- **Màu vàng** trong nhãn "Bảo hiểm 100%" đã đổi sang xanh dương.

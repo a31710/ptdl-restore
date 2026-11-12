@@ -1,0 +1,144 @@
+"""Build site/assets/js/search-index.js from the pages in site/.
+
+Every page is cut into chunks (one per heading) so the site search can show the exact section that matched.
+Run it on its own or through build_preview.py. Output is a plain script (window.PTDL_SEARCH), so it also works
+when the pages are opened straight from disk.
+"""
+import json
+import re
+from html.parser import HTMLParser
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+SRC = ROOT / "site"
+OUT = SRC / "assets" / "js" / "search-index.js"
+
+SKIP_FILES = {"404.html"}
+POSTS = {
+    "le-ban-giao-lo-xe-thaco.html", "huong-dan-gui-hang-di-uc-tai-binh-duong.html",
+    "cach-chuyen-nha-duong-dai-o-ha-noi.html", "bao-hiem-hang-hoa.html", "tin-tuc.html",
+}
+SKIP_TAGS = {"script", "style", "svg", "noscript", "header", "footer", "nav", "form", "select", "option", "button", "dialog"}
+VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr", "use", "path", "circle", "rect"}
+HEADINGS = {"h1", "h2", "h3"}
+TEXT_TAGS = {"p", "li", "td", "th", "blockquote", "dd", "dt", "figcaption", "small", "b", "strong", "span", "a", "em"}
+MAX_TEXT = 520
+GENERIC_IDS = {"noi-dung"}   # the <main> wrapper: a link to it would not point at the matching section
+
+
+def clean(s: str) -> str:
+    return re.sub(r"\s+", " ", s).strip()
+
+
+class Page(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.stack = []          # (tag, id or None, skipping?)
+        self.skip_depth = 0
+        self.title = ""
+        self.description = ""
+        self.in_title = False
+        self.in_heading = None
+        self.heading_buf = []
+        self.chunks = []         # dicts: h, id, text
+        self.cur = {"h": "", "id": "", "text": []}
+
+    # helpers
+    def nearest_id(self) -> str:
+        for _, ident, _ in reversed(self.stack):
+            if ident and ident not in GENERIC_IDS:
+                return ident
+        return ""
+
+    def flush(self) -> None:
+        text = clean(" ".join(self.cur["text"]))
+        if text or self.cur["h"]:
+            self.chunks.append({"h": self.cur["h"], "id": self.cur["id"], "text": text[:MAX_TEXT]})
+        self.cur = {"h": "", "id": "", "text": []}
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "title":
+            self.in_title = True
+        if tag == "meta" and a.get("name") == "description":
+            self.description = a.get("content", "")
+        if tag in VOID:
+            return
+        skipping = tag in SKIP_TAGS
+        self.stack.append((tag, a.get("id"), skipping))
+        if skipping:
+            self.skip_depth += 1
+            return
+        if self.skip_depth:
+            return
+        if tag in HEADINGS:
+            self.in_heading = tag
+            self.heading_buf = []
+            self.flush()
+            self.cur["id"] = a.get("id") or self.nearest_id()
+
+    def handle_endtag(self, tag):
+        if tag == "title":
+            self.in_title = False
+        if tag in VOID:
+            return
+        if self.in_heading == tag and not self.skip_depth:
+            self.cur["h"] = clean(" ".join(self.heading_buf))
+            self.in_heading = None
+        # pop to the matching open tag
+        for i in range(len(self.stack) - 1, -1, -1):
+            if self.stack[i][0] == tag:
+                for _, _, sk in self.stack[i:]:
+                    if sk:
+                        self.skip_depth -= 1
+                del self.stack[i:]
+                break
+
+    def handle_data(self, data):
+        if self.in_title:
+            self.title += data
+            return
+        if self.skip_depth:
+            return
+        if self.in_heading:
+            self.heading_buf.append(data)
+            return
+        if data.strip():
+            self.cur["text"].append(data)
+
+
+def kind_for(name: str) -> str:
+    if name in POSTS:
+        return "Tin tức"
+    return "Trang"
+
+
+def main() -> None:
+    items = []
+    for path in sorted(SRC.glob("*.html")):
+        if path.name in SKIP_FILES:
+            continue
+        p = Page()
+        p.feed(path.read_text(encoding="utf-8"))
+        p.flush()
+        title = clean(p.title).split("|")[0].strip() or path.stem
+        if p.description:
+            items.append({"t": title, "h": "", "u": path.name, "x": clean(p.description)[:MAX_TEXT], "k": kind_for(path.name)})
+        seen = set()
+        for c in p.chunks:
+            if not c["text"] and not c["h"]:
+                continue
+            key = (c["h"], c["text"][:80])
+            if key in seen:
+                continue
+            seen.add(key)
+            url = path.name + ("#" + c["id"] if c["id"] else "")
+            items.append({"t": title, "h": c["h"], "u": url, "x": c["text"], "k": kind_for(path.name)})
+    body = json.dumps(items, ensure_ascii=False, separators=(",", ":"))
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text("/* generated by scripts/search_index.py: do not edit */\nwindow.PTDL_SEARCH=" + body + ";\n", encoding="utf-8", newline="\n")
+    print(f"Search index: {len(items)} entries from {len({i['u'].split('#')[0] for i in items})} pages -> {OUT.relative_to(ROOT)}")
+
+
+if __name__ == "__main__":
+    main()

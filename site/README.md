@@ -11,7 +11,6 @@ Bản dự phòng bằng HTML, CSS và một ít JavaScript thuần (không fram
 - `tin-tuc.html` Danh sách tin tức, cùng 4 bài: `le-ban-giao-lo-xe-thaco.html`, `bao-hiem-hang-hoa.html` (khôi phục từ bản sửa đổi cũ), `huong-dan-gui-hang-di-uc-tai-binh-duong.html`, `cach-chuyen-nha-duong-dai-o-ha-noi.html`
 - `404.html`, `sitemap.xml`, `robots.txt`
 - `lien-he.html` Liên hệ (biểu mẫu dạng `mailto:`)
-- `tracking.html` Tra cứu vận đơn (trang giữ chỗ, không có dữ liệu giả)
 - `assets/css/site.css` (CSS tự viết), `assets/js/site.js` (JavaScript tự viết: menu di động, hiện dần khi cuộn, bộ đếm, carousel, hộp thoại video...), `assets/images/` (gồm `icons.svg`, bộ icon tự vẽ), `assets/video/` (đang trống)
 
 ## Mở trên máy
@@ -33,6 +32,5 @@ Các chỗ cần nội dung thật được đánh dấu trong mã nguồn bằn
 5. **Bảng giá cước** (bản lưu 2025-03 có giá "từ 12.000/km"...): chưa xác nhận còn áp dụng, đã bỏ.
 6. **Nội dung các tuyến miền Bắc, miền Nam, miền Trung**: trang gốc chỉ có một nội dung chung; trang "Chuyển hàng Bắc Nam" có vẻ sao chép từ đơn vị khác (nhắc tên "Trust Friend", hotline và giá khác) nên chỉ lấy ý chung, bỏ giá, thời gian, địa chỉ bãi xe.
 7. **Đội ngũ, lời nhận xét khách hàng, logo đối tác**: nguồn chỉ có dữ liệu mẫu của theme (hoặc chưa xác nhận), đã bỏ.
-8. **Tra cứu vận đơn**: cần khôi phục hệ thống WPCargo và dữ liệu đơn hàng.
 9. **Ảnh**: đã nén các ảnh lớn bằng `scripts/optimize_images.ps1` (tổng site khoảng 2,7 MB). Ảnh `xe-ptdl-chinh-dien.jpg` dùng ở trang chủ là ảnh xe PTDL từ thư viện media, cần PTDL xem lại. Hai ảnh minh họa của bài bảo hiểm hàng hóa có vẻ là ảnh stock, cần xác nhận quyền dùng. Nên bổ sung ảnh xe, kho bãi thật nếu có.
 10. Facebook fanpage: nguồn chỉ có widget của trang demo, chưa có đường dẫn thật, nên chưa thêm.

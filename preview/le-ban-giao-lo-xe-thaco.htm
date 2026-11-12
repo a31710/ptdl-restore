@@ -21,16 +21,17 @@
   <div class="topbar">
     <div class="wrap topbar-in">
       <ul class="top-info">
-        <li><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-phone"/></svg><a href="tel:02855555565">0285 5555 565</a></li>
+        <li><span class="live-dot" aria-hidden="true"></span><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-clock"/></svg><span>T2 - CN: <b>8:00 - 20:00</b></span></li>
         <li class="sep" aria-hidden="true"></li>
-        <li><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-clock"/></svg><span>T2 - CN: (Từ <b>8:00 - 20:00</b>)</span></li>
+        <li class="top-tag"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-shield"/></svg><span>Vận chuyển hàng hóa Bắc – Nam • Bảo hiểm 100%</span></li>
       </ul>
       <ul class="top-links">
-        <li><a href="/lien-he">Liên hệ</a></li>
-        <li><a href="/lien-he">Đặt lịch Online</a></li>
+        <li><button class="top-btn" type="button" data-search-open aria-haspopup="dialog" aria-label="Tìm kiếm trên website"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-search"/></svg><span>Tìm kiếm</span><kbd>/</kbd></button></li>
+        <li class="hide-sm"><a href="/#bang-gia">Bảng giá cước</a></li>
+        <li><a class="top-cta" href="/lien-he"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-calendar"/></svg><span>Đặt lịch Online</span></a></li>
       </ul>
     </div>
-    <!-- Bản cũ có hai biểu tượng mạng xã hội (facebook, youtube) nhưng liên kết đều là "#", nên không đưa vào. -->
+    <!-- TODO: xác nhận với PTDL: giờ làm việc 8:00 - 20:00 (trang Liên hệ cũ ghi 24/7) và dòng "Bảo hiểm 100%" (lấy từ thẻ Vận tải Bắc Nam). Bản cũ có biểu tượng facebook/youtube nhưng liên kết đều là "#", nên không đưa vào. "Tra cứu vận đơn" đã bỏ, thay bằng nút Tìm kiếm. -->
   </div>
   <div class="mainbar">
     <div class="wrap header-in">
@@ -39,19 +40,22 @@
         <ul>
           <li><a href="/">Trang chủ</a></li>
           <li><a href="/gioi-thieu">Giới thiệu</a></li>
-          <li class="has-sub"><a href="/services">Dịch vụ</a>
+          <li class="has-sub"><a href="/services" aria-haspopup="true">Dịch vụ</a>
             <ul class="sub">
-              <li><a href="/services/chuyen-hang-bac-nam">Chuyển hàng Bắc – Nam</a></li>
-              <li><a href="/services#mien-bac">Chuyển hàng miền Bắc</a></li>
-              <li><a href="/services#mien-nam">Chuyển hàng miền Nam</a></li>
-              <li><a href="/services#mien-trung">Chuyển hàng miền Trung</a></li>
+              <li><a href="/services/chuyen-hang-bac-nam"><span class="sub-ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-truck"/></svg></span><span class="sub-txt"><b>Chuyển hàng Bắc – Nam</b><small>Hàng ghép và nguyên chuyến Bắc – Nam</small></span></a></li>
+              <li><a href="/services#mien-bac"><span class="sub-ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-box"/></svg></span><span class="sub-txt"><b>Chuyển hàng miền Bắc</b><small>Nhận hàng đi và đến các tỉnh miền Bắc</small></span></a></li>
+              <li><a href="/services#mien-nam"><span class="sub-ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-city"/></svg></span><span class="sub-txt"><b>Chuyển hàng miền Nam</b><small>Nhận hàng đi và đến các tỉnh miền Nam</small></span></a></li>
+              <li><a href="/services#mien-trung"><span class="sub-ico"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-route"/></svg></span><span class="sub-txt"><b>Chuyển hàng miền Trung</b><small>Nhận hàng đi và đến các tỉnh miền Trung</small></span></a></li>
             </ul></li>
           <li><a href="/blog" aria-current="page">Tin tức</a></li>
           <li><a href="/lien-he">Liên hệ</a></li>
         </ul>
       </nav>
-      <a class="btn btn-light hotline" href="tel:02855555565">Hotline: 0285 5555 565</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Mở menu"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-menu"/></svg></button>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" data-search-open aria-haspopup="dialog" aria-label="Tìm kiếm trên website"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-search"/></svg></button>
+        <a class="hotline-btn" href="tel:02855555565" aria-label="Gọi hotline 0285 5555 565"><span class="ph"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-phone"/></svg></span><span class="ht-text"><span class="ht-label">Hotline:</span> 0285 5555 565</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Mở menu"><svg class="svg" aria-hidden="true"><use href="/assets/images/icons.svg#i-menu"/></svg></button>
+      </div>
     </div>
   </div>
 </header>
@@ -150,13 +154,14 @@
           <li><a href="/gioi-thieu">Giới thiệu</a></li>
           <li><a href="/blog">Tin tức</a></li>
           <li><a href="/lien-he">Liên hệ</a></li>
-          <li><a href="/tracking">Tra cứu vận đơn</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="copy"><div class="wrap">ptdl.com.vn &copy; 2024. All Rights Reserved.</div></div>
 </footer>
+<script src="/assets/js/search-index.js" defer></script>
+<script src="/assets/js/search.js" defer></script>
 <script src="/assets/js/site.js" defer></script>
 </body>
 </html>

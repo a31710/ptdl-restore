@@ -1,11 +1,12 @@
 """Build preview/ from site/ with the same URLs the WordPress site used.
 
 Real permalinks (from the WordPress REST data):
-  pages  : /gioi-thieu, /services, /services/chuyen-hang-bac-nam, /lien-he, /blog, /tracking  (no trailing slash)
+  pages  : /gioi-thieu, /services, /services/chuyen-hang-bac-nam, /lien-he, /blog  (no trailing slash)
   posts  : /<slug>.htm
   category: /category/cam-nang-van-chuyen
 site/ stays the flat, hand-edited source; preview/ is generated, so rerun this script after editing site/.
 """
+import importlib.util
 import re
 import shutil
 from pathlib import Path
@@ -23,7 +24,6 @@ PAGES = {
     "chuyen-hang-bac-nam.html": ("/services/chuyen-hang-bac-nam", "services/chuyen-hang-bac-nam.html"),
     "tin-tuc.html": ("/blog", "blog.html"),
     "lien-he.html": ("/lien-he", "lien-he.html"),
-    "tracking.html": ("/tracking", "tracking.html"),
     "le-ban-giao-lo-xe-thaco.html": ("/le-ban-giao-lo-xe-thaco.htm", "le-ban-giao-lo-xe-thaco.htm"),
     "huong-dan-gui-hang-di-uc-tai-binh-duong.html": (
         "/huong-dan-gui-hang-di-uc-tai-binh-duong-an-toan-va-nhanh-chong.htm",
@@ -77,7 +77,16 @@ def main() -> None:
     # Empty the folder instead of deleting it: Windows refuses to remove a directory that a shell or server is using.
     for child in OUT.iterdir():
         shutil.rmtree(child) if child.is_dir() else child.unlink()
+    spec = importlib.util.spec_from_file_location("search_index", ROOT / "scripts" / "search_index.py")
+    search_index = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(search_index)
+    search_index.main()
     shutil.copytree(SRC / "assets", OUT / "assets")
+    index_js = OUT / "assets" / "js" / "search-index.js"
+    text = index_js.read_text(encoding="utf-8")
+    for name, (url, _) in PAGES.items():
+        text = text.replace(f'"u":"{name}', f'"u":"{url}')
+    index_js.write_text(text, encoding="utf-8")
     for extra in (ROOT / "scripts" / "preview_files").iterdir():
         shutil.copy(extra, OUT / extra.name)
 
@@ -101,7 +110,7 @@ def main() -> None:
 
     labels = {
         "/": "Trang chủ", "/gioi-thieu": "Giới thiệu", "/services": "Dịch vụ", URL_BAC_NAM: "Chuyển hàng Bắc – Nam",
-        "/blog": "Tin tức (trang blog)", URL_CATEGORY: "Chuyên mục Cẩm nang vận chuyển", "/lien-he": "Liên hệ", "/tracking": "Tra cứu vận đơn",
+        "/blog": "Tin tức (trang blog)", URL_CATEGORY: "Chuyên mục Cẩm nang vận chuyển", "/lien-he": "Liên hệ",
     }
     rows = []
     for u in urls:
