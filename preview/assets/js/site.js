@@ -6,10 +6,11 @@
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
-  /* preloader: hide when the page has loaded (never longer than 1.5 s) */
-  var pre = $("#preloader");
+  /* preloader: the old site's animated truck; shown at least 1.2 s so it is seen, never longer than 3 s */
+  var pre = $("#preloader"), preStart = Date.now();
   function hidePre() { if (pre) { pre.classList.add("done"); } }
-  if (document.readyState === "complete") { hidePre(); } else { window.addEventListener("load", hidePre); setTimeout(hidePre, 1500); }
+  function hideSoon() { setTimeout(hidePre, Math.max(0, 1200 - (Date.now() - preStart))); }
+  if (document.readyState === "complete") { hideSoon(); } else { window.addEventListener("load", hideSoon); setTimeout(hidePre, 3000); }
 
   /* sticky header shadow */
   var header = $(".site-header");
