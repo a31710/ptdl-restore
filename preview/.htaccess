@@ -2,6 +2,20 @@
 # (trang khong co duoi .html, bai viet ket thuc bang .htm).
 RewriteEngine On
 
+# One canonical host: https://ptdl.com.vn (no www, always https)
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://ptdl.com.vn%{REQUEST_URI} [R=301,L]
+
+# /index.html -> /
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# /gioi-thieu.html -> /gioi-thieu (the .html form is never the public address)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?]
+RewriteCond %1 !^404$
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
 # /gioi-thieu/ -> /gioi-thieu
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)/$ /$1 [R=301,L]
@@ -12,3 +26,32 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L]
 
 ErrorDocument 404 /404.html
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json application/ld+json image/svg+xml text/xml application/xml
+</IfModule>
+
+# Browser caching: long for static assets, short for pages
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType text/html "access plus 10 minutes"
+</IfModule>
+
+# Basic security headers
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  <FilesMatch "\.(htm|html)$">
+    Header set X-Frame-Options "SAMEORIGIN"
+  </FilesMatch>
+</IfModule>

@@ -7,6 +7,7 @@ Real permalinks (from the WordPress REST data):
 site/ stays the flat, hand-edited source; preview/ is generated, so rerun this script after editing site/.
 """
 import importlib.util
+import json
 import re
 import shutil
 from pathlib import Path
@@ -59,6 +60,94 @@ def add_canonical(html: str, url: str) -> str:
     return html.replace('<link rel="icon"', canonical + '<link rel="icon"', 1)
 
 
+SITE_NAME = "PTDL"
+ORG_NAME = "Công ty TNHH Giải pháp Vận chuyển PTDL"
+ORG_ID = DOMAIN + "/#organization"
+# Share image per page (photos already on the site); everything else uses the fleet photo.
+DEFAULT_OG = "/assets/images/thaco-ban-giao-hang-xe.jpg"
+OG_IMAGE = {
+    "le-ban-giao-lo-xe-thaco.html": "/assets/images/xe-ptdl-thaco-linker.jpg",
+    "bao-hiem-hang-hoa.html": "/assets/images/bao-hiem-hang-hoa-1.jpg",
+    "huong-dan-gui-hang-di-uc-tai-binh-duong.html": "/assets/images/van-chuyen-quoc-te.png",
+    "cach-chuyen-nha-duong-dai-o-ha-noi.html": "/assets/images/xe-ptdl-thung-kin.jpg",
+}
+POSTS = {"le-ban-giao-lo-xe-thaco.html", "huong-dan-gui-hang-di-uc-tai-binh-duong.html",
+         "cach-chuyen-nha-duong-dai-o-ha-noi.html", "bao-hiem-hang-hoa.html"}
+CRUMBS = {  # page -> trail of (label, url) before the page itself
+    "gioi-thieu.html": [], "dich-vu.html": [], "lien-he.html": [], "tin-tuc.html": [],
+    "chuyen-hang-bac-nam.html": [("Dịch vụ", "/services")],
+    "__category__": [("Tin tức", "/blog")],
+}
+for _p in POSTS:
+    CRUMBS[_p] = [("Tin tức", "/blog")]
+
+
+def _meta(html: str, pattern: str) -> str:
+    m = re.search(pattern, html, flags=re.S)
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.group(1))).strip() if m else ""
+
+
+def ld(obj: dict) -> str:
+    return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False, separators=(",", ":")) + "</script>\n"
+
+
+def organization() -> dict:
+    return {
+        "@type": "LocalBusiness", "@id": ORG_ID, "name": ORG_NAME, "alternateName": SITE_NAME,
+        "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": DOMAIN + "/assets/images/ptdl-logo.png"},
+        "image": DOMAIN + DEFAULT_OG, "telephone": "+842855555565", "email": "info@ptdl.com.vn",
+        "address": {"@type": "PostalAddress", "streetAddress": "36 Đường Nội khu Hưng Gia 1",
+                    "addressLocality": "Phường Tân Phong, Quận 7", "addressRegion": "TP. Hồ Chí Minh", "addressCountry": "VN"},
+        "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "opens": "08:00", "closes": "20:00",
+                                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]},
+    }
+
+
+def add_seo(html: str, name: str, url: str) -> str:
+    """Canonical is added elsewhere; this adds robots, Open Graph, Twitter card, touch icon and JSON-LD."""
+    title = _meta(html, r"<title>(.*?)</title>")
+    desc = _meta(html, r'<meta name="description" content="([^"]*)"')
+    h1 = _meta(html, r"<h1[^>]*>(.*?)</h1>") or title
+    page_url = DOMAIN + url
+    is_post = name in POSTS
+    image = DOMAIN + OG_IMAGE.get(name, DEFAULT_OG)
+    published = _meta(html, r'<time datetime="([^"]+)"')
+    og = [
+        ("property", "og:locale", "vi_VN"), ("property", "og:site_name", ORG_NAME),
+        ("property", "og:type", "article" if is_post else "website"), ("property", "og:title", title),
+        ("property", "og:description", desc), ("property", "og:url", page_url), ("property", "og:image", image),
+        ("name", "twitter:card", "summary_large_image"), ("name", "twitter:title", title),
+        ("name", "twitter:description", desc), ("name", "twitter:image", image),
+    ]
+    if is_post and published:
+        og.append(("property", "article:published_time", published))
+    head = '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">\n'
+    head += "".join(f'<meta {k}="{n}" content="{v.replace(chr(34), "&quot;")}">\n' for k, n, v in og)
+    head += '<link rel="apple-touch-icon" href="/assets/images/ptdl-logo.png">\n'
+
+    graph = [organization(), {"@type": "WebSite", "@id": DOMAIN + "/#website", "url": DOMAIN + "/", "name": SITE_NAME,
+                              "inLanguage": "vi", "publisher": {"@id": ORG_ID}}]
+    page = {"@type": "WebPage", "@id": page_url + "#webpage", "url": page_url, "name": title, "description": desc,
+            "inLanguage": "vi", "isPartOf": {"@id": DOMAIN + "/#website"}, "about": {"@id": ORG_ID}}
+    if url == "/lien-he":
+        page["@type"] = "ContactPage"
+    elif url == "/gioi-thieu":
+        page["@type"] = "AboutPage"
+    if name in CRUMBS:
+        trail = [("Trang chủ", "/")] + CRUMBS[name] + [(h1 if is_post else _meta(html, r"<h1[^>]*>(.*?)</h1>") or title, url)]
+        graph.append({"@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": label, "item": DOMAIN + u} for i, (label, u) in enumerate(trail)]})
+        page["breadcrumb"] = {"@id": page_url + "#breadcrumb"}
+    graph.append(page)
+    if is_post and published:
+        graph.append({"@type": "BlogPosting", "@id": page_url + "#article", "headline": h1, "description": desc,
+                      "image": [image], "datePublished": published, "dateModified": published, "inLanguage": "vi",
+                      "mainEntityOfPage": {"@id": page_url + "#webpage"},
+                      "author": {"@id": ORG_ID}, "publisher": {"@id": ORG_ID}})
+    head += ld({"@context": "https://schema.org", "@graph": graph})
+    return html.replace("</head>", head + "</head>", 1)
+
+
 def write(out_rel: str, html: str) -> None:
     target = OUT / out_rel
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -98,13 +187,19 @@ def main() -> None:
     for name, html in sources.items():
         url, out_rel = targets[name]
         html = rewrite_links(html)
-        write(out_rel, add_canonical(html, url))
+        write(out_rel, add_seo(add_canonical(html, url), name, url))
 
     not_found = rewrite_links((SRC / "404.html").read_text(encoding="utf-8"))
-    write("404.html", not_found)
+    write("404.html", not_found.replace("</head>", '<meta name="robots" content="noindex">\n</head>', 1))
 
     urls = [u for u, _ in targets.values()]
-    sitemap = "".join(f"  <url><loc>{DOMAIN}{u if u != '/' else '/'}</loc></url>\n" for u in urls)
+    dates = {}
+    for name, (u, _) in targets.items():
+        m = re.search(r'<time datetime="([^"]+)"', sources[name])
+        if name in POSTS and m:
+            dates[u] = m.group(1)
+    sitemap = "".join(
+        f"  <url><loc>{DOMAIN}{u}</loc>" + (f"<lastmod>{dates[u]}</lastmod>" if u in dates else "") + "</url>\n" for u in urls)
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
 
