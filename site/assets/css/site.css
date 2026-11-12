@@ -722,3 +722,27 @@ html.search-open{overflow:hidden}
 main:has(.svcpage) .page-hero{text-align:center}
 .cols-2 .sub-title{gap:12px}
 .cols-2 .sub-title::before,.cols-2 .sub-title::after{width:28px}
+
+/* about: mission / vision / strategy pillars */
+.sec-pillars{position:relative;overflow:hidden;background:#eff4e8}
+.sec-pillars::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(85,120,46,.18) 1.2px,transparent 1.2px);background-size:48px 48px}
+.sec-pillars>.wrap{position:relative;z-index:1}
+.pillars{display:grid;grid-template-columns:1fr;gap:64px 24px;padding-top:46px}
+@media (min-width:860px){.pillars{grid-template-columns:repeat(3,1fr);gap:24px 28px}}
+.pillar{position:relative;overflow:visible;padding:62px 28px 34px;text-align:center;background:#fff;border:1px solid #dce6cf;border-radius:18px;box-shadow:0 14px 38px -12px rgba(11,22,42,.1);transition:transform .3s,box-shadow .3s,border-color .3s}
+.pillar::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;border-radius:18px 18px 0 0;background:linear-gradient(90deg,#55782e,#6e993b,#8bc34a)}
+.pillar:hover,.js .pillar.is-in:hover{transform:translateY(-6px);border-color:var(--green);box-shadow:0 22px 45px -12px rgba(85,120,46,.28)}
+.js .pillar.is-in{transition:transform .3s,box-shadow .3s,border-color .3s,opacity .9s ease;transition-delay:0s}
+.pillar.is-main{border:2px solid var(--green);box-shadow:0 0 0 4px rgba(85,120,46,.1),0 20px 45px -12px rgba(85,120,46,.25)}
+.pillar.is-main::before{height:8px;border-radius:16px 16px 0 0}
+.pillar-badge{position:absolute;left:50%;top:-37px;transform:translateX(-50%);width:74px;height:74px;padding:6px;border:1px solid #dce6cf;border-radius:50%;background:#fff;box-shadow:0 8px 20px rgba(0,0,0,.1);transition:transform .3s,border-color .3s}
+.pillar-badge>span{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border:1px solid #dce6cf;border-radius:50%;background:#f4f8ef;color:var(--green);font-size:1.7rem;transition:background .3s,color .3s}
+.pillar:hover .pillar-badge{transform:translateX(-50%) scale(1.06);border-color:var(--green)}
+.pillar:hover .pillar-badge>span,.pillar.is-main .pillar-badge>span{background:var(--green);color:#fff;border-color:var(--green)}
+.pillar.is-main .pillar-badge{border:2px solid var(--green)}
+.pillar-no{position:absolute;right:20px;top:20px;font-size:3rem;font-weight:800;line-height:1;letter-spacing:-.04em;color:rgba(85,120,46,.09);transition:color .3s;pointer-events:none}
+.pillar:hover .pillar-no{color:rgba(85,120,46,.18)}
+.pillar h3{margin:0 0 .6rem;font-size:1.5rem;font-weight:800;color:var(--ink,#0b162a);transition:color .3s}
+.pillar:hover h3{color:var(--green)}
+.pillar p{margin:0;color:#475569;line-height:1.7}
+@media (prefers-reduced-motion:reduce){.pillar,.pillar-badge,.pillar-badge>span{transition:none}.pillar:hover{transform:none}}
