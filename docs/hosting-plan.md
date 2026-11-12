@@ -115,3 +115,12 @@ Nếu không lấy lại được hosting cũ thì hộp thư info@ptdl.com.vn c
 - Biểu mẫu liên hệ hiện gửi tới ptdl.support@gmail.com (Gmail), **không bị ảnh hưởng** bởi việc mất hosting.
 - Website đang hiện info@ptdl.com.vn ở chân trang, trang Liên hệ, trang 404 và dữ liệu schema. Nếu địa chỉ email mới khác, báo tôi để cập nhật đồng bộ mọi chỗ; nếu chưa có email mới ngày go-live, có thể tạm bỏ dòng info@ khỏi web.
 - Hỏi NhanHoa (qua kênh chính thức) xem họ còn bản sao lưu thư không; nếu còn, xin tải về trước khi tài khoản bị hủy.
+
+### Quyết định (2026-11-13): dùng email kèm hosting mới
+Chủ site chọn thuê hosting có email (một nhà cung cấp cho cả web và thư). Vì vậy:
+- Khi chọn gói, kiểm tra có: hộp thư theo tên miền, IMAP/SMTP, SPF và DKIM tự bật (hoặc có hướng dẫn), webmail, bật được 2FA cho control panel.
+- Sau khi tạo hộp thư, thêm DMARC (TXT `_dmarc`, bắt đầu `p=none`) và gửi thử hai chiều + mail-tester.com.
+- **Sao lưu thư:** git chỉ giữ được website, không giữ thư. Đặt chuyển tiếp (forward) info@ sang ptdl.support@gmail.com để luôn có một bản thư ở Gmail, và/hoặc dùng IMAP với một ứng dụng thư trên máy.
+- Mật khẩu hộp thư mạnh, khác nhau, giữ trong trình quản lý mật khẩu. Nguy cơ thực tế còn lại là lộ mật khẩu hộp thư hoặc control panel, không phải mã độc trên web.
+- Nếu thư hay vào spam hoặc không ổn, có thể chuyển sang Google Workspace/Zoho sau này bằng cách đổi MX; website không bị ảnh hưởng.
+- Vẫn đổi MX về hosting mới ngay ở bước go-live và xóa MX/SPF cũ trỏ NhanHoa (mục 11).
