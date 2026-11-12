@@ -160,12 +160,13 @@ p,ul,ol{margin:0 0 1em}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin:1.2rem 0}
 
 /* section headings */
-.sub-title{display:inline-flex;align-items:center;gap:12px;font-weight:700;text-transform:uppercase;color:var(--green);letter-spacing:.04em;margin:0 0 .5rem}
-.sub-title::before,.sub-title::after{content:"";width:46px;height:5px;border-radius:3px;background:linear-gradient(90deg,var(--blue) 0 85%,transparent 85%);opacity:.9}
+.sub-title{display:inline-flex;align-items:center;gap:16px;margin:0 0 .7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+.sub-title::before,.sub-title::after{content:"";width:clamp(36px,5vw,64px);height:5px;border-radius:3px;background:linear-gradient(90deg,var(--blue) 0 85%,transparent 85%);opacity:.9}
 .sub-title::after{transform:scaleX(-1)}
-.sec-title{font-size:clamp(2rem,5.2vw,3.4rem);line-height:1.2;font-weight:600;margin:0 0 .5em}
+.sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);line-height:1.25;font-weight:700;margin:0 0 .45em;color:#334155}
+.sec-sub{max-width:48rem;margin:0 auto;font-size:clamp(1rem,.95rem + .25vw,1.15rem);color:#64748b}
+.sec-head{text-align:center;max-width:820px;margin:0 auto 3rem}
 .eyebrow{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;margin-bottom:.4em}
-.sec-head{text-align:center;max-width:820px;margin:0 auto 2.2rem}
 .on-dark .sub-title{color:#fff}
 .on-dark .sec-title,.on-dark h2,.on-dark h3{color:#fff}
 
@@ -259,9 +260,6 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;heigh
 input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:var(--blue);border:2px solid #fff;cursor:pointer}
 
 /* testimonials: split card (olive panel with photo + white quote panel), pill dots, photo strip */
-.testi-sec .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
-.testi-sec .sub-title::before,.testi-sec .sub-title::after{width:clamp(36px,5vw,64px)}
-.testi-sec .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:1.6rem;color:#334155}
 .carousel{position:relative;max-width:920px;margin:0 auto}
 .slides{position:relative;overflow:hidden;border-radius:24px;background:#fff;border:1px solid #dce6cf;box-shadow:0 22px 50px -15px rgba(72,102,38,.18)}
 .slide-track{display:flex;transition:transform .8s cubic-bezier(.4,0,.2,1)}
@@ -296,9 +294,6 @@ input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;bac
 .sec-price{position:relative;overflow:hidden;color:#fff;background:linear-gradient(180deg,#5a7f31,#55782e 50%,#496826)}
 .sec-price::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.08;background-image:radial-gradient(#fff 1.25px,transparent 1.25px);background-size:32px 32px}
 .sec-price>.wrap{position:relative;max-width:72rem}
-.sec-price .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
-.sec-price .sub-title::before,.sec-price .sub-title::after{width:clamp(36px,5vw,64px)}
-.sec-price .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:.45em}
 .sec-price .sec-sub{max-width:40rem;margin:0 auto;color:rgba(255,255,255,.88);font-size:clamp(1rem,.95rem + .25vw,1.15rem)}
 .sec-price .sec-head{margin-bottom:3rem}
 .price{position:relative;overflow:hidden;display:flex;flex-direction:column;background:#0b162a;color:#fff;border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:clamp(24px,3vw,30px);text-align:left;box-shadow:0 20px 40px -16px rgba(0,0,0,.45);transition:transform .3s,box-shadow .3s}
@@ -418,11 +413,7 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 
 /* services section: bento grid (2 large + 3 cards), big type, grid-paper background */
 .svc2-sec{background-color:#f8faf6;background-image:linear-gradient(to right,rgba(74,114,54,.05) 1px,transparent 1px),linear-gradient(to bottom,rgba(74,114,54,.05) 1px,transparent 1px);background-size:40px 40px}
-.svc2-sec .sec-head{max-width:48rem;margin-bottom:3.5rem}
-.svc2-sec .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
-.svc2-sec .sub-title::before,.svc2-sec .sub-title::after{width:clamp(36px,5vw,64px)}
-.svc2-sec .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:.45em;color:#334155}
-.sec-sub{max-width:48rem;margin:0 auto;font-size:clamp(1rem,.95rem + .25vw,1.15rem);color:#64748b}
+.svc2-sec .sec-head{max-width:48rem}
 .svc2-grid{display:grid;grid-template-columns:1fr;gap:24px}
 @media (min-width:768px){.svc2-grid{grid-template-columns:repeat(2,1fr)}.svc2-grid>.svc2:last-child{grid-column:1/-1}}
 @media (min-width:1000px){.svc2-grid{grid-template-columns:repeat(12,1fr);gap:32px}.svc2-grid>.svc2,.svc2-grid>.svc2:last-child{grid-column:span 4}.svc2-grid>.svc2-lg{grid-column:span 6}}
@@ -470,10 +461,10 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 .about2-badge{display:inline-flex;align-items:center;gap:16px;margin-bottom:18px}
 .about2-badge i{display:block;height:3px;width:clamp(36px,5vw,64px);border-radius:2px;background:linear-gradient(90deg,transparent,var(--blue))}
 .about2-badge i:last-child{background:linear-gradient(270deg,transparent,var(--blue))}
-.about2-badge span{display:inline-flex;align-items:center;gap:12px;padding:9px 26px;border-radius:99px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);color:#8fd0ff;font-weight:800;font-size:clamp(1.15rem,1rem + .8vw,1.5rem);letter-spacing:.16em;text-transform:uppercase}
+.about2-badge span{display:inline-flex;align-items:center;gap:12px;padding:9px 26px;border-radius:99px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);color:#8fd0ff;font-weight:800;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);letter-spacing:.14em;text-transform:uppercase}
 .about2-badge span::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--blue)}
 .about2 h2{color:#fff;font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin:0 0 .5em;text-shadow:0 1px 2px rgba(0,0,0,.12)}
-.about2-head p{margin:0;color:rgba(255,255,255,.9);font-size:1.06rem}
+.about2-head p{margin:0;color:rgba(255,255,255,.9);font-size:clamp(1rem,.95rem + .25vw,1.15rem)}
 .about2-head mark{background:none;color:#8fd0ff;font-weight:600;text-decoration:underline;text-decoration-color:rgba(143,208,255,.5);text-decoration-thickness:2px;text-underline-offset:5px}
 .video2{position:relative;display:block;width:100%;max-width:56rem;margin:2.4rem auto 0;aspect-ratio:16/9;border-radius:26px;overflow:hidden;background:#243a10;color:#fff;text-decoration:none;box-shadow:0 0 0 8px rgba(255,255,255,.12),0 32px 64px -16px rgba(20,34,8,.55),0 12px 24px -8px rgba(0,0,0,.25);transition:box-shadow .5s}
 .video2:hover{color:#fff;box-shadow:0 0 0 8px rgba(255,255,255,.2),0 32px 64px -16px rgba(20,34,8,.55),0 12px 24px -8px rgba(0,0,0,.25)}
@@ -672,16 +663,10 @@ html.search-open{overflow:hidden}
 @media (prefers-reduced-motion:reduce){.live-dot,.hotline-btn:hover .ph .svg{animation:none}}
 
 .rows-sec{background-color:#f8faf6}
-.rows-sec .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
-.rows-sec .sub-title::before,.rows-sec .sub-title::after{width:clamp(36px,5vw,64px)}
-.rows-sec .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:1.6rem;color:#334155}
 
 /* services page: same system as the home page (grid paper, big eyebrow, white cards with a moss bar) */
 .svcpage{background-color:#f8faf6;background-image:linear-gradient(to right,rgba(74,114,54,.05) 1px,transparent 1px),linear-gradient(to bottom,rgba(74,114,54,.05) 1px,transparent 1px);background-size:40px 40px}
 .svcpage .sec-head{margin-bottom:1.6rem}
-.svcpage .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
-.svcpage .sub-title::before,.svcpage .sub-title::after{width:clamp(36px,5vw,64px)}
-.svcpage .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:.45em;color:#334155}
 .svcpage .subnav{max-width:980px;margin:0 auto 2.2rem}
 .svcpage .subnav ul{justify-content:center;gap:10px;margin:0}
 .svcpage .subnav a{padding:.5rem 1.05rem;border:1px solid #dce6cf;background:#fff;color:var(--green-dark);font-size:.92rem;box-shadow:0 1px 2px rgba(15,23,42,.05);transition:background .25s,border-color .25s,color .25s}
