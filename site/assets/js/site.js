@@ -156,6 +156,32 @@
     document.addEventListener("click", function (e) { if (!e.target.closest(".row-item")) { rows.forEach(function (r) { r.classList.remove("active"); }); } });
   }
 
+  /* news: filter pills and the "show all" toggle (the 4th article stays hidden until asked for) */
+  $$("[data-news]").forEach(function (sec) {
+    var cards = $$(".card", sec), pills = $$("[data-filter]", sec), toggle = $("[data-news-toggle]", sec);
+    var filter = "all", open = false;
+    function render() {
+      cards.forEach(function (c) {
+        var show = filter === "all" ? (!c.hasAttribute("data-extra") || open) : c.getAttribute("data-cat") === filter;
+        c.hidden = !show;
+      });
+      if (toggle) {
+        toggle.parentNode.hidden = filter !== "all";
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.textContent = open ? "Thu gọn danh sách" : "Xem tất cả tin tức";
+      }
+    }
+    pills.forEach(function (b) {
+      b.addEventListener("click", function () {
+        filter = b.getAttribute("data-filter");
+        pills.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        render();
+      });
+    });
+    if (toggle) { toggle.addEventListener("click", function () { open = !open; render(); }); }
+    render();
+  });
+
   /* km slider shows its value */
   $$("input[type=range][data-output]").forEach(function (r) {
     var out = document.getElementById(r.getAttribute("data-output"));

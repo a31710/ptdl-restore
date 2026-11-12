@@ -361,20 +361,45 @@ input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;bac
 .cta-photo .wrap{position:relative}
 .cta-photo h2{max-width:860px;margin:0 auto .8em;color:#fff;font-size:clamp(1.6rem,4vw,2.6rem)}
 
-/* cards (news) */
-.card{background:#fff;border:0;border-radius:15px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 0 50px rgba(0,0,0,.05)}
-.card-media{position:relative;display:block;overflow:hidden;border-radius:15px}
-.card-media img{width:100%;height:300px;object-fit:cover;transition:transform 1s}
-.card:hover .card-media img{transform:scale(1.1)}
-.card .go{position:absolute;right:0;bottom:0;width:70px;height:70px;border-radius:50% 0 0 0;background:#fff;color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:1.5rem;transition:all .4s}
-.card:hover .go{background:var(--blue);color:#fff}
-.card-body{padding:18px 20px 22px}
-.card .cat{display:inline-block;border:1px solid #cdd8c1;border-radius:5px;padding:6px 13px;font-size:.85rem;font-weight:600;color:var(--green);margin-bottom:10px}
-.card h3{font-size:1.4rem;line-height:1.35}
-.card h3 a{color:var(--ink);text-decoration:none}
-.card h3 a:hover{color:var(--green)}
-.card img{aspect-ratio:auto}
+/* news: green block with a dotted route pattern, filter pills, white cards with 16:10 photo */
+.sec-news{position:relative;overflow:hidden;color:#fff;background:linear-gradient(180deg,#5a7f31,#53752d 50%,#496826)}
+.sec-news::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.12;background-image:radial-gradient(#d9f99d 1.6px,transparent 1.6px);background-size:60px 60px}
+.sec-news::after{content:"";position:absolute;left:50%;top:-130px;width:780px;max-width:95vw;height:340px;transform:translateX(-50%);border-radius:50%;background:rgba(139,195,74,.2);filter:blur(90px);pointer-events:none}
+.sec-news>.wrap{position:relative;z-index:1;max-width:75rem}
+.sec-news .sec-head{margin-bottom:2.4rem}
+.news-pills{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:1.4rem}
+.news-pills button{padding:9px 18px;border:1px solid rgba(255,255,255,.25);border-radius:99px;background:rgba(255,255,255,.1);color:rgba(255,255,255,.95);font:inherit;font-size:.92rem;font-weight:600;cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
+.news-pills button:hover{background:rgba(255,255,255,.2)}
+.news-pills button[aria-pressed="true"]{border-color:#fff;background:#fff;color:#364f1b;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.18)}
+.card{display:flex;flex-direction:column;justify-content:space-between;padding:18px;background:#fff;color:var(--body);border:1px solid rgba(255,255,255,.8);border-radius:18px;box-shadow:0 20px 36px -14px rgba(0,0,0,.25);transition:transform .3s,box-shadow .3s}
+.card[hidden]{display:none}
+.card:hover,.js .card.is-in:hover{transform:translateY(-6px);box-shadow:0 28px 48px -14px rgba(0,0,0,.35)}
+.js .card.is-in{transition:transform .3s,box-shadow .3s,opacity .9s ease;transition-delay:0s}
+.card-media{position:relative;display:block;aspect-ratio:16/10;margin-bottom:16px;overflow:hidden;border-radius:12px;background:#e0f2fe}
+.card-media img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .5s ease-out}
+.card:hover .card-media img{transform:scale(1.05)}
+.card .go{position:absolute;right:0;bottom:0;display:block;width:54px;height:54px;padding:8px 0 0 8px;border-radius:18px 0 0 0;background:#fff;color:#496826}
+.card .go .svg{display:block;box-sizing:border-box;width:40px;height:40px;padding:12px;border-radius:12px;background:#eef5e6;color:#496826;transition:background .3s,color .3s,transform .3s}
+.card:hover .go .svg{background:#5a7f31;color:#fff;transform:translate(1px,-1px)}
+.card-body{padding:0}
+.card-meta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.card .cat{display:inline-block;margin:0;padding:5px 11px;border:1px solid rgba(90,127,49,.3);border-radius:8px;background:#f4f8ef;color:#496826;font-size:.8rem;font-weight:600}
+.card-meta time{font-size:.8rem;font-weight:500;color:#64748b}
+.card h3{margin:0 0 .6rem;font-size:clamp(1.1rem,1rem + .3vw,1.2rem);line-height:1.4;font-weight:700}
+.card h3 a{color:var(--ink);text-decoration:none;transition:color .3s;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card:hover h3 a,.card h3 a:hover{color:#5a7f31}
+.card-body p{margin:0 0 1.2rem;font-size:.92rem;line-height:1.65;color:#475569;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;border-top:1px solid #f1f5f9}
+.card-foot span{font-size:.8rem;font-weight:600;color:#94a3b8}
+.card-foot a{display:inline-flex;align-items:center;gap:6px;color:#5a7f31;font-size:.9rem;font-weight:700;text-decoration:none;transition:color .3s}
+.card-foot a .svg{width:.85rem;height:.85rem;transition:transform .3s}
+.card:hover .card-foot a{color:#364f1b}
+.card:hover .card-foot a .svg{transform:translateX(4px)}
+.news-more{margin-top:2.6rem;text-align:center}
+.news-more[hidden]{display:none}
+.news-more .btn{padding:14px 28px;border-radius:12px;font-weight:700;box-shadow:0 10px 24px -10px rgba(0,0,0,.35)}
 .meta{font-size:.9rem;color:var(--muted);margin-bottom:.5em}
+@media (prefers-reduced-motion:reduce){.card,.card-media img{transition:none}.card:hover{transform:none}}
 
 /* partners */
 .brand-row{padding:50px 0}
@@ -695,3 +720,5 @@ html.search-open{overflow:hidden}
 @media (max-width:640px){.svcpage .svc{padding:26px 22px}}
 @media (prefers-reduced-motion:reduce){.svcpage .svc,.svcpage .svc>.svc-ico{transition:none}.svcpage .svc:hover{transform:none}}
 main:has(.svcpage) .page-hero{text-align:center}
+.cols-2 .sub-title{gap:12px}
+.cols-2 .sub-title::before,.cols-2 .sub-title::after{width:28px}
