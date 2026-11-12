@@ -133,8 +133,7 @@ p,ul,ol{margin:0 0 1em}
 .call-box .ico{width:52px;height:52px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-size:1.5rem}
 .call-box small{display:block;font-size:1.05rem;line-height:1.2;opacity:.9}
 .call-box a{color:#fff;font-family:var(--font-head);font-weight:700;font-size:1.5rem;text-decoration:none;line-height:1.2}
-.hero-truck{position:absolute;right:50px;bottom:calc(-0.1 * min(60vw,1150px));width:min(60vw,1150px);pointer-events:none;filter:drop-shadow(0 22px 26px rgba(0,0,0,.35))}
-@media (min-width:1280px){.hero{padding-bottom:clamp(210px,30vw,420px)}}
+.hero-truck{position:absolute;right:clamp(8px,2.6vw,50px);bottom:calc(-1 * clamp(10px,1.5vw,28px));width:min(37vw,700px);height:auto;pointer-events:none;filter:drop-shadow(0 22px 26px rgba(0,0,0,.35))}
 .hero-sub{padding-top:clamp(70px,9vw,150px)}
 
 /* page hero (inner pages) */
