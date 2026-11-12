@@ -140,7 +140,10 @@
   /* km slider shows its value */
   $$("input[type=range][data-output]").forEach(function (r) {
     var out = document.getElementById(r.getAttribute("data-output"));
-    var show = function () { if (out) { out.textContent = r.value + " km"; } };
+    var show = function () {
+      if (out) { out.textContent = r.value + " km"; }
+      r.style.setProperty("--p", (100 * (r.value - r.min) / (r.max - r.min)) + "%");
+    };
     r.addEventListener("input", show); show();
   });
 
