@@ -746,3 +746,25 @@ main:has(.svcpage) .page-hero{text-align:center}
 .pillar:hover h3{color:var(--green)}
 .pillar p{margin:0;color:#475569;line-height:1.7}
 @media (prefers-reduced-motion:reduce){.pillar,.pillar-badge,.pillar-badge>span{transition:none}.pillar:hover{transform:none}}
+
+/* about: capability cards */
+.sec-caps{position:relative;overflow:hidden;background:#fff}
+.sec-caps::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(85,120,46,.14) 1.2px,transparent 1.2px);background-size:44px 44px}
+.sec-caps::after{content:"";position:absolute;left:-120px;top:-120px;width:440px;height:440px;border-radius:50%;background:rgba(239,244,232,.8);filter:blur(70px);pointer-events:none}
+.sec-caps>.wrap{position:relative;z-index:1}
+.caps{display:grid;grid-template-columns:1fr;gap:24px;margin-top:8px}
+@media (min-width:700px){.caps{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){.caps{grid-template-columns:repeat(3,1fr);gap:28px}}
+.cap{position:relative;overflow:hidden;padding:28px;background:#fff;border:1px solid #e2e8f0;border-radius:18px;box-shadow:0 12px 32px -14px rgba(11,22,42,.1);transition:transform .3s,box-shadow .3s,border-color .3s}
+.cap::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,#55782e,#6e993b,#8bc34a);opacity:0;transition:opacity .3s}
+.cap:hover,.js .cap.is-in:hover{transform:translateY(-6px);border-color:var(--green);box-shadow:0 20px 42px -14px rgba(85,120,46,.25)}
+.cap:hover::before{opacity:1}
+.js .cap.is-in{transition:transform .3s,box-shadow .3s,border-color .3s,opacity .9s ease;transition-delay:0s}
+.cap-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.cap-ico{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border:1px solid #dce6cf;border-radius:16px;background:#f4f8ef;color:var(--green);font-size:1.7rem;transition:background .3s,color .3s,border-color .3s,transform .3s}
+.cap:hover .cap-ico{background:var(--green);color:#fff;border-color:var(--green);transform:scale(1.06)}
+.cap-no{font-size:2.4rem;font-weight:800;line-height:1;letter-spacing:-.04em;color:rgba(85,120,46,.14)}
+.cap h3{margin:0 0 .6rem;font-size:1.25rem;font-weight:800;line-height:1.35;color:var(--ink,#0b162a);transition:color .3s}
+.cap:hover h3{color:var(--green)}
+.cap p{margin:0;color:#475569;line-height:1.7;font-size:.95rem}
+@media (prefers-reduced-motion:reduce){.cap,.cap-ico{transition:none}.cap:hover{transform:none}}
