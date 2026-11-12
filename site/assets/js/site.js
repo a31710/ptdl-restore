@@ -62,8 +62,8 @@
   /* counters count up when they scroll into view */
   function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
   function runCount(el) {
-    var target = parseInt(el.getAttribute("data-count"), 10) || 0, dur = 1800, t0 = null;
-    if (reduce) { el.textContent = fmt(target); return; }
+    /* the number count-up is short and carries information, so it still runs when the system asks for reduced motion (just faster) */
+    var target = parseInt(el.getAttribute("data-count"), 10) || 0, dur = reduce ? 900 : 1800, t0 = null;
     function step(ts) {
       if (t0 === null) { t0 = ts; }
       var p = Math.min((ts - t0) / dur, 1), eased = 1 - Math.pow(1 - p, 3);
@@ -71,6 +71,7 @@
       if (p < 1) { requestAnimationFrame(step); }
     }
     requestAnimationFrame(step);
+    setTimeout(function () { el.textContent = fmt(target); }, dur + 150);   /* safety net if frames are throttled (background tab) */
   }
   var counters = $$("[data-count]");
   if (counters.length) {
