@@ -7,8 +7,14 @@
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
   /* preloader: the old site's animated truck; shown at least 1.2 s so it is seen, never longer than 3 s */
-  var pre = $("#preloader"), preStart = Date.now();
-  function hidePre() { if (pre) { pre.classList.add("done"); } }
+  var pre = $("#preloader"), preStart = Date.now(), preQueue = [];
+  var preDone = !pre || window.getComputedStyle(pre).display === "none";
+  /* entrance animations wait until the loader has gone, so the visitor actually sees them */
+  function afterPre(fn) { if (preDone) { fn(); } else { preQueue.push(fn); } }
+  function hidePre() {
+    if (pre) { pre.classList.add("done"); }
+    if (!preDone) { preDone = true; setTimeout(function () { preQueue.splice(0).forEach(function (f) { f(); }); }, 150); }
+  }
   function hideSoon() { setTimeout(hidePre, Math.max(0, 1200 - (Date.now() - preStart))); }
   if (document.readyState === "complete") { hideSoon(); } else { window.addEventListener("load", hideSoon); setTimeout(hidePre, 3000); }
 
@@ -67,7 +73,7 @@
     revealTargets.forEach(function (el) { el.classList.add("is-in"); });
   } else {
     var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
+      entries.forEach(function (en) { if (en.isIntersecting) { (function (t) { afterPre(function () { t.classList.add("is-in"); }); })(en.target); io.unobserve(en.target); } });
     }, { threshold: 0.15, rootMargin: "0px 0px -6% 0px" });
     revealTargets.forEach(function (el) {
       var d = el.getAttribute("data-delay"); if (d) { el.style.setProperty("--d", d + "ms"); }
@@ -93,7 +99,7 @@
   if (counters.length) {
     if ("IntersectionObserver" in window) {
       var co = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) { if (en.isIntersecting) { runCount(en.target); co.unobserve(en.target); } });
+        entries.forEach(function (en) { if (en.isIntersecting) { (function (t) { afterPre(function () { runCount(t); }); })(en.target); co.unobserve(en.target); } });
       }, { threshold: 0.4 });
       counters.forEach(function (el) { el.textContent = "0"; co.observe(el); });
     } else { counters.forEach(function (el) { el.textContent = fmt(el.getAttribute("data-count")); }); }
