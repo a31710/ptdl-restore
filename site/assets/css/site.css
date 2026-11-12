@@ -146,7 +146,7 @@ p,ul,ol{margin:0 0 1em}
 .alt{background:var(--green-soft)}
 .sec-green{background:var(--green);color:#fff}
 .sec-green .box,.sec-green .card{color:var(--body)}
-.sec-green a{color:#fff}
+.sec-green a:not(.btn){color:#fff}
 .sec-green .btn-ghost{color:#fff;border-color:#fff}
 .sec-green .btn-ghost:hover{background:var(--blue);border-color:var(--blue);color:#fff}
 .grid{display:grid;gap:24px}
