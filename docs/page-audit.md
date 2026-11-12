@@ -114,3 +114,11 @@ Giới thiệu, Dịch vụ, Liên hệ, Tra cứu vận đơn, Tin tức và Ch
 - **Trang `/tracking` đã xóa** (trang giữ chỗ, bản cũ cần WPCargo): bỏ khỏi menu chân trang, sitemap, `build_preview.py`, README.
 - **Tìm kiếm trong website** (`site/assets/js/search.js` + `search-index.js`): mở bằng nút Tìm kiếm, phím `/` hoặc Ctrl/Cmd+K; không phân biệt hoa thường và dấu tiếng Việt ("bao hiem" tìm được "Bảo hiểm"); nhiều từ khóa (phải khớp tất cả), xếp hạng theo tiêu đề / đề mục / nội dung, đánh dấu từ khớp, đoạn trích quanh từ khớp, nhóm Trang và Tin tức, điều hướng bằng ↑ ↓ Enter, Esc để đóng, lịch sử tìm kiếm gần đây (localStorage), gợi ý phổ biến, màn hình không có kết quả kèm hotline, hỗ trợ trình đọc màn hình. Chỉ mục tạo tự động từ các trang trong `site/` bằng `scripts/search_index.py` (chạy trong `build_preview.py`), nên sau khi sửa nội dung chỉ cần build lại.
 - **Màu vàng** trong nhãn "Bảo hiểm 100%" đã đổi sang xanh dương.
+
+## Rà soát nội dung tự thêm (2026-11-13)
+
+So từng đoạn chữ trên `site/*.html` với bản cũ (`backup/live`, `backup/archive`, `docs/content`). Đã xóa các phần không có trong bản cũ:
+- Dòng "Vận chuyển hàng hóa Bắc – Nam • Bảo hiểm 100%" ở thanh trên cùng (tự ghép từ mock-up).
+- Ba mục "Chuyển hàng miền Bắc / Nam / Trung" trên trang Dịch vụ (đoạn mô tả tự viết; bản cũ chỉ có liên kết menu, không có nội dung). Các mục menu giữ lại nhưng trỏ về trang Chuyển hàng Bắc – Nam; mô tả nhỏ dưới mục menu đã bỏ.
+- Trang chủ: câu "Giải pháp vận chuyển Bắc – Nam, liên tỉnh và nội thành đa tải trọng.", câu "Đa dạng tải trọng xe, từ 5 tạ đến 18 tấn." và nhãn "Liên tỉnh toàn quốc" ở bảng giá.
+Còn lại cần chủ site xác nhận: phường Tân Hưng (bản cũ ghi Tân Phong, Quận 7), ba lời nhận xét do chủ site cung cấp.
