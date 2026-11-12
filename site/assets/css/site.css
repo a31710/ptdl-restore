@@ -323,8 +323,10 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 /* services section: bento grid (2 large + 3 cards), big type, grid-paper background */
 .svc2-sec{background-color:#f8faf6;background-image:linear-gradient(to right,rgba(74,114,54,.05) 1px,transparent 1px),linear-gradient(to bottom,rgba(74,114,54,.05) 1px,transparent 1px);background-size:40px 40px}
 .svc2-sec .sec-head{max-width:48rem;margin-bottom:3.5rem}
-.svc2-sec .sec-title{font-size:clamp(2.25rem,1.6rem + 2.8vw,3.4rem);font-weight:800;line-height:1.15;margin-bottom:.35em}
-.sec-sub{max-width:48rem;margin:0 auto;font-size:clamp(1.05rem,1rem + .3vw,1.25rem);color:#64748b}
+.svc2-sec .sub-title{gap:16px;margin-bottom:.7rem;font-size:clamp(1.3rem,1.1rem + .9vw,1.75rem);font-weight:800;letter-spacing:.14em}
+.svc2-sec .sub-title::before,.svc2-sec .sub-title::after{width:clamp(36px,5vw,64px)}
+.svc2-sec .sec-title{font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin-bottom:.45em;color:#334155}
+.sec-sub{max-width:48rem;margin:0 auto;font-size:clamp(1rem,.95rem + .25vw,1.15rem);color:#64748b}
 .svc2-grid{display:grid;grid-template-columns:1fr;gap:24px}
 @media (min-width:768px){.svc2-grid{grid-template-columns:repeat(2,1fr)}.svc2-grid>.svc2:last-child{grid-column:1/-1}}
 @media (min-width:1000px){.svc2-grid{grid-template-columns:repeat(12,1fr);gap:32px}.svc2-grid>.svc2,.svc2-grid>.svc2:last-child{grid-column:span 4}.svc2-grid>.svc2-lg{grid-column:span 6}}
@@ -369,12 +371,12 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 .about2::after{content:"";position:absolute;left:50%;top:50%;width:860px;max-width:95vw;height:540px;transform:translate(-50%,-50%);border-radius:50%;background:rgba(143,208,255,.14);filter:blur(120px);pointer-events:none}
 .about2>.wrap{position:relative;z-index:1;max-width:64rem}
 .about2-head{max-width:42rem;margin:0 auto;text-align:center}
-.about2-badge{display:inline-flex;align-items:center;gap:12px;margin-bottom:16px}
-.about2-badge i{display:block;height:2px;width:36px;border-radius:2px;background:linear-gradient(90deg,transparent,var(--blue))}
+.about2-badge{display:inline-flex;align-items:center;gap:16px;margin-bottom:18px}
+.about2-badge i{display:block;height:3px;width:clamp(36px,5vw,64px);border-radius:2px;background:linear-gradient(90deg,transparent,var(--blue))}
 .about2-badge i:last-child{background:linear-gradient(270deg,transparent,var(--blue))}
-.about2-badge span{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:99px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2);color:#8fd0ff;font-weight:700;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase}
-.about2-badge span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--blue)}
-.about2 h2{color:#fff;font-size:clamp(2rem,1.4rem + 2.6vw,2.75rem);line-height:1.15;margin:0 0 .5em;text-shadow:0 1px 2px rgba(0,0,0,.12)}
+.about2-badge span{display:inline-flex;align-items:center;gap:12px;padding:9px 26px;border-radius:99px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);color:#8fd0ff;font-weight:800;font-size:clamp(1.15rem,1rem + .8vw,1.5rem);letter-spacing:.16em;text-transform:uppercase}
+.about2-badge span::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--blue)}
+.about2 h2{color:#fff;font-size:clamp(1.6rem,1.3rem + 1.3vw,2.3rem);font-weight:700;line-height:1.25;margin:0 0 .5em;text-shadow:0 1px 2px rgba(0,0,0,.12)}
 .about2-head p{margin:0;color:rgba(255,255,255,.9);font-size:1.06rem}
 .about2-head mark{background:none;color:#8fd0ff;font-weight:600;text-decoration:underline;text-decoration-color:rgba(143,208,255,.5);text-decoration-thickness:2px;text-underline-offset:5px}
 .video2{position:relative;display:block;width:100%;max-width:56rem;margin:2.4rem auto 0;aspect-ratio:16/9;border-radius:26px;overflow:hidden;background:#243a10;color:#fff;text-decoration:none;box-shadow:0 0 0 8px rgba(255,255,255,.12),0 32px 64px -16px rgba(20,34,8,.55),0 12px 24px -8px rgba(0,0,0,.25);transition:box-shadow .5s}
