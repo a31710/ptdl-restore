@@ -92,3 +92,26 @@ Nói với tôi để chọn và viết.
 | Ngày 1 (chiều) | Build và upload (mục 4), thử bằng hosts (mục 5). Sửa lỗi nếu có. |
 | Ngày 2 | Đổi DNS (mục 6), cấp SSL, kiểm tra. Rồi Search Console, Removals (mục 7). |
 | Tuần 1-2 | Biểu mẫu liên hệ (mục 8), Business Profile, theo dõi báo cáo. |
+
+## 11. Email mới (bắt buộc nếu mất hosting cũ) - cập nhật 2026-11-13
+Nếu không lấy lại được hosting cũ thì hộp thư info@ptdl.com.vn cũ (và thư bên trong) coi như mất, trừ khi NhanHoa còn bản sao lưu. Cần email mới **trước hoặc cùng lúc** đổi DNS.
+
+**Rủi ro cần nhớ:** bản ghi MX hiện vẫn trỏ về máy chủ cũ. Nếu để nguyên, thư gửi tới @ptdl.com.vn sẽ vào máy chủ đã bị xâm nhập, và người nắm quyền máy chủ đó có thể đọc, kể cả thư đặt lại mật khẩu. Vì vậy phải đổi MX sang nhà cung cấp email mới ngay ở bước go-live, không để nguyên.
+
+**Chọn nhà cung cấp email (không dùng email của hosting, vì dễ vào spam và cùng chỗ với web):**
+- Google Workspace: giao diện Gmail quen thuộc, gửi/nhận ổn định, trả phí theo hộp thư.
+- Zoho Mail: có gói miễn phí giới hạn và gói trả phí rẻ; kiểm tra điều kiện gói hiện tại trên trang chính thức.
+- Chỉ đăng ký trên trang chính thức, tự gõ địa chỉ.
+
+**Thứ tự làm:**
+1. Đăng ký và xác minh tên miền với nhà cung cấp email (thêm bản ghi TXT xác minh ở access.dotvndns.vn).
+2. Tạo hộp thư: info@ptdl.com.vn và (nếu cần) tên khác cho từng người. Bật 2FA cho quản trị.
+3. Thêm bản ghi DNS theo hướng dẫn của nhà cung cấp: **MX** (thay hoàn toàn MX cũ), **SPF** (TXT, chỉ một bản ghi SPF duy nhất), **DKIM** (TXT), **DMARC** (TXT tại `_dmarc`, bắt đầu bằng `p=none`, sau vài tuần nâng lên `quarantine`).
+4. Gửi thử thư hai chiều (từ Gmail cá nhân tới info@ và ngược lại); kiểm tra thư không vào spam bằng mail-tester.com.
+5. Xóa các bản ghi MX/SPF cũ trỏ về NhanHoa để không còn đường thư vào máy chủ cũ.
+
+**Việc liên quan:**
+- Đổi **email khôi phục / email chủ tài khoản** của mọi dịch vụ đang dùng info@ptdl.com.vn (Google Search Console, Google Business Profile, tài khoản domain, hosting mới...). Dùng hộp thư mà công ty thật sự nắm quyền (ví dụ ptdl.support@gmail.com hoặc hộp thư mới) trong lúc chuyển.
+- Biểu mẫu liên hệ hiện gửi tới ptdl.support@gmail.com (Gmail), **không bị ảnh hưởng** bởi việc mất hosting.
+- Website đang hiện info@ptdl.com.vn ở chân trang, trang Liên hệ, trang 404 và dữ liệu schema. Nếu địa chỉ email mới khác, báo tôi để cập nhật đồng bộ mọi chỗ; nếu chưa có email mới ngày go-live, có thể tạm bỏ dòng info@ khỏi web.
+- Hỏi NhanHoa (qua kênh chính thức) xem họ còn bản sao lưu thư không; nếu còn, xin tải về trước khi tài khoản bị hủy.
