@@ -101,3 +101,9 @@ Có (trang mới).
 ## Cập nhật: làm lại phần thân các trang trong (2026-11-03)
 
 Giới thiệu, Dịch vụ, Liên hệ, Tra cứu vận đơn, Tin tức và Chuyển hàng Bắc – Nam đã dùng cùng bộ thành phần với trang chủ (banner trang, thẻ dịch vụ có icon, hộp xanh, danh sách dấu tích, hiệu ứng hiện dần). Đã kiểm tra trên trình duyệt ở 1568 px và 375 px: không tràn ngang. Nội dung chữ không đổi so với bản đã khôi phục; vẫn còn các mục "cần xác nhận" ghi trong chú thích TODO của từng trang.
+
+## Cập nhật: chân trang và phông chữ (2026-11-12)
+
+- Chân trang: nền xanh lá `#5C8330` như bản cũ, bốn cột (liên hệ, dịch vụ, liên kết, giới thiệu có logo). Liên kết không gạch chân; chỉ gạch khi rê chuột hoặc dùng bàn phím.
+- Phông chữ: dùng một họ duy nhất, Be Vietnam Pro (thiết kế cho tiếng Việt, đủ dấu), thay cho DM Sans + Outfit.
+- Cỡ chữ: nội dung 16px; h1 2–3.4rem, h2 1.6–2.4rem, h3 1.2–1.5rem (co giãn theo màn hình).
