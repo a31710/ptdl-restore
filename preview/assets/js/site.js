@@ -141,15 +141,19 @@
     $$("li", ul).forEach(function (li) { var c = li.cloneNode(true); c.setAttribute("aria-hidden", "true"); ul.appendChild(c); });
   });
 
-  /* business lines: one active row at a time (hover, focus or click) */
+  /* business lines: hover and keyboard focus are pure CSS; on touch screens the first tap previews a row, the second tap follows its link */
   var rows = $$(".row-item");
   if (rows.length) {
-    var activate = function (row) { rows.forEach(function (r) { r.classList.toggle("active", r === row); }); };
+    var touchMode = function () { return window.matchMedia("(hover: none)").matches || window.innerWidth < 900; };
     rows.forEach(function (row) {
-      row.addEventListener("mouseenter", function () { activate(row); });
-      row.addEventListener("focusin", function () { activate(row); });
-      row.addEventListener("click", function () { activate(row); });
+      row.addEventListener("click", function (e) {
+        if (!touchMode() || e.target.closest(".go")) { return; }
+        var was = row.classList.contains("active");
+        rows.forEach(function (r) { r.classList.remove("active"); });
+        if (!was) { row.classList.add("active"); } else { window.location.href = $(".go", row).getAttribute("href"); }
+      });
     });
+    document.addEventListener("click", function (e) { if (!e.target.closest(".row-item")) { rows.forEach(function (r) { r.classList.remove("active"); }); } });
   }
 
   /* km slider shows its value */
