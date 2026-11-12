@@ -522,6 +522,7 @@ video{width:100%;background:#000;border-radius:var(--radius)}
 .quote-sec .quote-box .small a:hover{color:#fff}
 .quote-sec .quote-box textarea{display:block;min-height:120px;resize:vertical;line-height:1.6}
 .quote-sec .quote-box .form-row{gap:0 16px}
+.quote-sec .quote-box .form-row .full{grid-column:1/-1}
 .quote-sec .contact-list{margin:1.6rem 0 0}
 .quote-sec .contact-item{align-items:center;gap:16px;margin:0 0 6px;padding:12px 14px;border-bottom:0;border-radius:12px;color:#475569;transition:background .3s}
 .quote-sec .contact-item:hover{background:rgba(238,244,230,.8)}
