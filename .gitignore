@@ -20,3 +20,6 @@ desktop.ini
 
 # File xuat WordPress (WXR) co the chua thong tin nguoi dung, chi giu tren may
 backup/live/wp-export/
+
+# danh sách biển số xe (dữ liệu của bên thứ ba, không đưa lên git)
+exports/
