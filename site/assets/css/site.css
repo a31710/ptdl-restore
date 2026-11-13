@@ -841,3 +841,6 @@ main:has(.svcpage) .page-hero{text-align:center}
 
 .post-head .crumbs .when{display:inline-flex;align-items:center;gap:8px;color:#475569;font-weight:500}
 .post-head .crumbs .when .svg{color:var(--green)}
+/* two-column sections: the eyebrow scales with its column and never wraps */
+.cols-2>*{container-type:inline-size;min-width:0}
+.cols-2 .sub-title{white-space:nowrap;max-width:100%;font-size:clamp(.95rem,4.4cqw,1.6rem);letter-spacing:.1em}
