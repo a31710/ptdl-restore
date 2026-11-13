@@ -844,3 +844,6 @@ main:has(.svcpage) .page-hero{text-align:center}
 /* two-column sections: the eyebrow scales with its column and never wraps */
 .cols-2>*{container-type:inline-size;min-width:0}
 .cols-2 .sub-title{white-space:nowrap;max-width:100%;font-size:clamp(.95rem,4.4cqw,1.6rem);letter-spacing:.1em}
+/* contact page: content lines up with the page banner and the form's top edge */
+.page-hero+.quote-sec>.wrap{max-width:1320px}
+.page-hero+.quote-sec .cols-2{align-items:start}
