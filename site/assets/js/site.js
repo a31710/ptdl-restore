@@ -105,22 +105,30 @@
     } else { counters.forEach(function (el) { el.textContent = fmt(el.getAttribute("data-count")); }); }
   }
 
-  /* carousels: autoplay 5 s, loop, buttons, dots, swipe, pause on hover and focus */
+  /* carousels: several cards per view (CSS --pv), move one card at a time, autoplay 5 s, loop, buttons, dots, swipe, pause on hover and focus */
   $$("[data-carousel]").forEach(function (car) {
     var track = $(".slide-track", car), slides = $$(".slide", track), dotsBox = $(".dots", car);
     if (!track || slides.length < 2) { return; }
-    var i = 0, timer = null, startX = null;
-    var dots = slides.map(function (_, n) {
-      var b = document.createElement("button");
-      b.type = "button"; b.setAttribute("aria-label", "Nhận xét " + (n + 1));
-      b.addEventListener("click", function () { go(n); restart(); });
-      if (dotsBox) { dotsBox.appendChild(b); }
-      return b;
-    });
+    var i = 0, pv = 1, timer = null, startX = null, dots = [];
+    function perView() { return Math.max(1, parseInt(getComputedStyle(car).getPropertyValue("--pv"), 10) || 1); }
+    function stops() { return Math.max(1, slides.length - pv + 1); }
+    function buildDots() {
+      if (!dotsBox) { return; }
+      dotsBox.innerHTML = ""; dots = [];
+      for (var n = 0; n < stops(); n++) {
+        (function (n) {
+          var b = document.createElement("button");
+          b.type = "button"; b.setAttribute("aria-label", "Nhóm nhận xét " + (n + 1));
+          b.addEventListener("click", function () { go(n); restart(); });
+          dotsBox.appendChild(b); dots.push(b);
+        })(n);
+      }
+    }
     function go(n) {
-      i = (n + slides.length) % slides.length;
-      track.style.transform = "translateX(" + (-100 * i) + "%)";
-      slides.forEach(function (s, k) { s.setAttribute("aria-hidden", k === i ? "false" : "true"); });
+      var s = stops();
+      i = ((n % s) + s) % s;
+      track.style.transform = "translateX(" + (-100 / pv * i) + "%)";
+      slides.forEach(function (el, k) { el.setAttribute("aria-hidden", (k >= i && k < i + pv) ? "false" : "true"); });
       dots.forEach(function (d, k) { d.setAttribute("aria-current", k === i ? "true" : "false"); });
     }
     function restart() { clearInterval(timer); if (!reduce) { timer = setInterval(function () { go(i + 1); }, 5000); } }
@@ -139,7 +147,8 @@
     car.addEventListener("keydown", function (e) {
       if (e.key === "ArrowLeft") { go(i - 1); restart(); } else if (e.key === "ArrowRight") { go(i + 1); restart(); }
     });
-    go(0); restart();
+    window.addEventListener("resize", function () { var n = perView(); if (n !== pv) { pv = n; buildDots(); go(0); } });
+    pv = perView(); buildDots(); go(0); restart();
   });
 
   /* partner logos: duplicate the list once so the marquee loops without a gap */
