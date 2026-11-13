@@ -23,3 +23,4 @@ backup/live/wp-export/
 
 # danh sách biển số xe (dữ liệu của bên thứ ba, không đưa lên git)
 exports/
+deploy/
