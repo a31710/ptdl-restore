@@ -719,7 +719,7 @@ html.search-open{overflow:hidden}
 .svcpage .center{max-width:980px;margin-left:auto;margin-right:auto}
 @media (max-width:640px){.svcpage .svc{padding:26px 22px}}
 @media (prefers-reduced-motion:reduce){.svcpage .svc,.svcpage .svc>.svc-ico{transition:none}.svcpage .svc:hover{transform:none}}
-main:has(.svcpage) .page-hero{text-align:center}
+.page-hero{text-align:center}
 .cols-2 .sub-title{gap:12px}
 .cols-2 .sub-title::before,.cols-2 .sub-title::after{width:28px}
 
