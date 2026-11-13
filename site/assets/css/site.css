@@ -775,7 +775,7 @@ main:has(.svcpage) .page-hero{text-align:center}
 .post-head{position:relative;padding:clamp(28px,4vw,48px) 0 clamp(28px,4vw,44px);background:linear-gradient(180deg,#eff4e8,#f7faf3 60%,#fff);border-bottom:1px solid #e6eddc;overflow:hidden}
 .post-head::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:radial-gradient(rgba(85,120,46,.18) 1.2px,transparent 1.2px);background-size:40px 40px}
 .post-head>.wrap{position:relative;z-index:1;max-width:75rem}
-.post-head .crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;font-size:.88rem;font-weight:500;color:#64748b}
+.post-head .crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid #dce6cf;font-size:.88rem;font-weight:500;color:#64748b}
 .post-head .crumbs a{display:inline-flex;align-items:center;gap:6px;color:#64748b;text-decoration:none;transition:color .2s}
 .post-head .crumbs a:hover{color:var(--blue)}
 .post-head .crumbs .svg{color:var(--green)}
@@ -838,3 +838,6 @@ main:has(.svcpage) .page-hero{text-align:center}
 .toast{position:fixed;right:20px;bottom:20px;z-index:500;max-width:22rem;padding:12px 18px;border:1px solid var(--green);border-radius:14px;background:var(--navy);color:#fff;font-size:.92rem;font-weight:500;box-shadow:0 20px 40px rgba(0,0,0,.3)}
 .toast[hidden]{display:none}
 @media (prefers-reduced-motion:reduce){.read-bar span{transition:none}}
+
+.post-head .crumbs .when{display:inline-flex;align-items:center;gap:8px;color:#475569;font-weight:500}
+.post-head .crumbs .when .svg{color:var(--green)}
