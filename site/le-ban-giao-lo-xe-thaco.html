@@ -57,12 +57,19 @@
   </div>
 </header>
 <main id="noi-dung">
-<article class="section post">
-  <div class="wrap narrow">
-    <p class="crumbs"><a href="index.html">Trang chủ</a> / <a href="tin-tuc.html">Tin tức</a></p>
+<div class="read-bar" aria-hidden="true"><span id="read-bar"></span></div>
+<header class="post-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-home"/></svg>Trang chủ</a><span aria-hidden="true">/</span><a href="tin-tuc.html">Tin tức</a><span aria-hidden="true">/</span><span aria-current="page">Cẩm nang vận chuyển</span></p>
+    <div class="post-meta"><span class="cat">Cẩm nang vận chuyển</span><span class="when"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-calendar"/></svg><time datetime="2025-12-06">06/12/2025</time></span></div>
     <h1>Lễ Bàn Giao Lô Xe Thaco Linker Cho Công Ty TNHH CP Vận Chuyển PTDL</h1>
-    <p class="meta">Cẩm nang vận chuyển · <time datetime="2025-12-06">06/12/2025</time></p>
-    <p>Trong không khí trang trọng và đầy hứng khởi, Công ty TNHH CP Vận chuyển PTDL đã chính thức tiếp nhận <strong>lô xe tải Thaco Linker</strong> do <strong>THACO AUTO</strong> bàn giao. Sự kiện đánh dấu một bước tiến quan trọng trong chiến lược nâng cấp đội xe vận tải, tối ưu năng lực khai thác và đáp ứng nhu cầu vận chuyển ngày càng tăng của khách hàng trên toàn quốc.</p>
+  </div>
+</header>
+
+<section class="section post">
+  <div class="wrap post-grid">
+    <article class="post-body" id="post-body">
+    <p class="lead">Trong không khí trang trọng và đầy hứng khởi, Công ty TNHH CP Vận chuyển PTDL đã chính thức tiếp nhận <strong>lô xe tải Thaco Linker</strong> do <strong>THACO AUTO</strong> bàn giao. Sự kiện đánh dấu một bước tiến quan trọng trong chiến lược nâng cấp đội xe vận tải, tối ưu năng lực khai thác và đáp ứng nhu cầu vận chuyển ngày càng tăng của khách hàng trên toàn quốc.</p>
     <figure>
       <!-- TODO: file video 67 MB không có trong thư mục site. Chép Ban-giao-lo-10-xe-Thaco-Linker-Binh-Trieu.mp4 (từ backup/live/media/2024/05/) vào assets/video/ban-giao-lo-10-xe-thaco-linker.mp4 hoặc đăng lên YouTube rồi nhúng. Khi chưa có file, trình duyệt chỉ hiển thị ảnh poster. -->
       <video controls preload="none" poster="assets/images/xe-ptdl-thaco-linker.jpg" width="1920" height="1080">
@@ -99,9 +106,65 @@
     <p>PTDL sẽ tiếp tục phát triển đội xe với <strong>tiêu chí an toàn – hiệu quả – chuyên nghiệp</strong>, đồng hành cùng doanh nghiệp trên hành trình vận chuyển hàng hóa mọi miền đất nước.</p>
     <figure><img src="assets/images/thaco-ban-giao-hang-xe.jpg" alt="Hàng xe tải Thaco Linker của PTDL xếp thẳng hàng trước phông lễ bàn giao" loading="lazy" width="1936" height="1290"></figure>
     <p>Lễ bàn giao lô xe Thaco Linker là minh chứng cho sự hợp tác bền vững giữa PTDL và THACO AUTO, đồng thời khẳng định quyết tâm của PTDL trong việc nâng cao chất lượng dịch vụ vận tải. Với đội xe mới, PTDL tự tin mang đến giải pháp vận chuyển nhanh chóng, an toàn và tối ưu cho mọi khách hàng.</p>
-    <p class="back"><a href="tin-tuc.html">&larr; Quay lại tin tức</a></p>
+
+      <div class="post-foot">
+        <a class="btn back-btn" href="tin-tuc.html">&larr; Quay lại tin tức</a>
+        <button class="btn copy-link" type="button" data-copy-link><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-link"/></svg>Sao chép liên kết</button>
+      </div>
+    </article>
+    <aside class="post-side" aria-label="Thông tin thêm">
+      <nav class="toc" aria-label="Mục lục bài viết" data-toc hidden>
+        <h2>Mục lục bài viết</h2>
+        <ol></ol>
+      </nav>
+      <div class="side-cta">
+        <h2>Liên hệ PTDL</h2>
+        <a class="side-phone" href="tel:02855555565"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-phone"/></svg><span>0285 5555 565</span></a>
+        <a class="btn btn-light" href="lien-he.html">Gửi yêu cầu báo giá</a>
+      </div>
+    </aside>
   </div>
-</article>
+</section>
+
+<section class="section sec-related">
+  <div class="wrap">
+    <div class="sec-head" data-anim="up">
+      <p class="sub-title">Cẩm nang vận chuyển</p>
+      <h2 class="sec-title">Bài viết liên quan</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card" data-cat="bao-hiem" data-anim="up" data-delay="150">
+        <a class="card-media" href="bao-hiem-hang-hoa.html"><img src="assets/images/bao-hiem-hang-hoa-1.jpg" alt="Mô hình xe nâng, hộp carton, máy bay và xe tải minh họa vận chuyển hàng hóa" loading="lazy" width="728" height="487"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
+        <div class="card-body">
+          <div class="card-meta"><span class="cat">Cẩm nang vận chuyển</span><time datetime="2025-03-20">20/03/2025</time></div>
+          <h3><a href="bao-hiem-hang-hoa.html">Bảo hiểm hàng hóa là gì? Tại sao doanh nghiệp nên mua?</a></h3>
+          <p>Hai loại bảo hiểm hàng hóa phổ biến, lý do nên mua và những lưu ý khi khai báo giá trị hàng hóa để được đền bù.</p>
+        </div>
+        <div class="card-foot"><span>Bảo hiểm hàng hóa</span><a href="bao-hiem-hang-hoa.html">Đọc bài viết <svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></a></div>
+      </article>
+      <article class="card" data-cat="quoc-te" data-anim="up" data-delay="300">
+        <a class="card-media" href="huong-dan-gui-hang-di-uc-tai-binh-duong.html"><img src="assets/images/van-chuyen-quoc-te.png" alt="Minh họa xe tải và kiện hàng quanh quả địa cầu" loading="lazy" width="747" height="670"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
+        <div class="card-body">
+          <div class="card-meta"><span class="cat">Cẩm nang vận chuyển</span><time datetime="2024-05-19">19/05/2024</time></div>
+          <h3><a href="huong-dan-gui-hang-di-uc-tai-binh-duong.html">Hướng dẫn gửi hàng đi Úc tại Bình Dương an toàn và nhanh chóng</a></h3>
+          <p>6 bước gửi hàng đi Úc tại Bình Dương và những thủ tục, giấy tờ quan trọng cần chuẩn bị khi vận chuyển quốc tế.</p>
+        </div>
+        <div class="card-foot"><span>Vận chuyển quốc tế</span><a href="huong-dan-gui-hang-di-uc-tai-binh-duong.html">Đọc bài viết <svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></a></div>
+      </article>
+      <article class="card" data-cat="chuyen-nha" data-anim="up" data-delay="0">
+        <a class="card-media" href="cach-chuyen-nha-duong-dai-o-ha-noi.html"><img src="assets/images/xe-ptdl-ben-hong.jpg" alt="Xe tải thùng kín PTDL nhìn từ bên hông" loading="lazy" width="484" height="322"><span class="go" aria-hidden="true"><svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></span></a>
+        <div class="card-body">
+          <div class="card-meta"><span class="cat">Cẩm nang vận chuyển</span><time datetime="2024-05-19">19/05/2024</time></div>
+          <h3><a href="cach-chuyen-nha-duong-dai-o-ha-noi.html">Cách chuyển nhà đường dài ở Hà Nội</a></h3>
+          <p>Chuẩn bị gì khi chuyển nhà đường dài: chọn đơn vị chuyển nhà, dụng cụ đóng gói và cách phân loại đồ đạc.</p>
+        </div>
+        <div class="card-foot"><span>Chuyển nhà</span><a href="cach-chuyen-nha-duong-dai-o-ha-noi.html">Đọc bài viết <svg class="svg" aria-hidden="true"><use href="assets/images/icons.svg#i-arrow"/></svg></a></div>
+      </article>
+    </div>
+    <p class="news-more"><a class="btn btn-light" href="tin-tuc.html">Xem tất cả tin tức</a></p>
+  </div>
+</section>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 </main>
 <section class="foot-cta">
   <div class="wrap foot-cta-in">

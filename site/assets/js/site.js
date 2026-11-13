@@ -189,6 +189,50 @@
     render();
   });
 
+  /* article pages: reading progress bar, table of contents with scroll-spy, copy link */
+  var postBody = $("#post-body");
+  if (postBody) {
+    var readBar = $("#read-bar"), tocBox = $("[data-toc]"), toastEl = $("#toast"), toastTimer = null;
+    var heads = $$("h2", postBody), tocLinks = [];
+    if (tocBox && heads.length > 1) {
+      var tocList = $("ol", tocBox);
+      heads.forEach(function (h, i) {
+        h.id = h.id || "muc-" + (i + 1);
+        var li = document.createElement("li"), link = document.createElement("a");
+        link.href = "#" + h.id; link.textContent = h.textContent.trim();
+        li.appendChild(link); tocList.appendChild(li); tocLinks.push(link);
+      });
+      tocBox.hidden = false;
+    }
+    function onRead() {
+      var r = postBody.getBoundingClientRect(), total = r.height - window.innerHeight * 0.6;
+      if (readBar) { readBar.style.width = Math.max(0, Math.min(100, (-r.top + window.innerHeight * 0.2) / Math.max(total, 1) * 100)) + "%"; }
+      var cur = -1;
+      heads.forEach(function (h, i) { if (h.getBoundingClientRect().top <= 160) { cur = i; } });
+      tocLinks.forEach(function (l, i) { l.classList.toggle("is-active", i === cur); });
+    }
+    window.addEventListener("scroll", onRead, { passive: true });
+    window.addEventListener("resize", onRead);
+    onRead();
+    function toast(msg) {
+      if (!toastEl) { return; }
+      toastEl.textContent = msg; toastEl.hidden = false;
+      clearTimeout(toastTimer); toastTimer = setTimeout(function () { toastEl.hidden = true; }, 3000);
+    }
+    $$("[data-copy-link]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var url = location.href.split("#")[0];
+        function fallback() {
+          var t = document.createElement("textarea"); t.value = url; t.setAttribute("readonly", ""); t.style.cssText = "position:fixed;opacity:0";
+          document.body.appendChild(t); t.select();
+          try { document.execCommand("copy"); toast("Đã sao chép liên kết bài viết"); } catch (e) { toast(url); }
+          document.body.removeChild(t);
+        }
+        if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(url).then(function () { toast("Đã sao chép liên kết bài viết"); }, fallback); } else { fallback(); }
+      });
+    });
+  }
+
   /* km slider shows its value */
   $$("input[type=range][data-output]").forEach(function (r) {
     var out = document.getElementById(r.getAttribute("data-output"));
